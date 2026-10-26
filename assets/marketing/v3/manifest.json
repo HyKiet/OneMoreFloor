@@ -1,0 +1,332 @@
+{
+  "date": "2026-10-25",
+  "version": 3,
+  "style": "2D outlined cel-shaded, based directly on icons/ references",
+  "generator": "built-in image_gen; model not exposed",
+  "assets": [
+    {
+      "key": "ExtraLife",
+      "role": "product_icon",
+      "source": "source\\ExtraLife.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "origin": "generated_builtin",
+      "source_library_path": null,
+      "shared_artwork_with": null,
+      "commerce_id": "3721642948",
+      "uploaded_image_asset_id": 128834660781576,
+      "files": {
+        "icons": "icons\\ExtraLife.png",
+        "ui256": "ui256\\ExtraLife.png",
+        "small64": "small64\\ExtraLife.png"
+      }
+    },
+    {
+      "key": "ExtraLife2",
+      "role": "product_icon",
+      "source": "source\\ExtraLife.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "origin": "generated_builtin",
+      "source_library_path": null,
+      "shared_artwork_with": "ExtraLife",
+      "commerce_id": "3721643053",
+      "uploaded_image_asset_id": 124385671266313,
+      "files": {
+        "icons": "icons\\ExtraLife2.png",
+        "ui256": "ui256\\ExtraLife2.png",
+        "small64": "small64\\ExtraLife2.png"
+      }
+    },
+    {
+      "key": "ExtraLife3",
+      "role": "product_icon",
+      "source": "source\\ExtraLife.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "origin": "generated_builtin",
+      "source_library_path": null,
+      "shared_artwork_with": "ExtraLife",
+      "commerce_id": "3721643149",
+      "uploaded_image_asset_id": 82430268078527,
+      "files": {
+        "icons": "icons\\ExtraLife3.png",
+        "ui256": "ui256\\ExtraLife3.png",
+        "small64": "small64\\ExtraLife3.png"
+      }
+    },
+    {
+      "key": "BlessElevator",
+      "role": "product_icon",
+      "source": "source\\BlessElevator.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "origin": "generated_builtin",
+      "source_library_path": null,
+      "shared_artwork_with": null,
+      "commerce_id": "3721643592",
+      "uploaded_image_asset_id": 107926700460126,
+      "files": {
+        "icons": "icons\\BlessElevator.png",
+        "ui256": "ui256\\BlessElevator.png",
+        "small64": "small64\\BlessElevator.png"
+      }
+    },
+    {
+      "key": "CurseElevator",
+      "role": "product_icon",
+      "source": "source\\CurseElevator.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "origin": "generated_builtin",
+      "source_library_path": null,
+      "shared_artwork_with": null,
+      "commerce_id": "3721643457",
+      "uploaded_image_asset_id": 109972822881717,
+      "files": {
+        "icons": "icons\\CurseElevator.png",
+        "ui256": "ui256\\CurseElevator.png",
+        "small64": "small64\\CurseElevator.png"
+      }
+    },
+    {
+      "key": "GoldenElevator",
+      "role": "product_icon",
+      "source": "source\\GoldenElevator.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "origin": "generated_builtin",
+      "source_library_path": null,
+      "shared_artwork_with": null,
+      "commerce_id": "3721644068",
+      "uploaded_image_asset_id": 116073646091854,
+      "files": {
+        "icons": "icons\\GoldenElevator.png",
+        "ui256": "ui256\\GoldenElevator.png",
+        "small64": "small64\\GoldenElevator.png"
+      }
+    },
+    {
+      "key": "CashSmall",
+      "role": "product_icon",
+      "source": "source\\CashSmall.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "origin": "existing_user_library",
+      "source_library_path": "C:/Users/LEGION/Documents/RobloxGame/icons/CoinPacks/PileCoins.png",
+      "shared_artwork_with": null,
+      "commerce_id": "3721644221",
+      "uploaded_image_asset_id": 106711510830845,
+      "files": {
+        "icons": "icons\\CashSmall.png",
+        "ui256": "ui256\\CashSmall.png",
+        "small64": "small64\\CashSmall.png"
+      }
+    },
+    {
+      "key": "CashMedium",
+      "role": "product_icon",
+      "source": "source\\CashMedium.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "origin": "existing_user_library",
+      "source_library_path": "C:/Users/LEGION/Documents/RobloxGame/icons/CoinPacks/BagCoins.png",
+      "shared_artwork_with": null,
+      "commerce_id": "3721644327",
+      "uploaded_image_asset_id": 118856438137882,
+      "files": {
+        "icons": "icons\\CashMedium.png",
+        "ui256": "ui256\\CashMedium.png",
+        "small64": "small64\\CashMedium.png"
+      }
+    },
+    {
+      "key": "CashLarge",
+      "role": "product_icon",
+      "source": "source\\CashLarge.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "origin": "existing_user_library",
+      "source_library_path": "C:/Users/LEGION/Documents/RobloxGame/icons/CoinPacks/VaultCoins.png",
+      "shared_artwork_with": null,
+      "commerce_id": "3721644390",
+      "uploaded_image_asset_id": 98564856957287,
+      "files": {
+        "icons": "icons\\CashLarge.png",
+        "ui256": "ui256\\CashLarge.png",
+        "small64": "small64\\CashLarge.png"
+      }
+    },
+    {
+      "key": "VIP",
+      "role": "product_icon",
+      "source": "source\\VIP.png",
+      "source_size": [
+        256,
+        256
+      ],
+      "origin": "existing_user_library",
+      "source_library_path": "C:/Users/LEGION/Documents/RobloxGame/icons/Item/Crown/256px/Crown 1st Outline 256px.png",
+      "shared_artwork_with": null,
+      "commerce_id": "2052275069",
+      "uploaded_image_asset_id": 107291861993790,
+      "files": {
+        "icons": "icons\\VIP.png",
+        "ui256": "ui256\\VIP.png",
+        "small64": "small64\\VIP.png"
+      }
+    },
+    {
+      "key": "DoubleCash",
+      "role": "product_icon",
+      "source": "source\\DoubleCash.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "origin": "generated_builtin",
+      "source_library_path": null,
+      "shared_artwork_with": null,
+      "commerce_id": "2053991076",
+      "uploaded_image_asset_id": 129016184984931,
+      "files": {
+        "icons": "icons\\DoubleCash.png",
+        "ui256": "ui256\\DoubleCash.png",
+        "small64": "small64\\DoubleCash.png"
+      }
+    },
+    {
+      "key": "LuckyBellhop",
+      "role": "product_icon",
+      "source": "source\\LuckyBellhop.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "origin": "generated_builtin",
+      "source_library_path": null,
+      "shared_artwork_with": null,
+      "commerce_id": "2053439011",
+      "uploaded_image_asset_id": 124855029887620,
+      "files": {
+        "icons": "icons\\LuckyBellhop.png",
+        "ui256": "ui256\\LuckyBellhop.png",
+        "small64": "small64\\LuckyBellhop.png"
+      }
+    },
+    {
+      "key": "StarterPack",
+      "role": "product_icon",
+      "source": "source\\StarterPack.png",
+      "source_size": [
+        256,
+        256
+      ],
+      "origin": "existing_user_library",
+      "source_library_path": "C:/Users/LEGION/Documents/RobloxGame/icons/Item/Gift/256px/Purple Gift 1st Outline 256px.png",
+      "shared_artwork_with": null,
+      "commerce_id": "2053247082",
+      "uploaded_image_asset_id": 132936115940644,
+      "files": {
+        "icons": "icons\\StarterPack.png",
+        "ui256": "ui256\\StarterPack.png",
+        "small64": "small64\\StarterPack.png"
+      }
+    },
+    {
+      "key": "GameIcon",
+      "role": "game_icon",
+      "source": "source\\GameIcon.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "origin": "generated_builtin",
+      "source_library_path": null,
+      "shared_artwork_with": null,
+      "commerce_id": null,
+      "uploaded_image_asset_id": 140151093342730,
+      "files": {
+        "icons": "icons\\GameIcon.png",
+        "ui256": "ui256\\GameIcon.png",
+        "small64": "small64\\GameIcon.png"
+      }
+    },
+    {
+      "key": "TN_A_Risk",
+      "role": "thumbnail",
+      "origin": "generated_builtin",
+      "source": "source\\TN_A_Risk.png",
+      "source_size": [
+        1672,
+        941
+      ],
+      "file": "thumbnails\\TN_A_Risk_1920x1080.jpg",
+      "size": [
+        1920,
+        1080
+      ],
+      "bytes": 710232,
+      "sha256": "555f2944085745def3c6460149cf22da0372331c3082344ea44ff2480f6aad6a"
+    },
+    {
+      "key": "TN_B_Cube",
+      "role": "thumbnail",
+      "origin": "generated_builtin",
+      "source": "source\\TN_B_Cube.png",
+      "source_size": [
+        1672,
+        941
+      ],
+      "file": "thumbnails\\TN_B_Cube_1920x1080.jpg",
+      "size": [
+        1920,
+        1080
+      ],
+      "bytes": 579500,
+      "sha256": "af35ef11a1e02553b14cfeabe788962b09a3b0350a312b49a25d865d0373a29a"
+    },
+    {
+      "key": "TN_C_Curse",
+      "role": "thumbnail",
+      "origin": "generated_builtin",
+      "source": "source\\TN_C_Curse.png",
+      "source_size": [
+        1672,
+        941
+      ],
+      "file": "thumbnails\\TN_C_Curse_1920x1080.jpg",
+      "size": [
+        1920,
+        1080
+      ],
+      "bytes": 630346,
+      "sha256": "a702443e2647ed15553730e920824048176923abda61ff12d99de5663747f7f1"
+    }
+  ],
+  "notes": [
+    "13 product files use 11 distinct artworks; ExtraLife tiers intentionally share one artwork.",
+    "VIP and StarterPack reuse original 256px library art; 512px is an upscale, not a new native high-resolution drawing.",
+    "Cash packs reuse the user's existing transparent CoinPacks artwork.",
+    "Native icon alpha preserved; processing only registers/resizes assets and makes inspection previews.",
+    "Uploaded IDs come from the owner's Asset Manager screenshot; see studio_validation.json for runtime integration verification. Dashboard icons and live publication are separate from UI image bindings."
+  ]
+}

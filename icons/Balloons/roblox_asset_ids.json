@@ -1,0 +1,57 @@
+{
+  "updated": "2026-10-12",
+  "source": "Latest user Asset Manager screenshots; upload names suffixed '1'",
+  "uploadVariant": "Resolution reduced by user; exact uploaded dimensions not supplied",
+  "icons": {
+    "Party": {
+      "iconKey": "PartyBalloon",
+      "assetId": "104396530692850",
+      "contentId": "rbxassetid://104396530692850"
+    },
+    "Big": {
+      "iconKey": "BigBalloon",
+      "assetId": "135277239773733",
+      "contentId": "rbxassetid://135277239773733"
+    },
+    "Weather": {
+      "iconKey": "WeatherBalloon",
+      "assetId": "83393303429667",
+      "contentId": "rbxassetid://83393303429667"
+    },
+    "HotAir": {
+      "iconKey": "HotAirBalloon",
+      "assetId": "97268277820314",
+      "contentId": "rbxassetid://97268277820314"
+    },
+    "Blimp": {
+      "iconKey": "BlimpBalloon",
+      "assetId": "98452462570607",
+      "contentId": "rbxassetid://98452462570607"
+    },
+    "Rocket": {
+      "iconKey": "RocketBalloon",
+      "assetId": "74139073424611",
+      "contentId": "rbxassetid://74139073424611"
+    },
+    "Star": {
+      "iconKey": "StarBalloon",
+      "assetId": "126306998353150",
+      "contentId": "rbxassetid://126306998353150"
+    },
+    "Galaxy": {
+      "iconKey": "GalaxyBalloon",
+      "assetId": "108018689809004",
+      "contentId": "rbxassetid://108018689809004"
+    },
+    "Void": {
+      "iconKey": "VoidBalloon",
+      "assetId": "117517218066268",
+      "contentId": "rbxassetid://117517218066268"
+    },
+    "Angel": {
+      "iconKey": "AngelBalloon",
+      "assetId": "105556311044268",
+      "contentId": "rbxassetid://105556311044268"
+    }
+  }
+}

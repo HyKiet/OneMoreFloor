@@ -1,0 +1,14 @@
+key,type,commerce_id,observed_price_robux,observed_icon_asset_id,proposed_upload_file,priority
+ExtraLife,DeveloperProduct,3721642948,9,88963008124478,assets/marketing/icons/v2/ExtraLife.png,P1
+ExtraLife2,DeveloperProduct,3721643053,19,88963008124478,assets/marketing/icons/v2/ExtraLife2.png,P1
+ExtraLife3,DeveloperProduct,3721643149,29,88963008124478,assets/marketing/icons/v2/ExtraLife3.png,P1
+BlessElevator,DeveloperProduct,3721643592,25,88963008124478,assets/marketing/icons/v2/BlessElevator.png,P1
+CurseElevator,DeveloperProduct,3721643457,25,88963008124478,assets/marketing/icons/v2/CurseElevator.png,P1
+GoldenElevator,DeveloperProduct,3721644068,39,88963008124478,assets/marketing/icons/v2/GoldenElevator.png,P1
+CashSmall,DeveloperProduct,3721644221,49,88963008124478,assets/marketing/icons/v2/CashSmall.png,P2
+CashMedium,DeveloperProduct,3721644327,149,88963008124478,assets/marketing/icons/v2/CashMedium.png,P2
+CashLarge,DeveloperProduct,3721644390,399,88963008124478,assets/marketing/icons/v2/CashLarge.png,P2
+VIP,GamePass,2052275069,149,133448903949274,assets/marketing/icons/v2/VIP.png,P1
+DoubleCash,GamePass,2053991076,249,133448903949274,assets/marketing/icons/v2/DoubleCash.png,P1
+LuckyBellhop,GamePass,2053439011,199,133448903949274,assets/marketing/icons/v2/LuckyBellhop.png,P2
+StarterPack,GamePass,2053247082,99,133448903949274,assets/marketing/icons/v2/StarterPack.png,P1

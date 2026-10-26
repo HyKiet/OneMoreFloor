@@ -1,0 +1,47 @@
+{
+  "updated": "2026-10-12",
+  "source": "Latest user Asset Manager screenshots; upload names suffixed '1'",
+  "uploadVariant": "Resolution reduced by user; exact uploaded dimensions not supplied",
+  "icons": {
+    "Hand": {
+      "iconKey": "HandPump",
+      "assetId": "111754374730299",
+      "contentId": "rbxassetid://111754374730299"
+    },
+    "Foot": {
+      "iconKey": "FootPump",
+      "assetId": "126427776542512",
+      "contentId": "rbxassetid://126427776542512"
+    },
+    "Double": {
+      "iconKey": "DoublePump",
+      "assetId": "104254154043658",
+      "contentId": "rbxassetid://104254154043658"
+    },
+    "Compressor": {
+      "iconKey": "AirCompressor",
+      "assetId": "79187846153386",
+      "contentId": "rbxassetid://79187846153386"
+    },
+    "Turbo": {
+      "iconKey": "TurboCompressor",
+      "assetId": "100787531178156",
+      "contentId": "rbxassetid://100787531178156"
+    },
+    "Jet": {
+      "iconKey": "JetPump",
+      "assetId": "75091011065891",
+      "contentId": "rbxassetid://75091011065891"
+    },
+    "Storm": {
+      "iconKey": "StormPump",
+      "assetId": "108416328152378",
+      "contentId": "rbxassetid://108416328152378"
+    },
+    "Hurricane": {
+      "iconKey": "HurricanePump",
+      "assetId": "76395662508621",
+      "contentId": "rbxassetid://76395662508621"
+    }
+  }
+}

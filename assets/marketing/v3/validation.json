@@ -1,0 +1,807 @@
+{
+  "icon_exports": [
+    {
+      "path": "icons\\ExtraLife.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.5884,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4306,
+      "bytes": 133383,
+      "sha256": "5a9ce025f9cdb1348b42bdda103c6e062d92eeb6984bd8d9efc301b4d89edca8"
+    },
+    {
+      "path": "ui256\\ExtraLife.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.5796,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4315,
+      "bytes": 40719,
+      "sha256": "9957d8ff8644d022e0e2f28d62f3c6986f789fd798d56be1009933dbf0b393da"
+    },
+    {
+      "path": "small64\\ExtraLife.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.5322,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4399,
+      "bytes": 4975,
+      "sha256": "32496ced2d0bf0e219509ebe2e04238c102463ac864fb959642fc1e7660b4a9c"
+    },
+    {
+      "path": "icons\\ExtraLife2.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.5884,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4306,
+      "bytes": 133383,
+      "sha256": "5a9ce025f9cdb1348b42bdda103c6e062d92eeb6984bd8d9efc301b4d89edca8"
+    },
+    {
+      "path": "ui256\\ExtraLife2.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.5796,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4315,
+      "bytes": 40719,
+      "sha256": "9957d8ff8644d022e0e2f28d62f3c6986f789fd798d56be1009933dbf0b393da"
+    },
+    {
+      "path": "small64\\ExtraLife2.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.5322,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4399,
+      "bytes": 4975,
+      "sha256": "32496ced2d0bf0e219509ebe2e04238c102463ac864fb959642fc1e7660b4a9c"
+    },
+    {
+      "path": "icons\\ExtraLife3.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.5884,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4306,
+      "bytes": 133383,
+      "sha256": "5a9ce025f9cdb1348b42bdda103c6e062d92eeb6984bd8d9efc301b4d89edca8"
+    },
+    {
+      "path": "ui256\\ExtraLife3.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.5796,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4315,
+      "bytes": 40719,
+      "sha256": "9957d8ff8644d022e0e2f28d62f3c6986f789fd798d56be1009933dbf0b393da"
+    },
+    {
+      "path": "small64\\ExtraLife3.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.5322,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4399,
+      "bytes": 4975,
+      "sha256": "32496ced2d0bf0e219509ebe2e04238c102463ac864fb959642fc1e7660b4a9c"
+    },
+    {
+      "path": "icons\\BlessElevator.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6437,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4295,
+      "bytes": 117986,
+      "sha256": "df5a655902092a3117b57afb07aa0583f81fb875247ff45e88462f21fc282a22"
+    },
+    {
+      "path": "ui256\\BlessElevator.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6357,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4317,
+      "bytes": 35915,
+      "sha256": "005b535622dd8f72300752b80e950313cc52d76b810b6d07afeb50ffe1d29a64"
+    },
+    {
+      "path": "small64\\BlessElevator.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.5996,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4269,
+      "bytes": 4703,
+      "sha256": "521c4541d3569dfa83a0c4ffd6a1305a35334860853984e6c95999dc5b309932"
+    },
+    {
+      "path": "icons\\CurseElevator.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6932,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.427,
+      "bytes": 104341,
+      "sha256": "c336a7a654d07923dc3c4ea67cdf78e3196e4ddf0259cbce65466b17a3bd7a4a"
+    },
+    {
+      "path": "ui256\\CurseElevator.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6881,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.428,
+      "bytes": 32289,
+      "sha256": "e5c7938950b5890e5ea5da35d18fc0030665584c0c81b5cf3307090028cff13b"
+    },
+    {
+      "path": "small64\\CurseElevator.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6533,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4303,
+      "bytes": 4261,
+      "sha256": "ca89e0c184659c63edd9dbd521c7fa2dcc4451e5cab80eb51d226154c51f8046"
+    },
+    {
+      "path": "icons\\GoldenElevator.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6569,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.43,
+      "bytes": 117382,
+      "sha256": "39778998d2900028ae6ecfd2e0e8e1412273ae0a12196344cd0359321c6ad2e3"
+    },
+    {
+      "path": "ui256\\GoldenElevator.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6499,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4274,
+      "bytes": 35488,
+      "sha256": "99df8698e9e7c3242528bf5e1e9e33f999167d764952b347c472ecaef99c1ead"
+    },
+    {
+      "path": "small64\\GoldenElevator.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6118,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4235,
+      "bytes": 4136,
+      "sha256": "0299c5e0890776307fcb3cacd2d189d5bba52c3faaf3c4582cb5e00df8563d6d"
+    },
+    {
+      "path": "icons\\CashSmall.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6622,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4296,
+      "bytes": 153830,
+      "sha256": "62eae563d9494f73a0eff7b492c7b7193f997a6e11cc7abcbb92350ca12cef8a"
+    },
+    {
+      "path": "ui256\\CashSmall.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6543,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4309,
+      "bytes": 48605,
+      "sha256": "270f99e447287eb04bf65865f0e6476df551185ea81b842c6163fbc22d584e7c"
+    },
+    {
+      "path": "small64\\CashSmall.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6042,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4332,
+      "bytes": 5062,
+      "sha256": "8896177de293c5af7d745e27abf803caf00062bde86f5037fe27c1ff05963594"
+    },
+    {
+      "path": "icons\\CashMedium.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6855,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4293,
+      "bytes": 157038,
+      "sha256": "3219003751fe4ecd62fcd64c0b1c0c2903ed115e70c44e3bc871f3ec9addad62"
+    },
+    {
+      "path": "ui256\\CashMedium.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6799,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4269,
+      "bytes": 49985,
+      "sha256": "db04191e0ede47ae922387ea58a194c0b456e58fa7f931adec9af30b2e7c4f0d"
+    },
+    {
+      "path": "small64\\CashMedium.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6394,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4315,
+      "bytes": 4950,
+      "sha256": "01d5aa9fa705274dde146b56ce7aff7dd0a9c0dd707fd50286889fa83b8e3be8"
+    },
+    {
+      "path": "icons\\CashLarge.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.585,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4315,
+      "bytes": 202641,
+      "sha256": "192e7880d05f603332a87163a9f5972587bbc9ad540b12accf9d57cb528c6dd9"
+    },
+    {
+      "path": "ui256\\CashLarge.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.5778,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.431,
+      "bytes": 63665,
+      "sha256": "8e9886b2f5c54fa272e1b93a39e86b78e9cb26383d267965dabf63a1d5503fb4"
+    },
+    {
+      "path": "small64\\CashLarge.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.5361,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.436,
+      "bytes": 6129,
+      "sha256": "29e50e58f51a114663226da7c03c53dff2404a4eb2792a7d51de8e4c41aea5f4"
+    },
+    {
+      "path": "icons\\VIP.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6729,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4306,
+      "bytes": 60185,
+      "sha256": "57b01c5e54ec33840107741a9f5109905d1b57130c0b8202069228fa35736419"
+    },
+    {
+      "path": "ui256\\VIP.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6702,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4315,
+      "bytes": 21649,
+      "sha256": "7622e404338afc434f03b1270bb7ae0f362a99a1d9d5278c1b5a47fa34b481db"
+    },
+    {
+      "path": "small64\\VIP.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6292,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4315,
+      "bytes": 3805,
+      "sha256": "e5f3aa9046b46ef660f0037bfa118e4964254172c15c71dae8fd4ff4596341cc"
+    },
+    {
+      "path": "icons\\DoubleCash.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.5864,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.431,
+      "bytes": 151151,
+      "sha256": "c573f9c2cff41a650881a1a56c907e9a2cd6cb76669ef3c545ef4d7f7b5391c6"
+    },
+    {
+      "path": "ui256\\DoubleCash.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.5808,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4304,
+      "bytes": 47097,
+      "sha256": "328619087e7c06968ba1ff66db01d177c0802481f8d21b45d7ef9d4e995af86e"
+    },
+    {
+      "path": "small64\\DoubleCash.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.5374,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4332,
+      "bytes": 5469,
+      "sha256": "ddec118d357a377fd36eb67aaeee8021042f3f2b32b374cb4d2a4bdbeb49ca66"
+    },
+    {
+      "path": "icons\\LuckyBellhop.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.7096,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4296,
+      "bytes": 110831,
+      "sha256": "ea0407ddce2fece4f186349a973bc40c5b0a3d3ff3a4f937e9cb50a3d6ff8b03"
+    },
+    {
+      "path": "ui256\\LuckyBellhop.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.7035,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4285,
+      "bytes": 34047,
+      "sha256": "db22f72a96c800587a662350b50ef2810b622125081322450a3523bad41d07d1"
+    },
+    {
+      "path": "small64\\LuckyBellhop.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6638,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4309,
+      "bytes": 4049,
+      "sha256": "42a31cd236a94c33d099ad0b700766a214f67bd68c224ea4844d07696e4c9b8a"
+    },
+    {
+      "path": "icons\\StarterPack.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.5664,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4302,
+      "bytes": 65524,
+      "sha256": "77cf9d0b1c052bd733222fc30cd13d79fbfd0badd601cb4f3b56737ddf26a002"
+    },
+    {
+      "path": "ui256\\StarterPack.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.5626,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.431,
+      "bytes": 23810,
+      "sha256": "89f319990b411aa51ff049cc572242afdd64339c88f8c1e44b5ca0448e2b5662"
+    },
+    {
+      "path": "small64\\StarterPack.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.5259,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4315,
+      "bytes": 4496,
+      "sha256": "42a61f758f9747a6afa2a649dc2d4f9f370caf031128631bcbcaac70df952ac0"
+    },
+    {
+      "path": "icons\\GameIcon.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6598,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4309,
+      "bytes": 133772,
+      "sha256": "bea995325e32905f4cb52d4eb0ecde3eab2c15fec2c0e46849ea9438eab1b0f6"
+    },
+    {
+      "path": "ui256\\GameIcon.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6526,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.428,
+      "bytes": 41617,
+      "sha256": "15607b9500a76943a5897f1f1953fac7f824cdb23536e1ffd92ebe4396b19b46"
+    },
+    {
+      "path": "small64\\GameIcon.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "transparent_fraction": 0.6038,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outer_border_alpha_max": 0,
+      "opaque_radius_fraction": 0.4332,
+      "bytes": 4727,
+      "sha256": "6e6ec71e19eddc7c9c0d0e5acffc55d2821cd383f1fa7e1cc2b61f10fab2e67c"
+    }
+  ],
+  "icon_export_count": 42,
+  "product_count": 13,
+  "thumbnail_count": 3,
+  "automated_file_checks": "pass",
+  "scope": "File size, dimensions, native alpha, margins and circular safe area. Visual style is manually inspected, not a mathematical guarantee."
+}

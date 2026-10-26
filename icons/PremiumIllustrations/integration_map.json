@@ -1,0 +1,18 @@
+{
+  "status": "integrated_and_verified",
+  "newAssetsUploaded": true,
+  "sourceChanges": true,
+  "gamepasses": {
+    "DoubleCoins": {"art": "DoubleCoins", "suggestedIconKey": "DoubleCoinsPass"},
+    "AutoPump": {"art": "SmartPump", "existingIconKey": "SmartPump", "existingAssetId": "102008118176022"},
+    "ExtraSlot": {"art": "ExtraCargoSlot", "suggestedIconKey": "ExtraCargoSlot"},
+    "VIP": {"art": "VIPBalloon", "suggestedIconKey": "VIPBalloon"},
+    "Lucky": {"art": "LuckyCrates", "suggestedIconKey": "LuckyCratesPass"}
+  },
+  "consumers": {
+    "Gamepasses": "src/client/UI/Menus/Store.luau: ART table",
+    "WindStorm": "src/client/UI/Menus/Store.luau: WindStorm banner icon",
+    "OfflineEarnings": "src/client/UI/Screens/Welcome.luau: RewardPopup Icon"
+  },
+  "preserve": ["pass and product IDs", "prices and economy", "ownership flow", "shared icon fallback", "Fit aspect ratio", "original image colors"]
+}

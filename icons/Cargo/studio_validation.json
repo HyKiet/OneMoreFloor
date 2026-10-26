@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-12",
+  "placeId": 95006900120444,
+  "variant": "User reduced-resolution uploads",
+  "syncedThroughRojo": true,
+  "checks": "Selene + Luau LSP clean; Rojo build passed; all 41 asset fetches succeeded",
+  "icons": [
+    {
+      "catalogId": "Duck",
+      "assetId": "117352276060614",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Box",
+      "assetId": "76284536777751",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Sock",
+      "assetId": "82177759736400",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Banana",
+      "assetId": "132909521123258",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Cat",
+      "assetId": "137178892361792",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Frog",
+      "assetId": "81923768862252",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Pizza",
+      "assetId": "72825225815747",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Toilet",
+      "assetId": "79832226570293",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Penguin",
+      "assetId": "74844831646852",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Cow",
+      "assetId": "82520884841125",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Octopus",
+      "assetId": "107091309489843",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Dino",
+      "assetId": "117843498046800",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Robot",
+      "assetId": "109694029328972",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Ghost",
+      "assetId": "86431916755012",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Alien",
+      "assetId": "97318634308443",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Dragon",
+      "assetId": "136196309315333",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Unicorn",
+      "assetId": "78301834271443",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Crown",
+      "assetId": "111529068831145",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Earth",
+      "assetId": "75249436974913",
+      "clientFetchStatus": "Success"
+    }
+  ],
+  "studioFinalMode": "Edit"
+}

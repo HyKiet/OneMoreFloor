@@ -1,0 +1,36 @@
+[
+  {
+    "key": "ExtraLife_master",
+    "prompt": "Use case: stylized-concept. Asset: ONE square product icon, Extra Life, for One More Floor, a Roblox elevator survival game. The attached contact sheet is a STYLE reference only: match its simple authored low-poly models, broad clean bevels, satin materials, restrained highlights. Do not reproduce the sheet. Make a single chunky cyan heart with a thick warm-brass curved return arrow wrapping behind its lower right and pointing upward, conveying revive. Very simple graphic silhouette, heart dominant, arrow secondary. Front three-quarter view, centered at a consistent 72% of canvas width, comfortably inside a circular safe area. Dark midnight navy plain background #0D0F1F, soft neutral studio key from upper left, subtle contact shadow, cyan #4EE4FF and brass #D4AE68. Restrained crafted game render: broad flat surfaces, precise geometry, natural satin finish. No picture frame, no rays, no particles, no floating shards, no stars, no lens flare, no glow cloud, no excessive shiny bevels, no microtexture, no lettering, no numbers, no logo. Square 1024x1024 composition; clean readable at 48 pixels. Deliver just the final single icon, not a presentation sheet.",
+    "source": "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-452441a0-2d08-496b-86f3-ed09be64f054.png",
+    "role": "style_master"
+  },
+  {
+    "key": "GoldenElevator",
+    "prompt": "Use case: stylized-concept. Deliver ONE single square 1024x1024 Roblox game product icon for One More Floor. Reference image 1 is the accepted STYLE MASTER: maintain its plain midnight navy background, camera, satin material shading, clean geometry and scale. Reference 2 if supplied is architectural/subject guidance only. Design one large legible object with broad bevels and simple geometry, soft upper-left key, restrained highlights and a contact shadow. Essential silhouette inside centered circular safe area, roughly 68-72% canvas width. Warm brass #D4AE68, gold #FFCC58, cyan #4EE4FF as appropriate. No border, radial rays, confetti, stars, floating shards, glow clouds, busy scenery, tiny inscriptions, ornament invented for decoration, excessive bloom or wet chrome reflections. No presentation sheet. SUBJECT: one warm gold and bronze art-deco elevator doorway, with the exact distinctive semicircular floor dial above its lintel, white tick marks, cyan needle, and two diamond outlines on its paired doors as in reference 2. Compact chunky proportions for a product icon, recognizably the reference game's doorway, not a generic lift. A single substantial navy badge with large ivory text exactly '×2' sits in front at lower right but stays inside the circle. One small clock hand motif etched in the dial implies duration. No other text. Gold lighting controlled, keep the two door panels and dial easy to read.",
+    "references": [
+      "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-452441a0-2d08-496b-86f3-ed09be64f054.png",
+      "C:/Users/LEGION/Documents/RobloxGame/assets/marketing/v2/references/lobby-reference.jpg"
+    ],
+    "source": "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-46945bde-c59b-4e66-bf6c-6c0e4a9b4500.png",
+    "role": "product_icon"
+  },
+  {
+    "key": "StarterPack",
+    "prompt": "Use case: stylized-concept. Deliver ONE single square 1024x1024 Roblox game product icon for One More Floor. Reference image 1 is the accepted STYLE MASTER: maintain its plain midnight navy background, camera, satin material shading, clean geometry and scale. Reference 2 if supplied is architectural/subject guidance only. Design one large legible object with broad bevels and simple geometry, soft upper-left key, restrained highlights and a contact shadow. Essential silhouette inside centered circular safe area, roughly 68-72% canvas width. Warm brass #D4AE68, gold #FFCC58, cyan #4EE4FF as appropriate. No border, radial rays, confetti, stars, floating shards, glow clouds, busy scenery, tiny inscriptions, ornament invented for decoration, excessive bloom or wet chrome reflections. No presentation sheet. SUBJECT: one open small navy and brass hotel suitcase, sturdy simple box geometry. Inside are exactly three readable reward TYPES: a short warm-gold coin stack at left, one cyan heart centered, and one blue faceted Rare crystal at right. A folded brass handle and dark navy interior. The single heart represents the extra-life reward type, not a count. No floating rewards outside the case, no gift ribbons, no sparkles, no text, no price. Give the three large simple objects their own space. Near-front three-quarter view matches the master.",
+    "references": [
+      "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-452441a0-2d08-496b-86f3-ed09be64f054.png"
+    ],
+    "source": "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-96f312d9-40e5-4475-8069-d1b69e48013a.png",
+    "role": "product_icon"
+  },
+  {
+    "key": "TN_A_Risk",
+    "prompt": "Use case: ads-marketing. Create a finished 16:9 wide 1920x1080 Roblox game thumbnail for ONE MORE FLOOR. Reference image is the ACTUAL game's lobby: preserve its recognizable bronze art-deco elevator with semicircular clock dial and cyan diamond door motifs. One sharply staged risk-versus-reward scene. Two classic blocky Roblox R6 avatars only, cylindrical heads, mitten hands with no fingers, rectangular limbs, matte plastic. Foreground left: original short black-haired avatar in a muted ochre hotel jacket over navy clothes clutching a simple navy cash satchel with a large brass coin emblem, head turned toward the open doorway, worried readable decal face with simple eyes and mouth. Companion just behind him points into the lift, with one clear blocky arm. To the right the bronze cyan elevator door is half open: in its dark interior a large CYAN CUBE boss, exactly a cube with black edge framing, two white square eyes with black square pupils, black angled eyebrows and a straight black mouth with three tiny square teeth, stares out. A single red floor warning stripe leads toward the doorway. Clearly block-built game geometry; match the reference architecture, simplified for readability. Strong graphic silhouettes and deliberate asymmetrical composition, avatar face and satchel large enough at 160px thumbnail size. Soft cinematic lighting but restrained: warm gold key on avatar, cyan from doorway, little red reflected warning. Navy and brass dominate, no magenta/purple fog. Upper-left clean dark negative space for later typography but DO NOT include any text. Keep essential subjects clear of lowest 12% of frame. No painted human anatomy, fingers, huge anime eyes, detailed hair strands, plastic glossy droplets, endless coins, sparks, smoke, floating debris, radial rays, excessive bloom, generic fantasy ornaments or watermark. Final single landscape image, no panels, no border.",
+    "references": [
+      "C:/Users/LEGION/Documents/RobloxGame/assets/marketing/v2/references/lobby-reference.jpg"
+    ],
+    "source": "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-f6f21d89-8727-40ba-975b-d3ba25725b6b.png",
+    "role": "thumbnail"
+  }
+]

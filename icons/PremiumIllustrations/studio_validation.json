@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-14",
+  "placeId": "95006900120444",
+  "status": "verified",
+  "studioId": "32397a9b-84fc-4b2c-8ed5-3ae0629f06e9",
+  "instanceId": "instance:asn-hph",
+  "result": {
+    "PassesChecked": true,
+    "WindChecked": true,
+    "OfflineBounds": {
+      "Y": 159.19374084472656,
+      "X": 376.12066650390625,
+      "W": 425.0920715332031,
+      "H": 344.9458312988281
+    },
+    "Passed": true,
+    "GalaxyChecked": true,
+    "Assets": {
+      "rbxassetid://78063719499997": "Success",
+      "rbxassetid://80518929850460": "Success",
+      "rbxassetid://140415981232252": "Success",
+      "rbxassetid://129366282628977": "Success",
+      "rbxassetid://102008118176022": "Success",
+      "rbxassetid://83444475543747": "Success",
+      "rbxassetid://100419779378631": "Success",
+      "rbxassetid://128115885383446": "Success",
+      "rbxassetid://100397119864887": "Success"
+    },
+    "LayoutChecked": true,
+    "AssetsChecked": true,
+    "OfflineChecked": true,
+    "Gamepasses": {
+      "VIPBalloon": "Players.SHKDev2005.PlayerGui.Balloon_Menus.Root.Menu_Store.Window.Body.Content.Page_Passes.Scroll.VIP.Wrap.Body.Icon.Icon",
+      "LuckyCratesPass": "Players.SHKDev2005.PlayerGui.Balloon_Menus.Root.Menu_Store.Window.Body.Content.Page_Passes.Scroll.Lucky.Wrap.Body.Icon.Icon",
+      "DoubleCoinsPass": "Players.SHKDev2005.PlayerGui.Balloon_Menus.Root.Menu_Store.Window.Body.Content.Page_Passes.Scroll.DoubleCoins.Wrap.Body.Icon.Icon",
+      "ExtraCargoSlot": "Players.SHKDev2005.PlayerGui.Balloon_Menus.Root.Menu_Store.Window.Body.Content.Page_Passes.Scroll.ExtraSlot.Wrap.Body.Icon.Icon",
+      "SmartPump": "Players.SHKDev2005.PlayerGui.Balloon_Menus.Root.Menu_Store.Window.Body.Content.Page_Passes.Scroll.AutoPump.Wrap.Body.Icon.Icon"
+    }
+  },
+  "mobile": {
+    "titleTop": -32.440673828125,
+    "canvas": {
+      "Y": -58,
+      "X": 0,
+      "W": 705,
+      "H": 338
+    },
+    "titleFits": true,
+    "device": "Samsung Galaxy A06 landscape",
+    "fitsCanvas": true,
+    "body": {
+      "Y": -15.114395141601562,
+      "X": 197.1610107421875,
+      "W": 310.677978515625,
+      "H": 248.64407348632812
+    },
+    "insets": "Enum.ScreenInsets.DeviceSafeInsets"
+  },
+  "checks": {
+    "selene": "PASS",
+    "luauLsp": "PASS",
+    "rojoBuild": "PASS",
+    "sourceSynced": true,
+    "playtestStopped": true,
+    "deviceSimulationRestored": true
+  },
+  "sceneBrightness": {
+    "Galaxy": 1.15,
+    "Nebula": 1.1
+  },
+  "fixture": "tools/tests/premium_scenery_art_studio_test.luau",
+  "screenshots": [
+    "screenshots/PremiumArt_StorePasses_2026-10-14.jpg",
+    "screenshots/PremiumArt_WindStorm_2026-10-14.jpg",
+    "screenshots/PremiumArt_OfflineEarnings_2026-10-14.jpg",
+    "screenshots/PremiumArt_OfflineMobile_2026-10-14.jpg",
+    "screenshots/GalaxyCore_CustomArt_2026-10-14.jpg"
+  ]
+}

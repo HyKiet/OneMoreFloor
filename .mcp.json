@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "robloxstudio": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@chrrxs/robloxstudio-mcp@3.4.0"]
+    },
+    "Roblox_Studio": {
+      "command": "cmd.exe",
+      "args": ["/c", "%LOCALAPPDATA%\\Roblox\\mcp.bat"]
+    },
+    "blender": {
+      "command": "cmd",
+      "args": ["/c", "uvx", "mcp-for-blender"]
+    }
+  }
+}

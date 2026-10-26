@@ -1,0 +1,102 @@
+{
+  "updated": "2026-10-12",
+  "source": "Latest user Asset Manager screenshots; upload names suffixed '1'",
+  "uploadVariant": "Resolution reduced by user; exact uploaded dimensions not supplied",
+  "icons": {
+    "Duck": {
+      "iconKey": "RubberDuck",
+      "assetId": "117352276060614",
+      "contentId": "rbxassetid://117352276060614"
+    },
+    "Box": {
+      "iconKey": "CardboardBox",
+      "assetId": "76284536777751",
+      "contentId": "rbxassetid://76284536777751"
+    },
+    "Sock": {
+      "iconKey": "LostSock",
+      "assetId": "82177759736400",
+      "contentId": "rbxassetid://82177759736400"
+    },
+    "Banana": {
+      "iconKey": "Banana",
+      "assetId": "132909521123258",
+      "contentId": "rbxassetid://132909521123258"
+    },
+    "Cat": {
+      "iconKey": "ChubbyCat",
+      "assetId": "137178892361792",
+      "contentId": "rbxassetid://137178892361792"
+    },
+    "Frog": {
+      "iconKey": "Froggy",
+      "assetId": "81923768862252",
+      "contentId": "rbxassetid://81923768862252"
+    },
+    "Pizza": {
+      "iconKey": "PizzaCargo",
+      "assetId": "72825225815747",
+      "contentId": "rbxassetid://72825225815747"
+    },
+    "Toilet": {
+      "iconKey": "ToiletCargo",
+      "assetId": "79832226570293",
+      "contentId": "rbxassetid://79832226570293"
+    },
+    "Penguin": {
+      "iconKey": "PenguinCargo",
+      "assetId": "74844831646852",
+      "contentId": "rbxassetid://74844831646852"
+    },
+    "Cow": {
+      "iconKey": "FlyingCow",
+      "assetId": "82520884841125",
+      "contentId": "rbxassetid://82520884841125"
+    },
+    "Octopus": {
+      "iconKey": "OctopusCargo",
+      "assetId": "107091309489843",
+      "contentId": "rbxassetid://107091309489843"
+    },
+    "Dino": {
+      "iconKey": "DinoCargo",
+      "assetId": "117843498046800",
+      "contentId": "rbxassetid://117843498046800"
+    },
+    "Robot": {
+      "iconKey": "RobotCargo",
+      "assetId": "109694029328972",
+      "contentId": "rbxassetid://109694029328972"
+    },
+    "Ghost": {
+      "iconKey": "GhostCargo",
+      "assetId": "86431916755012",
+      "contentId": "rbxassetid://86431916755012"
+    },
+    "Alien": {
+      "iconKey": "AlienCargo",
+      "assetId": "97318634308443",
+      "contentId": "rbxassetid://97318634308443"
+    },
+    "Dragon": {
+      "iconKey": "DragonCargo",
+      "assetId": "136196309315333",
+      "contentId": "rbxassetid://136196309315333"
+    },
+    "Unicorn": {
+      "iconKey": "UnicornCargo",
+      "assetId": "78301834271443",
+      "contentId": "rbxassetid://78301834271443"
+    },
+    "Crown": {
+      "iconKey": "KingsCrown",
+      "assetId": "111529068831145",
+      "contentId": "rbxassetid://111529068831145"
+    },
+    "Earth": {
+      "iconKey": "PlanetEarth",
+      "assetId": "75249436974913",
+      "contentId": "rbxassetid://75249436974913"
+    }
+  }
+}

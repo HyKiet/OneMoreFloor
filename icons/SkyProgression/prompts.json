@@ -1,0 +1,97 @@
+{
+  "created": "2026-10-13",
+  "generator": "Built-in image_gen",
+  "modelSelection": "The built-in tool does not expose model selection.",
+  "assets": [
+    {
+      "id": "Ground",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 Roblox game UI progression icon, from a consistent Sky Sticker set. Clean polished cartoon sticker illustration: thick continuous near-black navy contour, bright cheerful saturated colors, two or three crisp cel-shaded planes, chunky rounded shapes, small pale flat highlights. One compact silhouette centered with 10% clear safe padding, legible at 22px and 64px. Genuine transparent background. No text, letters, numbers, watermarks, frame, badge circle, floor or cast shadow. No photorealism, intricate details, thin outlines or diffuse glow. Render one icon only, not a sheet. Output square 1024x1024 or larger.\nSubject: A small floating rounded grassy meadow island, lime-green domed grass top with one tiny coral flower, warm brown soil underside. No trees. Ground level starting area, friendly and simple.",
+      "transparent": true,
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-aabb2b55-cbb3-4f26-85e2-f2877fa97ec9.png"
+    },
+    {
+      "id": "Treetops",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 Roblox game UI progression icon, from a consistent Sky Sticker set. Clean polished cartoon sticker illustration: thick continuous near-black navy contour, bright cheerful saturated colors, two or three crisp cel-shaded planes, chunky rounded shapes, small pale flat highlights. One compact silhouette centered with 10% clear safe padding, legible at 22px and 64px. Genuine transparent background. No text, letters, numbers, watermarks, frame, badge circle, floor or cast shadow. No photorealism, intricate details, thin outlines or diffuse glow. Render one icon only, not a sheet. Output square 1024x1024 or larger.\nSubject: Two overlapping chunky pine trees, tall emerald pine and smaller lime pine, warm brown trunks. Compact recognizable treetop silhouette. No landscape or island.",
+      "transparent": true,
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-db511a26-b007-44df-bedf-11c0c8d38f8d.png"
+    },
+    {
+      "id": "Clouds",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 Roblox game UI progression icon, from a consistent Sky Sticker set. Clean polished cartoon sticker illustration: thick continuous near-black navy contour, bright cheerful saturated colors, two or three crisp cel-shaded planes, chunky rounded shapes, small pale flat highlights. One compact silhouette centered with 10% clear safe padding, legible at 22px and 64px. Genuine transparent background. No text, letters, numbers, watermarks, frame, badge circle, floor or cast shadow. No photorealism, intricate details, thin outlines or diffuse glow. Render one icon only, not a sheet. Output square 1024x1024 or larger.\nSubject: A single plump three-lobed white cloud, icy sky-blue undersides, rounded and airy. No face, rainbow or sun.",
+      "transparent": true,
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-8fd17575-a1de-42c9-b1da-507053429877.png"
+    },
+    {
+      "id": "Airplanes",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 Roblox game UI progression icon, from a consistent Sky Sticker set. Clean polished cartoon sticker illustration: thick continuous near-black navy contour, bright cheerful saturated colors, two or three crisp cel-shaded planes, chunky rounded shapes, small pale flat highlights. One compact silhouette centered with 10% clear safe padding, legible at 22px and 64px. Genuine transparent background. No text, letters, numbers, watermarks, frame, badge circle, floor or cast shadow. No photorealism, intricate details, thin outlines or diffuse glow. Render one icon only, not a sheet. Output square 1024x1024 or larger.\nSubject: A small friendly sky-blue passenger airplane banking upward in three-quarter view, cream-white wings, coral tail, dark navy cockpit window, two tiny simple motion strokes. No airline logo.",
+      "transparent": true,
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-76a9eb34-319f-4590-998f-23a306714daf.png"
+    },
+    {
+      "id": "Storm",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 Roblox game UI progression icon, from a consistent Sky Sticker set. Clean polished cartoon sticker illustration: thick continuous near-black navy contour, bright cheerful saturated colors, two or three crisp cel-shaded planes, chunky rounded shapes, small pale flat highlights. One compact silhouette centered with 10% clear safe padding, legible at 22px and 64px. Genuine transparent background. No text, letters, numbers, watermarks, frame, badge circle, floor or cast shadow. No photorealism, intricate details, thin outlines or diffuse glow. Render one icon only, not a sheet. Output square 1024x1024 or larger.\nSubject: A dark purple three-lobed thundercloud with one large zigzag golden lightning bolt beneath and two chunky cyan raindrops. Strong storm silhouette.",
+      "transparent": true,
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-b5c5976e-cae3-4aaa-b715-c7479037418b.png"
+    },
+    {
+      "id": "Aurora",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 Roblox game UI progression icon, from a consistent Sky Sticker set. Clean polished cartoon sticker illustration: thick continuous near-black navy contour, bright cheerful saturated colors, two or three crisp cel-shaded planes, chunky rounded shapes, small pale flat highlights. One compact silhouette centered with 10% clear safe padding, legible at 22px and 64px. Genuine transparent background. No text, letters, numbers, watermarks, frame, badge circle, floor or cast shadow. No photorealism, intricate details, thin outlines or diffuse glow. Render one icon only, not a sheet. Output square 1024x1024 or larger.\nSubject: Three broad curling emerald, mint and cyan aurora ribbons sweeping above two small indigo mountain peaks, bounded as a single compact sticker silhouette. No rectangular sky backdrop or stars.",
+      "transparent": true,
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-48887cfa-1426-49d1-bf0d-003bf115b517.png"
+    },
+    {
+      "id": "Space",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 Roblox game UI progression icon, from a consistent Sky Sticker set. Clean polished cartoon sticker illustration: thick continuous near-black navy contour, bright cheerful saturated colors, two or three crisp cel-shaded planes, chunky rounded shapes, small pale flat highlights. One compact silhouette centered with 10% clear safe padding, legible at 22px and 64px. Genuine transparent background. No text, letters, numbers, watermarks, frame, badge circle, floor or cast shadow. No photorealism, intricate details, thin outlines or diffuse glow. Render one icon only, not a sheet. Output square 1024x1024 or larger.\nSubject: A small cute coral-red and white rocket ascending diagonally, one round cyan porthole and a small gold exhaust puff, two chunky four-point white/cyan stars. Simple space emblem.",
+      "transparent": true,
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-d5e4b1a2-bf78-4629-be9e-d66e3305a83d.png"
+    },
+    {
+      "id": "Moon",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 Roblox game UI progression icon, from a consistent Sky Sticker set. Clean polished cartoon sticker illustration: thick continuous near-black navy contour, bright cheerful saturated colors, two or three crisp cel-shaded planes, chunky rounded shapes, small pale flat highlights. One compact silhouette centered with 10% clear safe padding, legible at 22px and 64px. Genuine transparent background. No text, letters, numbers, watermarks, frame, badge circle, floor or cast shadow. No photorealism, intricate details, thin outlines or diffuse glow. Render one icon only, not a sheet. Output square 1024x1024 or larger.\nSubject: A chunky round pale ivory full moon with only three large grey-blue crater patches, crisp shaded underside, one small icy four-point star outside. Recognizable moon, no face.",
+      "transparent": true,
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-ffbedfcf-8360-4194-94fb-5431a5bc3400.png"
+    },
+    {
+      "id": "Sun",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 Roblox game UI progression icon, from a consistent Sky Sticker set. Clean polished cartoon sticker illustration: thick continuous near-black navy contour, bright cheerful saturated colors, two or three crisp cel-shaded planes, chunky rounded shapes, small pale flat highlights. One compact silhouette centered with 10% clear safe padding, legible at 22px and 64px. Genuine transparent background. No text, letters, numbers, watermarks, frame, badge circle, floor or cast shadow. No photorealism, intricate details, thin outlines or diffuse glow. Render one icon only, not a sheet. Output square 1024x1024 or larger.\nSubject: A bright golden round sun with eight broad short triangular orange rays, warm orange shaded edge and pale yellow highlight. No face.",
+      "transparent": true,
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-1b8481de-af9d-4807-aa8f-9fd13d65f01e.png"
+    },
+    {
+      "id": "BlackHole",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 Roblox game UI progression icon, from a consistent Sky Sticker set. Clean polished cartoon sticker illustration: thick continuous near-black navy contour, bright cheerful saturated colors, two or three crisp cel-shaded planes, chunky rounded shapes, small pale flat highlights. One compact silhouette centered with 10% clear safe padding, legible at 22px and 64px. Genuine transparent background. No text, letters, numbers, watermarks, frame, badge circle, floor or cast shadow. No photorealism, intricate details, thin outlines or diffuse glow. Render one icon only, not a sheet. Output square 1024x1024 or larger.\nSubject: A very dark navy-black circular core surrounded by a thick tilted gold-orange accretion ring with a front arc passing visibly in front, one small hot coral highlight. Clear black hole silhouette. No sparkles or galaxy background.",
+      "transparent": true,
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-23a77a46-0c31-43fa-8a25-56f9b6426c7e.png"
+    },
+    {
+      "id": "GalaxyCore",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 Roblox game UI progression icon, from a consistent Sky Sticker set. Clean polished cartoon sticker illustration: thick continuous near-black navy contour, bright cheerful saturated colors, two or three crisp cel-shaded planes, chunky rounded shapes, small pale flat highlights. One compact silhouette centered with 10% clear safe padding, legible at 22px and 64px. Genuine transparent background. No text, letters, numbers, watermarks, frame, badge circle, floor or cast shadow. No photorealism, intricate details, thin outlines or diffuse glow. Render one icon only, not a sheet. Output square 1024x1024 or larger.\nSubject: A compact three-armed spiral galaxy with luminous cyan center and broad pink, violet and cyan curved arms, small white highlights and two tiny four-point stars. Crisp cel-shaded edges rather than blurry glow, no enclosing sphere or rectangle.",
+      "transparent": true,
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-98425764-57fb-4426-a5ca-ea2d367ae359.png"
+    },
+    {
+      "id": "Void",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 Roblox game UI progression icon, from a consistent Sky Sticker set. Clean polished cartoon sticker illustration: thick continuous near-black navy contour, bright cheerful saturated colors, two or three crisp cel-shaded planes, chunky rounded shapes, small pale flat highlights. One compact silhouette centered with 10% clear safe padding, legible at 22px and 64px. Genuine transparent background. No text, letters, numbers, watermarks, frame, badge circle, floor or cast shadow. No photorealism, intricate details, thin outlines or diffuse glow. Render one icon only, not a sheet. Output square 1024x1024 or larger.\nSubject: Three floating dark purple faceted crystal shards arranged around a small inky purple vortex, bold neon-violet bevel accents and one cyan glint. Compact mysterious dark Void emblem with visible navy contour. Distinct from the orange black hole and colorful spiral galaxy.",
+      "transparent": true,
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-28d26ea0-5c54-427f-b7f0-c13f913969b1.png"
+    },
+    {
+      "id": "BalloonHeaven",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 Roblox game UI progression icon, from a consistent Sky Sticker set. Clean polished cartoon sticker illustration: thick continuous near-black navy contour, bright cheerful saturated colors, two or three crisp cel-shaded planes, chunky rounded shapes, small pale flat highlights. One compact silhouette centered with 10% clear safe padding, legible at 22px and 64px. Genuine transparent background. No text, letters, numbers, watermarks, frame, badge circle, floor or cast shadow. No photorealism, intricate details, thin outlines or diffuse glow. Render one icon only, not a sheet. Output square 1024x1024 or larger.\nSubject: One pearly cream-white balloon with two small layered white angel wings, a floating shiny gold halo above, little gold knot below, a single warm yellow sparkle. A miniature cute angel balloon, no humanoid angel.",
+      "transparent": true,
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-1bddcc98-2517-4e47-a49f-821b6dc05961.png"
+    },
+    {
+      "id": "SmartPump",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 Roblox game UI progression icon, from a consistent Sky Sticker set. Clean polished cartoon sticker illustration: thick continuous near-black navy contour, bright cheerful saturated colors, two or three crisp cel-shaded planes, chunky rounded shapes, small pale flat highlights. One compact silhouette centered with 10% clear safe padding, legible at 22px and 64px. Genuine transparent background. No text, letters, numbers, watermarks, frame, badge circle, floor or cast shadow. No photorealism, intricate details, thin outlines or diffuse glow. Render one icon only, not a sheet. Output square 1024x1024 or larger.\nSubject: A premium smart automatic AIR PUMP machine, not a standalone robot: sky-blue rounded upright pump tank on sturdy dark navy base, coral top T-handle with short silver piston, one small front display with two friendly cyan glowing robot eyes, broad gold round pressure gauge, a thick curved blue hose ending in gold nozzle. One tiny gold lightning accent to suggest automation. Compact three-quarter view with readable mechanical silhouette.",
+      "transparent": true,
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-51d49d6d-8611-4f63-944c-2b258ed7b86a.png"
+    },
+    {
+      "id": "GameIcon",
+      "transparent": false,
+      "prompt": "Use case: ads-marketing. Asset type: final square 1:1 1024x1024 or larger Roblox experience icon for Pump a Balloon to Space. Create a striking polished cheerful stylized 3D game illustration, bright blue sky and puffy white clouds transitioning to a small violet starry outer-space corner. A friendly Roblox-inspired block-shaped avatar, yellow skin, short brown hair, bright cyan shirt, smiling with wonder, is at the bottom left actively holding the T-handle of a small sky-blue air pump. Its thick blue hose visibly connects to a huge glossy coral-red party balloon that dominates the upper center and right, with a small golden curly ribbon, with upward movement suggested by two clean speed streaks. Tiny simple floating green launch pad ground beneath the pump. Composition: one big balloon + one expressive block avatar + one readable pump, oversized silhouettes, very uncluttered, strong navy shadows, cream highlights, warm coral versus saturated sky cyan contrast. Avatar and main balloon comfortably inside central safe area so circular crops remain recognizable; full image square edge to edge, opaque background. Clearly represents pumping balloons to space, not weapons or pets. No text, logo, letters, numbers, UI, border, watermark, prizes, free Robux or gamepasses. Needs to remain recognizable at 150x150 and 64x64. No photorealistic human or fingers, no inflated muscular body, no crowded collage.",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-d6bbe5e3-fbca-4bb2-9931-f314937ae47d.png"
+    }
+  ]
+}

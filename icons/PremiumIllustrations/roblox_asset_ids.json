@@ -1,0 +1,17 @@
+{
+  "uploaded": "2026-10-14",
+  "status": "integrated_access_granted_verified",
+  "images": {
+    "DoubleCoinsPass": "100397119864887",
+    "ExtraCargoSlot": "83444475543747",
+    "VIPBalloon": "80518929850460",
+    "LuckyCratesPass": "78063719499997",
+    "WindStorm": "129366282628977",
+    "OfflineEarnings": "100419779378631",
+    "SmartPump": "102008118176022"
+  },
+  "resolution": 256,
+  "reused": [
+    "SmartPump"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-12",
+  "generator": "Built-in image_gen",
+  "requestedModel": "GPT Image 2.5 Sunburst",
+  "modelSelection": "Unavailable in the exposed tool; actual model identifier not reported.",
+  "transparentBackground": true,
+  "icons": [
+    {
+      "name": "PartyBalloon",
+      "file": "PartyBalloon.png",
+      "prompt": "Use case: stylized-concept. Asset type: square 1:1 inventory/shop icon for the Roblox game Pump a Balloon to Space. Image 1 is the exact STYLE reference: reproduce its simple polished cartoon game-icon visual language: thick continuous very dark navy contour, saturated colors, bold clean silhouette, two or three crisp cel-shaded color planes, one restrained glossy highlight on the upper left. Image 2 is SUBJECT reference only, simplify the model into this icon style while preserving its recognizable design. One icon only, centered, fully visible with 8-10 percent safe padding on every side, 1024x1024 square canvas, genuine transparent background. No text, no labels, no border/card, no checkerboard, no backdrop, no floor or cast shadow, no photorealism, no intricate microdetail. Keep highlights and effects inside a tidy outline silhouette, readable at 64 pixels.\nSubject: Red glossy classic inflated oval balloon, tiny red bottom knot and a single curled golden ribbon. Dominant cheerful scarlet red with pink-red highlight and darker crimson shadow. Keep a single balloon, not a cluster.",
+      "styleReference": "Icon/Item/Balloon/256px/Balloon 1st Outline 256px.png",
+      "modelReference": "assets/models/party_balloon/native_materials/PartyBalloon_Roblox_Hero.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-2357a452-a96c-403d-9c6c-a489a11c4230.png",
+      "robloxAssetId": "104396530692850"
+    },
+    {
+      "name": "BigBalloon",
+      "file": "BigBalloon.png",
+      "prompt": "Use case: stylized-concept. Asset type: square 1:1 inventory/shop icon for the Roblox game Pump a Balloon to Space. Image 1 is the exact STYLE reference: reproduce its simple polished cartoon game-icon visual language: thick continuous very dark navy contour, saturated colors, bold clean silhouette, two or three crisp cel-shaded color planes, one restrained glossy highlight on the upper left. Image 2 is SUBJECT reference only, simplify the model into this icon style while preserving its recognizable design. One icon only, centered, fully visible with 8-10 percent safe padding on every side, 1024x1024 square canvas, genuine transparent background. No text, no labels, no border/card, no checkerboard, no backdrop, no floor or cast shadow, no photorealism, no intricate microdetail. Keep highlights and effects inside a tidy outline silhouette, readable at 64 pixels.\nSubject: Oversized nearly spherical orange balloon with clearly spaced large white polka dots, orange/gold bottom knot and two separate curled golden ribbons. Dominant vivid orange. Polka dots flat white, preserve their clean circles.",
+      "styleReference": "Icon/Item/Balloon/256px/Balloon 1st Outline 256px.png",
+      "modelReference": "assets/models/big_balloon/native_materials/BigBalloon_Roblox_Hero.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-264295f2-af49-48e9-b46a-c7fa1429a224.png",
+      "robloxAssetId": "135277239773733"
+    },
+    {
+      "name": "WeatherBalloon",
+      "file": "WeatherBalloon.png",
+      "prompt": "Use case: stylized-concept. Asset type: square 1:1 inventory/shop icon for the Roblox game Pump a Balloon to Space. Image 1 is the exact STYLE reference: reproduce its simple polished cartoon game-icon visual language: thick continuous very dark navy contour, saturated colors, bold clean silhouette, two or three crisp cel-shaded color planes, one restrained glossy highlight on the upper left. Image 2 is SUBJECT reference only, simplify the model into this icon style while preserving its recognizable design. One icon only, centered, fully visible with 8-10 percent safe padding on every side, 1024x1024 square canvas, genuine transparent background. No text, no labels, no border/card, no checkerboard, no backdrop, no floor or cast shadow, no photorealism, no intricate microdetail. Keep highlights and effects inside a tidy outline silhouette, readable at 64 pixels.\nSubject: Pearl white tall oval weather balloon with slight pastel cyan/pink shading, short tether, coral-orange small parachute beneath with white rim and minimal suspension lines, silver diamond radar reflector below, tiny white rectangular radiosonde with coral stripe at the bottom. Keep all components vertical and connected, simplify so bottom remains legible.",
+      "styleReference": "Icon/Item/Balloon/256px/Balloon 1st Outline 256px.png",
+      "modelReference": "assets/models/weather_balloon/native_materials/WeatherBalloon_Roblox_Hero.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-47a021db-8141-4287-af04-61acc905ee99.png",
+      "robloxAssetId": "83393303429667"
+    },
+    {
+      "name": "HotAirBalloon",
+      "file": "HotAirBalloon.png",
+      "prompt": "Use case: stylized-concept. Asset type: square 1:1 inventory/shop icon for the Roblox game Pump a Balloon to Space. Image 1 is the exact STYLE reference: reproduce its simple polished cartoon game-icon visual language: thick continuous very dark navy contour, saturated colors, bold clean silhouette, two or three crisp cel-shaded color planes, one restrained glossy highlight on the upper left. Image 2 is SUBJECT reference only, simplify the model into this icon style while preserving its recognizable design. One icon only, centered, fully visible with 8-10 percent safe padding on every side, 1024x1024 square canvas, genuine transparent background. No text, no labels, no border/card, no checkerboard, no backdrop, no floor or cast shadow, no photorealism, no intricate microdetail. Keep highlights and effects inside a tidy outline silhouette, readable at 64 pixels.\nSubject: Hot air balloon with alternating sky-blue and sunny yellow vertical canopy panels, coral-red top cap and skirt, four dark suspension ropes and a compact brown wicker basket with dark leather rim. No modeled fire or flames; small metallic burner is enough. Wicker suggested by a few broad lines only.",
+      "styleReference": "Icon/Item/Balloon/256px/Balloon 1st Outline 256px.png",
+      "modelReference": "assets/models/hot_air_balloon/native_materials/HotAirBalloon_Roblox_Hero.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-f238ecef-1eb9-4931-a2a7-9c388cf451f2.png",
+      "robloxAssetId": "97268277820314"
+    },
+    {
+      "name": "Blimp",
+      "file": "Blimp.png",
+      "prompt": "Use case: stylized-concept. Asset type: square 1:1 inventory/shop icon for the Roblox game Pump a Balloon to Space. Image 1 is the exact STYLE reference: reproduce its simple polished cartoon game-icon visual language: thick continuous very dark navy contour, saturated colors, bold clean silhouette, two or three crisp cel-shaded color planes, one restrained glossy highlight on the upper left. Image 2 is SUBJECT reference only, simplify the model into this icon style while preserving its recognizable design. One icon only, centered, fully visible with 8-10 percent safe padding on every side, 1024x1024 square canvas, genuine transparent background. No text, no labels, no border/card, no checkerboard, no backdrop, no floor or cast shadow, no photorealism, no intricate microdetail. Keep highlights and effects inside a tidy outline silhouette, readable at 64 pixels.\nSubject: Chubby horizontal blimp in a three-quarter side view, leaf-green upper hull, thin yellow stripe, broad coral-red middle band, pearl white lower hull, yellow round nose, four green tail fins with yellow inset. Compact dark navy blue gondola underneath with 4 warm yellow windows, twin propeller engine pods. Tiny red and green navigation lights. Keep blimp wide and centered.",
+      "styleReference": "Icon/Item/Balloon/256px/Balloon 1st Outline 256px.png",
+      "modelReference": "assets/models/blimp/native_materials/Blimp_Roblox_Hero.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-4c2a6e32-7e1e-4c84-9f1c-eaee2ff140cb.png",
+      "robloxAssetId": "98452462570607"
+    },
+    {
+      "name": "RocketBalloon",
+      "file": "RocketBalloon.png",
+      "prompt": "Use case: stylized-concept. Asset type: square 1:1 inventory/shop icon for the Roblox game Pump a Balloon to Space. Image 1 is the exact STYLE reference: reproduce its simple polished cartoon game-icon visual language: thick continuous very dark navy contour, saturated colors, bold clean silhouette, two or three crisp cel-shaded color planes, one restrained glossy highlight on the upper left. Image 2 is SUBJECT reference only, simplify the model into this icon style while preserving its recognizable design. One icon only, centered, fully visible with 8-10 percent safe padding on every side, 1024x1024 square canvas, genuine transparent background. No text, no labels, no border/card, no checkerboard, no backdrop, no floor or cast shadow, no photorealism, no intricate microdetail. Keep highlights and effects inside a tidy outline silhouette, readable at 64 pixels.\nSubject: Cute upright inflated rocket: chubby silver-gray hull, pointed bright red nose cone, four red stabilizer fins, two glowing cyan neon horizontal bands, round cyan portholes with white rims, small dark gray exhaust nozzle. Cyan tips on fins. NO flame, no exhaust/fire effect.",
+      "styleReference": "Icon/Item/Balloon/256px/Balloon 1st Outline 256px.png",
+      "modelReference": "assets/models/rocket_balloon/native_materials/RocketBalloon_Roblox_Hero.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-2a9448c5-5347-4782-a721-5919c3825b17.png",
+      "robloxAssetId": "74139073424611"
+    },
+    {
+      "name": "StarBalloon",
+      "file": "StarBalloon.png",
+      "prompt": "Use case: stylized-concept. Asset type: square 1:1 inventory/shop icon for the Roblox game Pump a Balloon to Space. Image 1 is the exact STYLE reference: reproduce its simple polished cartoon game-icon visual language: thick continuous very dark navy contour, saturated colors, bold clean silhouette, two or three crisp cel-shaded color planes, one restrained glossy highlight on the upper left. Image 2 is SUBJECT reference only, simplify the model into this icon style while preserving its recognizable design. One icon only, centered, fully visible with 8-10 percent safe padding on every side, 1024x1024 square canvas, genuine transparent background. No text, no labels, no border/card, no checkerboard, no backdrop, no floor or cast shadow, no photorealism, no intricate microdetail. Keep highlights and effects inside a tidy outline silhouette, readable at 64 pixels.\nSubject: Inflated five-point star balloon in bright light golden yellow with puffy center, thick navy outer contour, simple deep-gold shading and clean cream-white glints, small gold knot and short folded gold tie. Add tasteful small cyan, hot pink and lilac glowing geometric accents decorating the star, not an unrelated background.",
+      "styleReference": "Icon/Main/Star/256px/Red Star 1st Outline 256px.png",
+      "modelReference": "assets/models/star_balloon/native_materials/StarBalloon_Roblox_Hero.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-66f4134d-5a6a-41f0-8e5e-a3b4ea99bf22.png",
+      "robloxAssetId": "126306998353150"
+    },
+    {
+      "name": "GalaxyBalloon",
+      "file": "GalaxyBalloon.png",
+      "prompt": "Use case: stylized-concept. Asset type: square 1:1 inventory/shop icon for the Roblox game Pump a Balloon to Space. Image 1 is the exact STYLE reference: reproduce its simple polished cartoon game-icon visual language: thick continuous very dark navy contour, saturated colors, bold clean silhouette, two or three crisp cel-shaded color planes, one restrained glossy highlight on the upper left. Image 2 is SUBJECT reference only, simplify the model into this icon style while preserving its recognizable design. One icon only, centered, fully visible with 8-10 percent safe padding on every side, 1024x1024 square canvas, genuine transparent background. No text, no labels, no border/card, no checkerboard, no backdrop, no floor or cast shadow, no photorealism, no intricate microdetail. Keep highlights and effects inside a tidy outline silhouette, readable at 64 pixels.\nSubject: Deep violet spherical/oval galaxy balloon with simple vivid magenta and cyan spiral nebula and a handful of white stars on its body, purple bottom knot, tilted dual orbit rings in lavender/cyan/pink wrapping around it, one icy cyan small moon and one pink small moon on opposite sides. Restrained 2-3 crisp sparkle shapes. Keep bold cel-shaded style, not a realistic space photograph.",
+      "styleReference": "Icon/Item/Balloon/256px/Balloon 1st Outline 256px.png",
+      "modelReference": "assets/models/galaxy_balloon/native_materials/GalaxyBalloon_Roblox_Hero.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-298331cd-899e-400a-8ee9-0b2dcbbec289.png",
+      "robloxAssetId": "108018689809004"
+    },
+    {
+      "name": "VoidBalloon",
+      "file": "VoidBalloon.png",
+      "prompt": "Use case: stylized-concept. Asset type: square 1:1 inventory/shop icon for the Roblox game Pump a Balloon to Space. Image 1 is the exact STYLE reference: reproduce its simple polished cartoon game-icon visual language: thick continuous very dark navy contour, saturated colors, bold clean silhouette, two or three crisp cel-shaded color planes, one restrained glossy highlight on the upper left. Image 2 is SUBJECT reference only, simplify the model into this icon style while preserving its recognizable design. One icon only, centered, fully visible with 8-10 percent safe padding on every side, 1024x1024 square canvas, genuine transparent background. No text, no labels, no border/card, no checkerboard, no backdrop, no floor or cast shadow, no photorealism, no intricate microdetail. Keep highlights and effects inside a tidy outline silhouette, readable at 64 pixels.\nSubject: Dark navy-black inflated oval void balloon with vivid violet and icy cyan lightning crack veins across the surface, dark purple bottom knot, tilted orbit of 5-6 angular obsidian crystal shards with violet neon edges. Small controlled purple wisp aura and a few lavender sparks. Body stays readable with magenta/cyan contrast. No large smoky background.",
+      "styleReference": "Icon/Item/Balloon/256px/Balloon 1st Outline 256px.png",
+      "modelReference": "assets/models/void_balloon/native_materials/VoidBalloon_Roblox_Hero.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-c070dd98-9d9c-4c8f-b6ed-205623beaa7d.png",
+      "robloxAssetId": "117517218066268"
+    },
+    {
+      "name": "AngelBalloon",
+      "file": "AngelBalloon.png",
+      "prompt": "Use case: stylized-concept. Asset type: square 1:1 inventory/shop icon for the Roblox game Pump a Balloon to Space. Image 1 is the exact STYLE reference: reproduce its simple polished cartoon game-icon visual language: thick continuous very dark navy contour, saturated colors, bold clean silhouette, two or three crisp cel-shaded color planes, one restrained glossy highlight on the upper left. Image 2 is SUBJECT reference only, simplify the model into this icon style while preserving its recognizable design. One icon only, centered, fully visible with 8-10 percent safe padding on every side, 1024x1024 square canvas, genuine transparent background. No text, no labels, no border/card, no checkerboard, no backdrop, no floor or cast shadow, no photorealism, no intricate microdetail. Keep highlights and effects inside a tidy outline silhouette, readable at 64 pixels.\nSubject: Pearl-white oval angel balloon with cream/gold highlights, symmetrical layered white feather wings with small golden feather roots on both sides, floating tilted golden halo above, tiny golden knot below and two flowing ribbons one gold one white. Frontal slight three-quarter view with BOTH wings visible. A few tiny warm gold sparkles, contained within safe padding.",
+      "styleReference": "Icon/Exclusive/Angel Heart/256px/Angel Heart 1st Outline 256px.png",
+      "modelReference": "assets/models/angel_balloon/native_materials/AngelBalloon_Roblox_Hero.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-c0b5ab2a-9cbf-4d98-9184-86b291a812c1.png",
+      "robloxAssetId": "105556311044268"
+    },
+    {
+      "name": "InfernoDragonBalloon",
+      "file": "InfernoDragonBalloon.png",
+      "prompt": "Use case: stylized-concept. Asset type: square 1:1 inventory/shop icon for the Roblox game Pump a Balloon to Space. Image 1 is the exact STYLE reference: reproduce its simple polished cartoon game-icon visual language: thick continuous very dark navy contour, saturated colors, bold clean silhouette, two or three crisp cel-shaded color planes, one restrained glossy highlight on the upper left. Image 2 is SUBJECT reference only, simplify the model into this icon style while preserving its recognizable design. One icon only, centered, fully visible with 8-10 percent safe padding on every side, 1024x1024 square canvas, genuine transparent background. No text, no labels, no border/card, no checkerboard, no backdrop, no floor or cast shadow, no photorealism, no intricate microdetail. Keep highlights and effects inside a tidy outline silhouette, readable at 64 pixels.\nSubject: Premium cute chubby inferno dragon-shaped balloon, front three-quarter view with expressive face: crimson red round head/body, amber-orange eyes with dark pupils, friendly open smile and small white fangs, two obsidian curved horns with glowing golden tips, orange-red bat wings with dark ribs, four little red paws with dark claws, golden segmented belly, curved red tail with orange ember tip, red-gold balloon knot below. Few bold glowing lava fissures and small golden ember sparkles. Clearly a dragon balloon, premium lively silhouette, not frightening. Preserve full wings/horns/tail within canvas.",
+      "styleReference": "Icon/Item/Balloon/256px/Balloon 1st Outline 256px.png",
+      "modelReference": "assets/models/inferno_dragon_balloon/native_materials/InfernoDragonBalloon_Roblox_Hero.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-8e85bc71-5fec-4051-ad1f-9afdb06e202d.png"
+    }
+  ]
+}

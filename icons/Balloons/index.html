@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="vi"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Balloon Icons</title>
+<style>
+:root{--canvas:#fffaf2;--text:#20213b;--cell:#e8f0fc;--size:256px}*{box-sizing:border-box}body{margin:0;padding:32px;background:var(--canvas);color:var(--text);font:16px system-ui,sans-serif}h1{margin:0 0 8px}p{margin:0 0 20px}button,select{font:inherit;padding:8px 12px;border:2px solid #20213b;border-radius:10px;background:#fff;color:#20213b}header{margin-bottom:24px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(calc(var(--size) + 32px),1fr));gap:18px}article{border:2px solid #20213b;border-radius:18px;background:var(--cell);text-align:center;padding:16px}img{display:block;margin:auto;width:var(--size);height:var(--size);object-fit:contain}article div{margin-top:10px;font-weight:600}body.dark{--canvas:#171827;--text:#faf6e9;--cell:#303248}
+</style><header><h1>Balloon Icons</h1><p>11 icon PNG · 1254 × 1254 · nền trong suốt</p>
+<button id="theme">Đổi nền sáng / tối</button> <label>Kích thước xem <select id="size"><option>64</option><option>128</option><option selected>256</option><option>384</option></select> px</label></header>
+<main class="grid">
+<article><img src="PartyBalloon.png" alt="PartyBalloon" width="256" height="256"><div>Party Balloon</div></article>
+<article><img src="BigBalloon.png" alt="BigBalloon" width="256" height="256"><div>Big Balloon</div></article>
+<article><img src="WeatherBalloon.png" alt="WeatherBalloon" width="256" height="256"><div>Weather Balloon</div></article>
+<article><img src="HotAirBalloon.png" alt="HotAirBalloon" width="256" height="256"><div>Hot Air Balloon</div></article>
+<article><img src="Blimp.png" alt="Blimp" width="256" height="256"><div>Blimp</div></article>
+<article><img src="RocketBalloon.png" alt="RocketBalloon" width="256" height="256"><div>Rocket Balloon</div></article>
+<article><img src="StarBalloon.png" alt="StarBalloon" width="256" height="256"><div>Star Balloon</div></article>
+<article><img src="GalaxyBalloon.png" alt="GalaxyBalloon" width="256" height="256"><div>Galaxy Balloon</div></article>
+<article><img src="VoidBalloon.png" alt="VoidBalloon" width="256" height="256"><div>Void Balloon</div></article>
+<article><img src="AngelBalloon.png" alt="AngelBalloon" width="256" height="256"><div>Angel Balloon</div></article>
+<article><img src="InfernoDragonBalloon.png" alt="InfernoDragonBalloon" width="256" height="256"><div>Inferno Dragon Balloon</div></article>
+</main><script>document.getElementById('theme').onclick=()=>document.body.classList.toggle('dark');document.getElementById('size').onchange=e=>document.documentElement.style.setProperty('--size',e.target.value+'px');</script></html>

@@ -1,0 +1,211 @@
+[
+  {
+    "file": "AngelBalloon.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      62,
+      112,
+      1198,
+      1184
+    ],
+    "visibleAlphaThreshold": 8,
+    "visibleContentTouchesEdge": false,
+    "bytes": 940302
+  },
+  {
+    "file": "BigBalloon.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      215,
+      44,
+      1038,
+      1217
+    ],
+    "visibleAlphaThreshold": 8,
+    "visibleContentTouchesEdge": false,
+    "bytes": 760970
+  },
+  {
+    "file": "Blimp.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      21,
+      185,
+      1246,
+      1107
+    ],
+    "visibleAlphaThreshold": 8,
+    "visibleContentTouchesEdge": false,
+    "bytes": 878943
+  },
+  {
+    "file": "GalaxyBalloon.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      43,
+      104,
+      1235,
+      1179
+    ],
+    "visibleAlphaThreshold": 8,
+    "visibleContentTouchesEdge": false,
+    "bytes": 1052128
+  },
+  {
+    "file": "HotAirBalloon.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      229,
+      15,
+      1026,
+      1247
+    ],
+    "visibleAlphaThreshold": 8,
+    "visibleContentTouchesEdge": false,
+    "bytes": 779756
+  },
+  {
+    "file": "InfernoDragonBalloon.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      39,
+      48,
+      1229,
+      1214
+    ],
+    "visibleAlphaThreshold": 8,
+    "visibleContentTouchesEdge": false,
+    "bytes": 1181996
+  },
+  {
+    "file": "PartyBalloon.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      282,
+      49,
+      972,
+      1218
+    ],
+    "visibleAlphaThreshold": 8,
+    "visibleContentTouchesEdge": false,
+    "bytes": 579250
+  },
+  {
+    "file": "RocketBalloon.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      157,
+      21,
+      1096,
+      1227
+    ],
+    "visibleAlphaThreshold": 8,
+    "visibleContentTouchesEdge": false,
+    "bytes": 886107
+  },
+  {
+    "file": "StarBalloon.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      70,
+      42,
+      1186,
+      1152
+    ],
+    "visibleAlphaThreshold": 8,
+    "visibleContentTouchesEdge": false,
+    "bytes": 876040
+  },
+  {
+    "file": "VoidBalloon.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      118,
+      88,
+      1193,
+      1177
+    ],
+    "visibleAlphaThreshold": 8,
+    "visibleContentTouchesEdge": false,
+    "bytes": 1246308
+  },
+  {
+    "file": "WeatherBalloon.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      408,
+      20,
+      848,
+      1236
+    ],
+    "visibleAlphaThreshold": 8,
+    "visibleContentTouchesEdge": false,
+    "bytes": 437556
+  }
+]

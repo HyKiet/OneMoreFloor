@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-12",
+  "placeId": 95006900120444,
+  "variant": "User reduced-resolution uploads",
+  "syncedThroughRojo": true,
+  "checks": "Selene + Luau LSP clean; Rojo build passed; all 41 asset fetches succeeded",
+  "icons": [
+    {
+      "catalogId": "Basic",
+      "assetId": "75359468910402",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Sky",
+      "assetId": "114424494390995",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Space",
+      "assetId": "129867237543677",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Cosmic",
+      "assetId": "76210883625480",
+      "clientFetchStatus": "Success"
+    }
+  ],
+  "studioFinalMode": "Edit"
+}

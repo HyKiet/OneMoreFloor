@@ -1,0 +1,22 @@
+{
+  "generator": "built-in image_gen; model not exposed",
+  "date": "2026-10-12",
+  "referenceImages": [
+    "C:\\Users\\LEGION\\Documents\\PumpABalloon\\Icon\\Currency\\Coin\\256px\\Golden Coin 1st Outline 256px.png",
+    "C:\\Users\\LEGION\\Documents\\PumpABalloon\\Icon\\Crates\\BasicCrate.png"
+  ],
+  "assets": [
+    {
+      "name": "PileCoins",
+      "prompt": "Create ONE square 1:1 transparent PNG game shop icon, isolated centered with 8% clear margin. Match the provided references: chunky near-black navy outline, clean playful Roblox cartoon sticker, vivid golden yellow and amber, simple cel shaded planes with restrained crisp highlights, readable at 64px. Coin design matches reference 1: faceted golden coin, embossed stylized coin emblem. Reference 2 is contour/shading style only. No text, no prices, no numbers, no background, no frame, no cast shadow outside silhouette. A modest attractive pile of golden coins: three short stacks and a few loose coins, prominent upright coin in front. Broad compact silhouette."
+    },
+    {
+      "name": "BagCoins",
+      "prompt": "Create ONE square 1:1 transparent PNG game shop icon, isolated centered with 8% clear margin. Match the provided references: chunky near-black navy outline, clean playful Roblox cartoon sticker, vivid golden yellow and amber, simple cel shaded planes with restrained crisp highlights, readable at 64px. Coin design matches reference 1: faceted golden coin, embossed stylized coin emblem. Reference 2 is contour/shading style only. No text, no prices, no numbers, no background, no frame, no cast shadow outside silhouette. A plump golden tan cloth money bag overflowing with golden coins, tied gathered neck, simple golden coin medallion on the front, a few loose coins at base. Distinct tall rounded silhouette."
+    },
+    {
+      "name": "VaultCoins",
+      "prompt": "Create ONE square 1:1 transparent PNG game shop icon, isolated centered with 8% clear margin. Match the provided references: chunky near-black navy outline, clean playful Roblox cartoon sticker, vivid golden yellow and amber, simple cel shaded planes with restrained crisp highlights, readable at 64px. Coin design matches reference 1: faceted golden coin, embossed stylized coin emblem. Reference 2 is contour/shading style only. No text, no prices, no numbers, no background, no frame, no cast shadow outside silhouette. A substantial blue-gray steel vault safe in charming three-quarter view, thick rounded square walls, open circular vault door with small wheel to right, inside overflowing bright golden coin stacks and a few coins spilling forward. Premium chunky silhouette, navy outline, gold interior; avoid tiny rivets."
+    }
+  ]
+}

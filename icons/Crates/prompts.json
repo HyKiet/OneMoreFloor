@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-12",
+  "generator": "Built-in image_gen",
+  "modelIdentifier": "Not exposed by the tool",
+  "icons": [
+    {
+      "catalogId": "Basic",
+      "file": "BasicCrate.png",
+      "displayName": "Basic Crate",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 loot crate/shop icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: A single basic loot crate in three-quarter view: compact warm orange/kraft-brown wooden box, clean chunky corner bevels, thick orange plank lid, simple golden latch and two broad darker brown reinforcement strips. Friendly affordable starter loot crate, no symbols, text or loose contents. Different from a taped cardboard shipping box.",
+      "styleReference": "Icon/Item/Box/256px/Box 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-457fd711-5b71-42a2-b69e-d9a897838f2a.png",
+      "robloxAssetId": "75359468910402"
+    },
+    {
+      "catalogId": "Sky",
+      "file": "SkyCrate.png",
+      "displayName": "Sky Crate",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 loot crate/shop icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: A single sky-themed loot crate in three-quarter view: chunky icy sky-blue cube chest with a pale white cloud-shaped emblem on its front, white puff-cloud-shaped corner/lid trims, mint-cyan metal bands and a small golden latch. Simple friendly fluffy-sky accents attached to the BOX; retain an obvious crate silhouette, no sky background or flying scenery.",
+      "styleReference": "Icon/Item/Box/256px/Box 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-ba7225d7-fee1-4093-8b96-833439b898b2.png",
+      "robloxAssetId": "114424494390995"
+    },
+    {
+      "catalogId": "Space",
+      "file": "SpaceCrate.png",
+      "displayName": "Space Crate",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 loot crate/shop icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: A single space-themed premium loot crate in three-quarter view: compact dark navy rocket-tech cube chest, broad silver corner guards, bright cyan trim strips, golden star-shaped front latch and a small clean red-and-white rocket-shaped emblem on the lid/front. Two small red fin-like side brackets. Obvious opening box silhouette, not a standalone rocket, no space scene or text.",
+      "styleReference": "Icon/Item/Box/256px/Box 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-1f57e27c-dc11-4ee8-90ac-2fbad90f31d6.png",
+      "robloxAssetId": "129867237543677"
+    },
+    {
+      "catalogId": "Cosmic",
+      "file": "CosmicCrate.png",
+      "displayName": "Cosmic Crate",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 loot crate/shop icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: A single cosmic magical loot crate in three-quarter view: compact deep purple box with faceted violet beveled corners, thick dark navy outline, cyan and hot-pink luminous-looking edge bands, one large violet diamond front clasp with pale highlight, simple sparse white star marks on lid and a small thin lavender orbit arc closely encircling chest. Obvious crate silhouette, no large nebula backdrop, no floating gem clutter. Premium but restrained.",
+      "styleReference": "Icon/Item/Box/256px/Box 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-7863e1db-d80a-48bd-ac4b-7d721fa7e3b9.png",
+      "framingEditPrompt": "Edit ONLY the framing of this existing Cosmic Crate icon. Preserve its exact crate design, purple/cyan/magenta colors, thick navy outlines, diamond clasp, star markings, camera angle and all details. Scale the WHOLE illustration including its orbit ring DOWN so the entire illustration occupies at most 76% of the square canvas width and height. Center it with generous truly transparent padding of at least 12% on all four sides. Restore both ends of the orbit ring as smooth complete arcs fully contained INSIDE the canvas, never touching any edge. No clipped orbit or glow, no added elements, no background, no text. Preserve actual background transparency. Keep the finished canvas square 1:1.",
+      "robloxAssetId": "76210883625480"
+    }
+  ]
+}

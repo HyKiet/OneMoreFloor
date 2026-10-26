@@ -1,0 +1,27 @@
+{
+  "updated": "2026-10-12",
+  "source": "Latest user Asset Manager screenshots; upload names suffixed '1'",
+  "uploadVariant": "Resolution reduced by user; exact uploaded dimensions not supplied",
+  "icons": {
+    "Basic": {
+      "iconKey": "BasicCrate",
+      "assetId": "75359468910402",
+      "contentId": "rbxassetid://75359468910402"
+    },
+    "Sky": {
+      "iconKey": "SkyCrate",
+      "assetId": "114424494390995",
+      "contentId": "rbxassetid://114424494390995"
+    },
+    "Space": {
+      "iconKey": "SpaceCrate",
+      "assetId": "129867237543677",
+      "contentId": "rbxassetid://129867237543677"
+    },
+    "Cosmic": {
+      "iconKey": "CosmicCrate",
+      "assetId": "76210883625480",
+      "contentId": "rbxassetid://76210883625480"
+    }
+  }
+}

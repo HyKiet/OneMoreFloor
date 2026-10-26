@@ -1,0 +1,71 @@
+[
+  {
+    "file": "BagCoins.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "square": true,
+    "transparentPixels": 666715,
+    "bounds": [
+      0,
+      29,
+      1238,
+      1254
+    ],
+    "bytes": 1240305,
+    "visibleBoundsAlpha32": [
+      63,
+      38,
+      1197,
+      1206
+    ]
+  },
+  {
+    "file": "PileCoins.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "square": true,
+    "transparentPixels": 808545,
+    "bounds": [
+      33,
+      57,
+      1204,
+      1227
+    ],
+    "bytes": 1015977,
+    "visibleBoundsAlpha32": [
+      71,
+      155,
+      1190,
+      1128
+    ]
+  },
+  {
+    "file": "VaultCoins.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "square": true,
+    "transparentPixels": 563264,
+    "bounds": [
+      0,
+      15,
+      1234,
+      1254
+    ],
+    "bytes": 1390198,
+    "visibleBoundsAlpha32": [
+      57,
+      86,
+      1226,
+      1152
+    ]
+  }
+]

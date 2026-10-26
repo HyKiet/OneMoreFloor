@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-12",
+  "placeId": 95006900120444,
+  "variant": "User reduced-resolution uploads",
+  "syncedThroughRojo": true,
+  "checks": "Selene + Luau LSP clean; Rojo build passed; all 41 asset fetches succeeded",
+  "icons": [
+    {
+      "catalogId": "Hand",
+      "assetId": "111754374730299",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Foot",
+      "assetId": "126427776542512",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Double",
+      "assetId": "104254154043658",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Compressor",
+      "assetId": "79187846153386",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Turbo",
+      "assetId": "100787531178156",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Jet",
+      "assetId": "75091011065891",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Storm",
+      "assetId": "108416328152378",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Hurricane",
+      "assetId": "76395662508621",
+      "clientFetchStatus": "Success"
+    }
+  ],
+  "studioFinalMode": "Edit"
+}

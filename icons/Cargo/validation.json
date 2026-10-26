@@ -1,0 +1,344 @@
+[
+  {
+    "file": "Alien.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      161,
+      47,
+      1094,
+      1207
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 922164
+  },
+  {
+    "file": "Banana.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      98,
+      40,
+      1220,
+      1149
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 896194
+  },
+  {
+    "file": "CardboardBox.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      47,
+      69,
+      1210,
+      1192
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 1054037
+  },
+  {
+    "file": "ChubbyCat.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      65,
+      58,
+      1169,
+      1212
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 1115601
+  },
+  {
+    "file": "Dino.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      58,
+      48,
+      1205,
+      1215
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 1097845
+  },
+  {
+    "file": "Dragon.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      21,
+      56,
+      1236,
+      1204
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 1152066
+  },
+  {
+    "file": "FlyingCow.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      29,
+      117,
+      1236,
+      1157
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 1003437
+  },
+  {
+    "file": "Froggy.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      30,
+      124,
+      1223,
+      1152
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 1090489
+  },
+  {
+    "file": "Ghost.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      84,
+      73,
+      1230,
+      1188
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 868164
+  },
+  {
+    "file": "KingsCrown.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      11,
+      108,
+      1243,
+      1147
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 1107285
+  },
+  {
+    "file": "LostSock.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      105,
+      43,
+      1162,
+      1219
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 843965
+  },
+  {
+    "file": "Octopus.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      48,
+      70,
+      1208,
+      1189
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 1143959
+  },
+  {
+    "file": "Penguin.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      18,
+      67,
+      1236,
+      1171
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 944155
+  },
+  {
+    "file": "Pizza.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      156,
+      65,
+      1228,
+      1183
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 868866
+  },
+  {
+    "file": "PlanetEarth.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      67,
+      79,
+      1188,
+      1174
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 1127362
+  },
+  {
+    "file": "Robot.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      160,
+      3,
+      1099,
+      1250
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 990456
+  },
+  {
+    "file": "RubberDuck.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      46,
+      67,
+      1206,
+      1191
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 1002160
+  },
+  {
+    "file": "Toilet.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      105,
+      10,
+      1146,
+      1245
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 935815
+  },
+  {
+    "file": "Unicorn.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      75,
+      43,
+      1202,
+      1216
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 1111605
+  }
+]

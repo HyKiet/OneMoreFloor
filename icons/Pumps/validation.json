@@ -1,0 +1,146 @@
+[
+  {
+    "file": "AirCompressor.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      32,
+      133,
+      1225,
+      1138
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 995099
+  },
+  {
+    "file": "DoublePump.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      103,
+      50,
+      1135,
+      1166
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 917371
+  },
+  {
+    "file": "FootPump.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      47,
+      74,
+      1219,
+      1170
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 1080302
+  },
+  {
+    "file": "HandPump.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      214,
+      20,
+      1213,
+      1236
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 708614
+  },
+  {
+    "file": "HurricanePump.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      42,
+      72,
+      1221,
+      1160
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 1318778
+  },
+  {
+    "file": "JetPump.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      45,
+      80,
+      1229,
+      1185
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 1169417
+  },
+  {
+    "file": "StormPump.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      75,
+      45,
+      1219,
+      1191
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 1188562
+  },
+  {
+    "file": "TurboCompressor.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visibleContentBounds": [
+      17,
+      64,
+      1242,
+      1197
+    ],
+    "visibleAlphaThreshold": 8,
+    "bytes": 1302932
+  }
+]

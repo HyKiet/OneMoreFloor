@@ -1,0 +1,197 @@
+{
+  "date": "2026-10-12",
+  "generator": "Built-in image_gen",
+  "modelIdentifier": "Not exposed by the tool",
+  "icons": [
+    {
+      "catalogId": "Duck",
+      "file": "RubberDuck.png",
+      "displayName": "Rubber Duck",
+      "rarity": "Common",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 inventory cargo icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: A cheerful yellow rubber bath duck in three-quarter view facing left, plump rounded body, large round head, small simple black eye with a tiny white gleam, bright orange broad beak, stubby orange tail, one simple molded wing. Toy rubber duck, not a realistic feathered bird.",
+      "styleReference": "Icon/Animal/Cat/256px/Cat 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-e009c7f8-19fe-4d38-b788-a4d4933ba18e.png",
+      "robloxAssetId": "117352276060614"
+    },
+    {
+      "catalogId": "Box",
+      "file": "CardboardBox.png",
+      "displayName": "Cardboard Box",
+      "rarity": "Common",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 inventory cargo icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: One compact closed cardboard delivery box in a clear three-quarter view, warm kraft tan faces with a single broad orange packing-tape strip across top and down the front, darker brown side face. Simple clean cube with beveled cartoon edges; no writing, sticker, shipping marks or symbols.",
+      "styleReference": "Icon/Item/Box/256px/Box 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-9d74132d-526c-4d2a-b106-f0e0de4734e4.png",
+      "robloxAssetId": "76284536777751"
+    },
+    {
+      "catalogId": "Sock",
+      "file": "LostSock.png",
+      "displayName": "Lost Sock",
+      "rarity": "Common",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 inventory cargo icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: One cute single lost sock, a soft ivory ankle sock with sky-blue cuff, blue heel and rounded blue toe, hanging bent into a clearly readable L-shape, two minimal fabric folds. A single sock only, no human foot, no paired socks, no laundry props.",
+      "styleReference": "Icon/Item/Box/256px/Box 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-369798d9-2695-44dd-b68b-2d68dd614e74.png",
+      "robloxAssetId": "82177759736400"
+    },
+    {
+      "catalogId": "Banana",
+      "file": "Banana.png",
+      "displayName": "Banana",
+      "rarity": "Common",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 inventory cargo icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: One bright golden-yellow banana partly peeled with three broad curling peel flaps exposing a cream banana tip, rounded curved silhouette, small brown stem end, clean simple cel shading. No face or hands, no bunch of bananas.",
+      "styleReference": "Icon/Food/Pizza/256px/Pizza 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-e930e45d-e9cc-48fb-a33a-677be36d84e2.png",
+      "robloxAssetId": "132909521123258"
+    },
+    {
+      "catalogId": "Cat",
+      "file": "ChubbyCat.png",
+      "displayName": "Chubby Cat",
+      "rarity": "Uncommon",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 inventory cargo icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: Cute chubby orange tabby cat seated front-facing, huge rounded head with small triangular ears, tiny oval body and round front paws, warm cream muzzle and belly, simple dark brown forehead stripes, big friendly dark eyes, small smiling mouth, short tail curling along one side. Make it a compact rounded mascot, not a realistic cat.",
+      "styleReference": "Icon/Animal/Cat/256px/Cat 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-5102b8a7-7fac-4bd9-987f-410a28269839.png",
+      "robloxAssetId": "137178892361792"
+    },
+    {
+      "catalogId": "Frog",
+      "file": "Froggy.png",
+      "displayName": "Froggy",
+      "rarity": "Uncommon",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 inventory cargo icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: Cute round bright green frog sitting front-facing with two large protruding eyes, light mint belly, broad happy smile, compact splayed hind feet and two small front hands. Simple black eyes with white dots, toy-like chunky silhouette; no pond, lily pad or accessories.",
+      "styleReference": "Icon/Animal/Cat/256px/Cat 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-ab800320-6858-4c46-bf7e-abb361130a6c.png",
+      "robloxAssetId": "81923768862252"
+    },
+    {
+      "catalogId": "Pizza",
+      "file": "Pizza.png",
+      "displayName": "Pizza",
+      "rarity": "Uncommon",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 inventory cargo icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: One generous triangular slice of pizza in a three-quarter view, golden puffy crust across the broad top, bright warm melted yellow cheese, three large coral-red pepperoni disks, a single short rounded cheese drip from the pointed tip. No plate or pizza box, no whole pizza, keep toppings broad and sparse.",
+      "styleReference": "Icon/Food/Pizza/256px/Pizza 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-d28495c3-31b9-4425-800b-d2ddf69481ff.png",
+      "robloxAssetId": "72825225815747"
+    },
+    {
+      "catalogId": "Toilet",
+      "file": "Toilet.png",
+      "displayName": "Toilet",
+      "rarity": "Uncommon",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 inventory cargo icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: A clean white porcelain toilet in three-quarter view, chunky round bowl, open raised oval lid and seat, square white cistern with a tiny silver flush handle, subtle ice-blue shadow shapes. Compact toy proportions, friendly and clean. No face, no human, no waste, no bathroom or floor.",
+      "styleReference": "Icon/Item/Box/256px/Box 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-e1bc334e-76c9-4b46-8740-6fc3d1d38041.png",
+      "robloxAssetId": "79832226570293"
+    },
+    {
+      "catalogId": "Penguin",
+      "file": "Penguin.png",
+      "displayName": "Penguin",
+      "rarity": "Rare",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 inventory cargo icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: A cute chubby penguin standing front-facing, rounded dark navy-black head and body, broad white face/belly patch, tiny glossy black eyes, small orange beak, two orange feet, short flippers opened outward. A single happy cartoon penguin, no iceberg or winter props.",
+      "styleReference": "Icon/Animal/Cat/256px/Cat 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-e71eb415-d5c1-40be-a903-17094c2faa0b.png",
+      "robloxAssetId": "74844831646852"
+    },
+    {
+      "catalogId": "Cow",
+      "file": "FlyingCow.png",
+      "displayName": "Flying Cow",
+      "rarity": "Rare",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 inventory cargo icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: A cute flying cow in three-quarter view, rounded white body with 3 large black patches, big head with friendly black eyes and rounded pink muzzle, short cream horns, tiny dark hooves, two small fluffy white feather wings sprouting from its upper back, short tail. Compact horizontal floating silhouette, no ground, no balloon or rope. Cow and both wings clearly identifiable.",
+      "styleReference": "Icon/Animal/Cat/256px/Cat 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-bf9a9d10-5d5a-4c41-b278-41ef243dc776.png",
+      "robloxAssetId": "82520884841125"
+    },
+    {
+      "catalogId": "Octopus",
+      "file": "Octopus.png",
+      "displayName": "Octopus",
+      "rarity": "Rare",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 inventory cargo icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: A cute purple octopus front-facing with a large domed lavender head, two big friendly dark eyes and little smiling mouth, eight short chunky curled tentacles arranged into a tidy rounded silhouette with a few large pale lilac suction circles. No water, sea floor or props.",
+      "styleReference": "Icon/Animal/Cat/256px/Cat 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-1b78928d-7ad8-4fe9-bcb6-850b8efc7b31.png",
+      "robloxAssetId": "107091309489843"
+    },
+    {
+      "catalogId": "Dino",
+      "file": "Dino.png",
+      "displayName": "Dino",
+      "rarity": "Epic",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 inventory cargo icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: A cute chubby orange-brown baby T-rex dinosaur in three-quarter view, huge rounded head with a friendly open smile and just two small cream teeth, caramel belly, tiny forearms, sturdy round hind legs, thick upward-curving tail, three simple darker brown back plates. Compact toy-like mascot, no scenery or accessories.",
+      "styleReference": "Icon/Animal/Cat/256px/Cat 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-c231b43c-9686-4526-96ec-70c3516d1097.png",
+      "robloxAssetId": "117843498046800"
+    },
+    {
+      "catalogId": "Robot",
+      "file": "Robot.png",
+      "displayName": "Robot",
+      "rarity": "Epic",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 inventory cargo icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: One friendly little toy robot in front three-quarter view: chunky sky-blue square head, a white rounded eye panel with two red circular eyes, small dark smiling mouth, a short gold antenna, compact blue box torso with one coral-red button, two stubby silver jointed arms and small blue feet. Rounded corners and broad details; no weapon or scene.",
+      "styleReference": "Icon/Item/Box/256px/Box 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-2b3f2801-cc55-42c7-b623-412f77a65611.png",
+      "robloxAssetId": "109694029328972"
+    },
+    {
+      "catalogId": "Ghost",
+      "file": "Ghost.png",
+      "displayName": "Ghost",
+      "rarity": "Epic",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 inventory cargo icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: One cute white ghost with a rounded domed head, little outstretched wavy arms, two large simple dark navy eyes and a small surprised oval mouth, scalloped floating lower edge with a curling tail. Subtle pale lavender-blue shadow patch, simple clean silhouette. Friendly spooky charm, no haunted scene or extra props.",
+      "styleReference": "Icon/Animal/Cat/256px/Cat 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-5e2307ae-38cf-4fc3-86e2-7da9d122fc9e.png",
+      "robloxAssetId": "86431916755012"
+    },
+    {
+      "catalogId": "Alien",
+      "file": "Alien.png",
+      "displayName": "Alien",
+      "rarity": "Legendary",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 inventory cargo icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: Cute alien bust/head: large rounded upside-down pear-shaped pale gray-mint head, two bold glossy dark navy almond eyes, tiny friendly smiling mouth, slender short neck and compact purple collar/shoulders. No UFO, laser, helmet or scenery. Simple bold extraterrestrial silhouette with gentle mint shade.",
+      "styleReference": "Icon/Animal/Cat/256px/Cat 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-2c11eaf1-947a-4af5-96c0-81623fb2159d.png",
+      "robloxAssetId": "97318634308443"
+    },
+    {
+      "catalogId": "Dragon",
+      "file": "Dragon.png",
+      "displayName": "Dragon",
+      "rarity": "Legendary",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 inventory cargo icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: One adorable chubby emerald-green baby dragon front three-quarter view, golden cream segmented belly, huge rounded head with friendly dark eyes and small smiling snout, two small cream horns, two green bat wings with mint inner membranes, stubby arms and feet, thick curling tail and a few gold dorsal spikes. Cute cargo dragon, no fire effect or inferno-red materials, no accessories.",
+      "styleReference": "Icon/Animal/Cat/256px/Cat 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-d30f427b-7b26-4aaa-85bd-806f0b19f41d.png",
+      "robloxAssetId": "136196309315333"
+    },
+    {
+      "catalogId": "Unicorn",
+      "file": "Unicorn.png",
+      "displayName": "Unicorn",
+      "rarity": "Legendary",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 inventory cargo icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: One magical cute white unicorn in a compact three-quarter bust silhouette, rounded head with gentle black eye, golden spiral horn, small white pointed ears, flowing broad lavender-pink-cyan mane and a cream muzzle. One or two tidy small golden sparkle shapes close to mane. No rainbow scenery, no rider, no background.",
+      "styleReference": "Icon/Animal/Cat/256px/Cat 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-04c63b55-6fe1-465a-9be4-32e4bef4106e.png",
+      "robloxAssetId": "78301834271443"
+    },
+    {
+      "catalogId": "Crown",
+      "file": "KingsCrown.png",
+      "displayName": "King's Crown",
+      "rarity": "Mythic",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 inventory cargo icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: One magnificent chunky golden royal crown in three-quarter view, five rounded points topped with small gold spheres, vivid large ruby-red center jewel and two smaller hot-pink/red side jewels, broad golden band with dark amber side shading and one clean cream highlight. Strong premium toy-like silhouette, no pillow, no text, no face or background.",
+      "styleReference": "Icon/Item/Crown/256px/Crown 2nd Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-16d0f651-61e7-4ffa-b4ff-ad8ce4d446d8.png",
+      "robloxAssetId": "111529068831145"
+    },
+    {
+      "catalogId": "Earth",
+      "file": "PlanetEarth.png",
+      "displayName": "Planet Earth",
+      "rarity": "Mythic",
+      "prompt": "Use case: stylized-concept. Asset type: one square 1:1 inventory cargo icon for Roblox Pump a Balloon to Space, matching the user's existing Icon PNG collection. Input image is STYLE REFERENCE ONLY, not an edit target: carry over the very thick clean near-black navy outer outline, vibrant friendly colors, crisp two or three flat cel-shaded color areas, chunky rounded shapes and sparse graphic highlights. Create a new distinct subject described below. Clean polished cartoon game sticker, recognizable at 64 pixels, cohesive with the balloon and pump set. One isolated cargo item only, fully visible, centered and large on a square canvas with 8-10% transparent safe margin on ALL four sides. No card/background, no floor or cast shadow, no text/labels/numbers/watermark. Genuine transparent background. Avoid photorealism, fuzzy shading, busy textures, microdetail, props, borders and repeated subjects. Cute readable silhouette, confident simple linework. Target 1024x1024 or larger square.\nSubject: One cute vibrant blue planet Earth globe, clearly round, large simplified bright green continent silhouettes resembling Africa/Europe and neighboring Asia, deep blue ocean shadow band and a subtle broad pale-cyan curved highlight. Two tiny white cloud strokes kept on sphere. Bold navy contour, no globe stand, no Saturn ring, no face, no space backdrop.",
+      "styleReference": "Icon/Item/Box/256px/Box 1st Outline 256px.png",
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-89eeeb97-7ab3-49c0-9682-21dc31090de7.png",
+      "robloxAssetId": "75249436974913"
+    }
+  ]
+}

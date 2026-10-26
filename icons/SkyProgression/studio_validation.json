@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-13",
+  "studioId": "4e80ec81-4df5-456c-9de8-962b1ad32411",
+  "instanceId": "instance:oey-7df",
+  "placeId": 95006900120444,
+  "Layers": [
+    "Ground",
+    "Treetops",
+    "Clouds",
+    "Airplanes",
+    "Storm",
+    "Aurora",
+    "Space",
+    "Moon",
+    "Sun",
+    "BlackHole",
+    "GalaxyCore",
+    "Void",
+    "BalloonHeaven"
+  ],
+  "SmartPumpPath": "Players.SHKDev2005.PlayerGui.Balloon_Menus.Root.Menu_Store.Window.Body.Content.Page_Passes.Scroll.AutoPump.Wrap.Body.Icon.Icon",
+  "Passed": true,
+  "Assets": {
+    "rbxassetid://87088761166917": "Success",
+    "rbxassetid://115944385601991": "Success",
+    "rbxassetid://72100624511768": "Success",
+    "rbxassetid://75222988162664": "Success",
+    "rbxassetid://81465885823208": "Success",
+    "rbxassetid://127301262410899": "Success",
+    "rbxassetid://124113577981718": "Success",
+    "rbxassetid://81939449675160": "Success",
+    "rbxassetid://135265114697025": "Success",
+    "rbxassetid://102008118176022": "Success",
+    "rbxassetid://76091830826811": "Success",
+    "rbxassetid://80945542263260": "Success",
+    "rbxassetid://74509143466517": "Success",
+    "rbxassetid://106226222524513": "Success"
+  },
+  "ResultLayerImages": 2,
+  "LoadedSmartPumpInstances": 2,
+  "Screenshots": [
+    "screenshots/SmartPumpIcon_Store.jpg",
+    "screenshots/SkyLayerIcons_Overlay.jpg"
+  ]
+}

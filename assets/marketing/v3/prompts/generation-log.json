@@ -1,0 +1,152 @@
+{
+  "route": "built-in image_gen",
+  "model": "not exposed by tool",
+  "alpha": "native generated alpha for icons; opaque thumbnails",
+  "assets": [
+    {
+      "key": "ExtraLife",
+      "prompt": "ONE isolated 2D game UI icon, square, genuinely transparent PNG with alpha. Match the attached Free Icon Pack examples EXACTLY in graphic language: flat vector-like cartoon, bold near-black navy #040435 contour, approximately 5% of object width, rounded joins and clean closed silhouette; 3 to 5 large hard-edged cel-shaded color regions; small sharp white curved or triangular highlight at upper left. Dense bright flat color. Slight playful skew, simplified geometric construction. It must look drawn by the same icon artist as the reference heart, shield, crown and faceted golden coin. Scale the essential object to fit the centered circle on a square with at least 10% clear margins. Not a 3D studio render, not a rounded plastic toy, no soft airbrushing, no photographic texture, no ambient occlusion, no gradients fading into space, no cast shadow, no environment, no background plate, no floor, no outer white sticker border, no stars floating outside the object, no sparkles, no particles, no text or numbers. SUBJECT: one red/pink heart, keep the distinctive slightly asymmetric shape, deep crimson side planes, hot pink face and single sharp curved white highlight of reference 1. A single thick mint-green clockwise return arrow wraps around the lower right edge, behind the heart at the bottom and ending to its right. The return arrow uses the very same bold navy contour and two flat green planes. Heart remains about 75% of the combined silhouette, arrow is secondary. Only heart plus return arrow, no label or base.",
+      "refs": [
+        "C:/Users/LEGION/Documents/RobloxGame/icons/Main/Heart/256px/Heart 1st Outline 256px.png",
+        "C:/Users/LEGION/Documents/RobloxGame/icons/Currency/Coin/256px/Golden Coin 1st Outline 256px.png"
+      ],
+      "source": "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-97abf195-7535-4cf4-899f-5eeb5cf32028.png",
+      "origin": "generated_builtin",
+      "role": "product_icon"
+    },
+    {
+      "key": "GoldenElevator",
+      "prompt": "ONE isolated 2D game UI icon, square, genuinely transparent PNG with alpha. Match the attached Free Icon Pack examples EXACTLY in graphic language: flat vector-like cartoon, bold near-black navy #040435 contour, approximately 5% of object width, rounded joins and clean closed silhouette; 3 to 5 large hard-edged cel-shaded color regions; small sharp white curved or triangular highlight at upper left. Dense bright flat color. Slight playful skew, simplified geometric construction. It must look drawn by the same icon artist as the reference heart, shield, crown and faceted golden coin. Scale the essential object to fit the centered circle on a square with at least 10% clear margins. Not a 3D studio render, not a rounded plastic toy, no soft airbrushing, no photographic texture, no ambient occlusion, no gradients fading into space, no cast shadow, no environment, no background plate, no floor, no outer white sticker border, no stars floating outside the object, no sparkles, no particles, no text or numbers. SUBJECT: one compact golden hotel elevator doorway with a semicircular floor dial above it, two closed rectangular gold doors, and a simple cyan diamond outline on each door. The architecture in reference 3 is subject guidance ONLY; REDRAW it entirely in the flat outlined style of reference 1 and 2. Golden yellow #FFC41D front, orange #FFA31D and #FF7B22 side planes, dark navy outline and door seam. Dial is dark navy with exactly three white ticks and one cyan diagonal needle. The silhouette is a broad simple doorway, one small stepped shoulder per side. Cyan door diamonds are broad clear lines. No ×2 badge, text, tiny buttons, metallic gradients, photorealism, rays or decoration. Keep the whole doorway, dial and outline inside a safe circle with clear margins.",
+      "refs": [
+        "C:/Users/LEGION/Documents/RobloxGame/icons/Currency/Coin/256px/Golden Coin 1st Outline 256px.png",
+        "C:/Users/LEGION/Documents/RobloxGame/icons/Item/Shield/256px/Shield 1st Outline 256px.png",
+        "C:/Users/LEGION/Documents/RobloxGame/assets/marketing/v2/references/lobby-reference.jpg"
+      ],
+      "source": "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-b54a7160-2654-4d71-a927-be5133e41048.png",
+      "origin": "generated_builtin",
+      "role": "product_icon"
+    },
+    {
+      "key": "BlessElevator",
+      "refs": [
+        "C:/Users/LEGION/Documents/RobloxGame/icons/Item/Shield/256px/Shield 1st Outline 256px.png",
+        "C:/Users/LEGION/Documents/RobloxGame/icons/Main/Heart/256px/Heart 1st Outline 256px.png"
+      ],
+      "prompt": "ONE isolated 2D game UI icon, square, genuinely transparent PNG with alpha. Match the attached Free Icon Pack examples EXACTLY in graphic language: flat vector-like cartoon, bold near-black navy #040435 contour, approximately 5% of object width, rounded joins and clean closed silhouette; 3 to 5 large hard-edged cel-shaded color regions; small sharp white curved or triangular highlight at upper left. Dense bright flat color. Slight playful skew, simplified geometric construction. It must look drawn by the same icon artist as the reference heart, shield, crown and faceted golden coin. Scale the essential object to fit the centered circle on a square with at least 10% clear margins. Not a 3D studio render, not a rounded plastic toy, no soft airbrushing, no photographic texture, no ambient occlusion, no gradients fading into space, no cast shadow, no environment, no background plate, no floor, no outer white sticker border, no stars floating outside the object, no sparkles, no particles, no text or numbers. SUBJECT: one blue shield in the exact silhouette and angular construction of reference 1. Thick dark-navy outer contour, a bright cyan shield rim, blue/cyan faceted side planes, solid deep-blue central panel. A large simple mint-green plus sign occupies its center; the plus has a dark navy outline, a flat light-green face and one darker green side plane. One white sharp glint on upper-left shield rim and one on lower-right rim. Compact icon representing a protective blessing. Only the shield and plus sign, no elevator, group, halo, wings, rays or extra objects. Preserve the original pack's economical shape language.",
+      "source": "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-2a108e1b-1975-4350-84e4-2f9dfd824a70.png",
+      "origin": "generated_builtin",
+      "role": "product_icon"
+    },
+    {
+      "key": "CurseElevator",
+      "refs": [
+        "C:/Users/LEGION/Documents/RobloxGame/icons/Item/Shield/256px/Shield 1st Outline 256px.png",
+        "C:/Users/LEGION/Documents/RobloxGame/icons/Main/Heart/256px/Heart 1st Outline 256px.png"
+      ],
+      "prompt": "ONE isolated 2D game UI icon, square, genuinely transparent PNG with alpha. Match the attached Free Icon Pack examples EXACTLY in graphic language: flat vector-like cartoon, bold near-black navy #040435 contour, approximately 5% of object width, rounded joins and clean closed silhouette; 3 to 5 large hard-edged cel-shaded color regions; small sharp white curved or triangular highlight at upper left. Dense bright flat color. Slight playful skew, simplified geometric construction. It must look drawn by the same icon artist as the reference heart, shield, crown and faceted golden coin. Scale the essential object to fit the centered circle on a square with at least 10% clear margins. Not a 3D studio render, not a rounded plastic toy, no soft airbrushing, no photographic texture, no ambient occlusion, no gradients fading into space, no cast shadow, no environment, no background plate, no floor, no outer white sticker border, no stars floating outside the object, no sparkles, no particles, no text or numbers. SUBJECT: one purple cursed eye sigil, a wide pointed oval eye shape with a very bold #040435 navy outline. Two angular violet planes form the eyelids, violet-blue shadow at lower right; small solid pink-magenta diamond iris inside a dark navy central oval. Eyelids are simple like two crescent wedges, with one crisp white triangular glint at upper-left. A compact simple icon of a curse, playful cartoon rather than horror. Keep it a single closed strong silhouette. No organic flesh, no eyelashes, no veins, no spikes, skull, smoke, aura, floating marks, extra diamonds outside the eye, no text. EXACT flat outlined style of provided pack samples.",
+      "source": "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-ffd569dd-752f-42f5-9cf2-be3a9c0e8e84.png",
+      "origin": "generated_builtin",
+      "role": "product_icon"
+    },
+    {
+      "key": "DoubleCash",
+      "refs": [
+        "C:/Users/LEGION/Documents/RobloxGame/icons/Currency/Coin/256px/Golden Coin 1st Outline 256px.png",
+        "C:/Users/LEGION/Documents/RobloxGame/icons/Main/Heart/256px/Heart 1st Outline 256px.png"
+      ],
+      "prompt": "ONE isolated 2D game UI icon, square, genuinely transparent PNG with alpha. Match the attached Free Icon Pack examples EXACTLY in graphic language: flat vector-like cartoon, bold near-black navy #040435 contour, approximately 5% of object width, rounded joins and clean closed silhouette; 3 to 5 large hard-edged cel-shaded color regions; small sharp white curved or triangular highlight at upper left. Dense bright flat color. Slight playful skew, simplified geometric construction. It must look drawn by the same icon artist as the reference heart, shield, crown and faceted golden coin. Scale the essential object to fit the centered circle on a square with at least 10% clear margins. Not a 3D studio render, not a rounded plastic toy, no soft airbrushing, no photographic texture, no ambient occlusion, no gradients fading into space, no cast shadow, no environment, no background plate, no floor, no outer white sticker border, no stars floating outside the object, no sparkles, no particles, no text or numbers. SUBJECT: two large faceted golden coins, reference 1 defines the exact coin design, polygon outline, angular embossed currency emblem, yellow face and orange side planes. One coin foreground slightly left and one slightly higher behind to the right, both almost front-facing and individually readable, as a compact doubled-coin icon. A short thick mint-green upward-curving arrow sits along the right side, with one pale green front plane and one darker green side plane, navy outline. Do not add coin piles or a money bag; only two coins plus one arrow. No multiplication text, no numbers, no typography, no price, no stars or cast shadow.",
+      "source": "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-86619e0f-6cee-4147-8ae7-dd309487506f.png",
+      "origin": "generated_builtin",
+      "role": "product_icon"
+    },
+    {
+      "key": "LuckyBellhop",
+      "refs": [
+        "C:/Users/LEGION/Documents/RobloxGame/icons/Currency/Coin/256px/Golden Coin 1st Outline 256px.png",
+        "C:/Users/LEGION/Documents/RobloxGame/icons/Nature/Clover/256px/Clover 1st Outline 256px.png",
+        "C:/Users/LEGION/Documents/RobloxGame/icons/Item/Shield/256px/Shield 1st Outline 256px.png"
+      ],
+      "prompt": "ONE isolated 2D game UI icon, square, genuinely transparent PNG with alpha. Match the attached Free Icon Pack examples EXACTLY in graphic language: flat vector-like cartoon, bold near-black navy #040435 contour, approximately 5% of object width, rounded joins and clean closed silhouette; 3 to 5 large hard-edged cel-shaded color regions; small sharp white curved or triangular highlight at upper left. Dense bright flat color. Slight playful skew, simplified geometric construction. It must look drawn by the same icon artist as the reference heart, shield, crown and faceted golden coin. Scale the essential object to fit the centered circle on a square with at least 10% clear margins. Not a 3D studio render, not a rounded plastic toy, no soft airbrushing, no photographic texture, no ambient occlusion, no gradients fading into space, no cast shadow, no environment, no background plate, no floor, no outer white sticker border, no stars floating outside the object, no sparkles, no particles, no text or numbers. SUBJECT: one simple gold hotel desk bell with a green four-leaf clover attached directly to the top push button. Bell has a squat dome silhouette, short round button and a flat dark navy base, geometric golden-yellow front face, amber lower plane and orange side plane. Use the exact strong navy contour and tiny angular white glint of the gold coin reference, not a 3D render. The green clover above has four broad distinct lobes like reference 2, but simplified to four big green planes and a short stem; it must remain readable when small. One unified compact bell-plus-clover silhouette. No lettering, ribbon, stars, sparkles, gemstones, scattered coins, room background or photographic reflections.",
+      "source": "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-80891afe-1722-4c09-8857-b4bbe7ca1f9d.png",
+      "origin": "generated_builtin",
+      "role": "product_icon"
+    },
+    {
+      "key": "VIP",
+      "source": "C:/Users/LEGION/Documents/RobloxGame/icons/Item/Crown/256px/Crown 1st Outline 256px.png",
+      "origin": "existing_user_library",
+      "role": "product_icon"
+    },
+    {
+      "key": "StarterPack",
+      "source": "C:/Users/LEGION/Documents/RobloxGame/icons/Item/Gift/256px/Purple Gift 1st Outline 256px.png",
+      "origin": "existing_user_library",
+      "role": "product_icon"
+    },
+    {
+      "key": "CashSmall",
+      "source": "C:/Users/LEGION/Documents/RobloxGame/icons/CoinPacks/PileCoins.png",
+      "origin": "existing_user_library",
+      "role": "product_icon"
+    },
+    {
+      "key": "CashMedium",
+      "source": "C:/Users/LEGION/Documents/RobloxGame/icons/CoinPacks/BagCoins.png",
+      "origin": "existing_user_library",
+      "role": "product_icon"
+    },
+    {
+      "key": "CashLarge",
+      "source": "C:/Users/LEGION/Documents/RobloxGame/icons/CoinPacks/VaultCoins.png",
+      "origin": "existing_user_library",
+      "role": "product_icon"
+    },
+    {
+      "key": "TN_A_Risk",
+      "role": "thumbnail",
+      "refs": [
+        "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-b54a7160-2654-4d71-a927-be5133e41048.png",
+        "C:/Users/LEGION/Documents/RobloxGame/icons/Currency/Coin/256px/Golden Coin 1st Outline 256px.png",
+        "C:/Users/LEGION/Documents/RobloxGame/assets/marketing/v2/references/lobby-reference.jpg"
+      ],
+      "prompt": "Use case: ads-marketing. ONE finished landscape 16:9 Roblox game thumbnail, target 1920x1080. Draw a clean 2D cel-shaded cartoon illustration in the EXACT graphic language of the supplied outlined icon references: bold dark navy #040435 contours, limited vivid flat colors, 3-5 large geometric shading planes per object, sharp small white glints, deliberately simple shapes. It should look authored with vector shapes, not a 3D render or a painted fantasy poster. Classic blocky R6 avatars, rectangular limbs and cylindrical heads with simple flat decal eyes/mouth, no human fingers or anatomical muscles. Restrained navy/gold/cyan palette with red only for danger. Broad readable silhouettes, strong foreground/background hierarchy, restrained architecture, no illegible tiny details. No text, watermark, UI collage, bloom, smoke, particles, glitter, confetti, lens flare, glossy studio shading, fabric textures, endless coins or ornamental clutter. Keep essentials above the bottom 12% of the frame. SCENE: ONE MORE FLOOR risk-versus-reward. Foreground left, one original black-haired blocky Roblox avatar in a plain ochre jacket over navy clothes clutches a simple gold cash satchel and looks anxiously over his shoulder toward an open elevator on the right. Satchel has one large faceted gold currency coin medallion matching reference 2, stylized dollar emblem with NO square hole or Robux logo. One smaller bellhop friend behind the avatar gestures toward the doorway with a single rectangular block arm. Elevator architecture is the game's gold stepped doorway with cyan diamond outlines and semicircular floor dial, as reference 1, opened slightly to show a menacing CYAN CUBE boss inside. Cube is exactly a cyan cube with dark navy edge framing, two white square eyes with small dark square pupils, inward slanted black rectangular eyebrows, straight dark mouth and exactly THREE small square teeth. No horns or organic monster features. Clear red warning strip across floor. Avatar face and bag are big, doorway at right is big, empty navy upper-left space optional. Strong left-to-right eye flow and a single intelligible decision: risk the earned cash to enter. The lobby screenshot is architectural reference only; do not render its photoreal lighting or dense surface textures.",
+      "source": "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-154a1ebe-e631-4816-8c28-ac6db0cd6c77.png",
+      "origin": "generated_builtin"
+    },
+    {
+      "key": "TN_B_Cube",
+      "role": "thumbnail",
+      "refs": [
+        "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-b54a7160-2654-4d71-a927-be5133e41048.png",
+        "C:/Users/LEGION/Documents/RobloxGame/icons/Item/Shield/256px/Shield 1st Outline 256px.png",
+        "C:/Users/LEGION/Documents/RobloxGame/assets/marketing/v2/references/lobby-reference.jpg"
+      ],
+      "prompt": "Use case: ads-marketing. ONE finished landscape 16:9 Roblox game thumbnail, target 1920x1080. Draw a clean 2D cel-shaded cartoon illustration in the EXACT graphic language of the supplied outlined icon references: bold dark navy #040435 contours, limited vivid flat colors, 3-5 large geometric shading planes per object, sharp small white glints, deliberately simple shapes. It should look authored with vector shapes, not a 3D render or a painted fantasy poster. Classic blocky R6 avatars, rectangular limbs and cylindrical heads with simple flat decal eyes/mouth, no human fingers or anatomical muscles. Restrained navy/gold/cyan palette with red only for danger. Broad readable silhouettes, strong foreground/background hierarchy, restrained architecture, no illegible tiny details. No text, watermark, UI collage, bloom, smoke, particles, glitter, confetti, lens flare, glossy studio shading, fabric textures, endless coins or ornamental clutter. Keep essentials above the bottom 12% of the frame. SCENE: ONE MORE FLOOR boss survival, a real Cube slam/shockwave challenge. Low angled dynamic view, cyan cube boss dominates upper right around 35% of image. Cube is exactly a simple solid cyan cube with navy edge framing, two white square eyes with black square pupils, thick slanted black eyebrows, straight black mouth with THREE small square white teeth. Its base has just hit the dark blue platform, sending ONE thin clear RED circular shockwave across the floor toward the foreground. Foreground left a black-haired ochre-jacket blocky Roblox avatar is visibly JUMPING with both block feet above the red ring, arms spread as rectangular blocks, surprised simple decal face; a second smaller navy-clothed avatar jumps farther back. Bronze elevator doorway with cyan diamond doors and semicircular dial sits far left behind them to identify the game. Single arena, single cube, single red wave. Flat illustrated navy floor with a few cyan edge lines, broad geometric facets, controlled perspective. No rubble or explosion, no lava, no additional enemies or decorative swirls. The game is about dodging shockwaves, not attacking the boss.",
+      "source": "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-490c130a-dc72-43cd-abdd-b3bc9a9c1d80.png",
+      "origin": "generated_builtin"
+    },
+    {
+      "key": "TN_C_Curse",
+      "role": "thumbnail",
+      "refs": [
+        "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-ffd569dd-752f-42f5-9cf2-be3a9c0e8e84.png",
+        "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-b54a7160-2654-4d71-a927-be5133e41048.png",
+        "C:/Users/LEGION/Documents/RobloxGame/icons/Item/Shield/256px/Shield 1st Outline 256px.png"
+      ],
+      "prompt": "Use case: ads-marketing. ONE finished landscape 16:9 Roblox game thumbnail, target 1920x1080. Draw a clean 2D cel-shaded cartoon illustration in the EXACT graphic language of the supplied outlined icon references: bold dark navy #040435 contours, limited vivid flat colors, 3-5 large geometric shading planes per object, sharp small white glints, deliberately simple shapes. It should look authored with vector shapes, not a 3D render or a painted fantasy poster. Classic blocky R6 avatars, rectangular limbs and cylindrical heads with simple flat decal eyes/mouth, no human fingers or anatomical muscles. Restrained navy/gold/cyan palette with red only for danger. Broad readable silhouettes, strong foreground/background hierarchy, restrained architecture, no illegible tiny details. No text, watermark, UI collage, bloom, smoke, particles, glitter, confetti, lens flare, glossy studio shading, fabric textures, endless coins or ornamental clutter. Keep essentials above the bottom 12% of the frame. SCENE: ONE MORE FLOOR spectator curse twist, one coherent arena scene viewed at a diagonal. Foreground LEFT an elevated blue-tinted GLASS SPECTATOR BOOTH occupies the left third: a mischievous simple blocky avatar inside points a rectangular arm at a floating UI vote card just in front of him; the card shows ONLY the exact violet eye sigil from reference 1, no text or new physical remote-control item. On the RIGHT BELOW, two smaller blocky Roblox survivor avatars react while dodging clearly visible red hazard stripes in a dark blue arena. A big purple eye curse emblem as a HUD-like symbol above the survivors connects the vote visually to danger; only one symbol above the arena. A small gold elevator doorway with cyan diamonds and semicircular dial from reference 2 is on the far arena wall. Glass booth clearly separate and raised, survivors below; one story of a spectator vote affecting the next floor. Violet eye and cyan survivors as focal accents, warm gold doorway. No split-screen dividing bar, arrows, comic panels, organic monsters, smoke, beams firing from the booth, or suggestion that the spectator directly shoots players.",
+      "source": "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-bda3d5b6-445d-432c-867d-bb4b9f2d2222.png",
+      "origin": "generated_builtin"
+    },
+    {
+      "key": "GameIcon",
+      "role": "game_icon",
+      "refs": [
+        "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-b54a7160-2654-4d71-a927-be5133e41048.png",
+        "C:/Users/LEGION/Documents/RobloxGame/icons/Currency/Coin/256px/Golden Coin 1st Outline 256px.png"
+      ],
+      "prompt": "ONE square 1024x1024 TRANSPARENT PNG experience icon for ONE MORE FLOOR. Match reference 1's exact flat 2D outlined graphic style and elevator architecture: thick dark navy #040435 outline, gold #FFC41D front planes, orange shadow planes, clean small white corner glints, cyan door diamonds, semicircular floor dial. Open the doorway enough to reveal ONE cyan Cube boss peering out: two white square eyes with black square pupils, slanted rectangular angry eyebrows, straight dark mouth with exactly three square white teeth, thick navy cube edges. At lower-left foreground sits ONE small gold cash satchel with a faceted dollar-emblem coin like reference 2. Door+Cube are the main shape, satchel secondary. Three big graphic masses, clear at 64px. Keep ALL essential silhouette inside a circular safe area with 10% transparent margins. No letters, numbers, price, ×2 badge, avatar, background, floor, shadow, glow, sparkles, textures, gradients into space, 3D render or decorative ornaments. True alpha around isolated artwork.",
+      "source": "C:\\Users\\LEGION\\.codex\\generated_images\\01a1716f-fd32-7531-b624-688e30920c34\\exec-7af0f0be-b097-4a59-a258-972b3856c6af.png",
+      "origin": "generated_builtin"
+    }
+  ]
+}

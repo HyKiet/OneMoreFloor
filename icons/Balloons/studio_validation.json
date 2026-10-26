@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-12",
+  "placeId": 95006900120444,
+  "variant": "User reduced-resolution uploads",
+  "syncedThroughRojo": true,
+  "checks": "Selene + Luau LSP clean; Rojo build passed; all 41 asset fetches succeeded",
+  "icons": [
+    {
+      "catalogId": "Party",
+      "assetId": "104396530692850",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Big",
+      "assetId": "135277239773733",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Weather",
+      "assetId": "83393303429667",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "HotAir",
+      "assetId": "97268277820314",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Blimp",
+      "assetId": "98452462570607",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Rocket",
+      "assetId": "74139073424611",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Star",
+      "assetId": "126306998353150",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Galaxy",
+      "assetId": "108018689809004",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Void",
+      "assetId": "117517218066268",
+      "clientFetchStatus": "Success"
+    },
+    {
+      "catalogId": "Angel",
+      "assetId": "105556311044268",
+      "clientFetchStatus": "Success"
+    }
+  ],
+  "studioFinalMode": "Edit"
+}

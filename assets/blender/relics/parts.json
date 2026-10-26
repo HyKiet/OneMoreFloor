@@ -1,0 +1,779 @@
+{
+ "Sneakers": {
+  "Body": {
+   "color": [
+    245,
+    246,
+    252
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    58,
+    62,
+    86
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Liner": {
+   "color": [
+    30,
+    28,
+    44
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    90,
+    225,
+    255
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "Spring": {
+  "Body": {
+   "color": [
+    205,
+    220,
+    240
+   ],
+   "material": "Metal",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    64,
+    72,
+    110
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    120,
+    220,
+    255
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "Feather": {
+  "Body": {
+   "color": [
+    245,
+    246,
+    252
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    230,
+    205,
+    160
+   ],
+   "material": "Metal",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    185,
+    235,
+    255
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "CopperCoin": {
+  "Body": {
+   "color": [
+    205,
+    125,
+    70
+   ],
+   "material": "Metal",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    150,
+    82,
+    42
+   ],
+   "material": "Metal",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    255,
+    200,
+    140
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "LuckyPenny": {
+  "Body": {
+   "color": [
+    230,
+    160,
+    90
+   ],
+   "material": "Metal",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    255,
+    205,
+    120
+   ],
+   "material": "Metal",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    140,
+    255,
+    160
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "RubberDuck": {
+  "Body": {
+   "color": [
+    255,
+    218,
+    55
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    255,
+    135,
+    35
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Eyes": {
+   "color": [
+    34,
+    30,
+    48
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    255,
+    95,
+    130
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "Magnet": {
+  "Body": {
+   "color": [
+    232,
+    58,
+    62
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    215,
+    222,
+    235
+   ],
+   "material": "Metal",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    120,
+    205,
+    255
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "PiggyBank": {
+  "Body": {
+   "color": [
+    255,
+    150,
+    190
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    255,
+    196,
+    70
+   ],
+   "material": "Metal",
+   "transparency": 0.0
+  },
+  "Eyes": {
+   "color": [
+    90,
+    30,
+    60
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    255,
+    235,
+    140
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "RunningShoes": {
+  "Body": {
+   "color": [
+    70,
+    190,
+    255
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    245,
+    246,
+    252
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Liner": {
+   "color": [
+    30,
+    28,
+    44
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    215,
+    250,
+    255
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "Pogo": {
+  "Body": {
+   "color": [
+    110,
+    240,
+    130
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    215,
+    222,
+    235
+   ],
+   "material": "Metal",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    190,
+    255,
+    200
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "FourLeaf": {
+  "Body": {
+   "color": [
+    60,
+    200,
+    90
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    40,
+    140,
+    65
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    180,
+    255,
+    170
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "Bubble": {
+  "Glass": {
+   "color": [
+    170,
+    230,
+    255
+   ],
+   "material": "Glass",
+   "transparency": 0.55
+  },
+  "Body": {
+   "color": [
+    140,
+    220,
+    255
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    215,
+    222,
+    235
+   ],
+   "material": "Metal",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    215,
+    248,
+    255
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "GhostBoots": {
+  "Body": {
+   "color": [
+    205,
+    215,
+    255
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.12
+  },
+  "Trim": {
+   "color": [
+    120,
+    130,
+    205
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Liner": {
+   "color": [
+    30,
+    28,
+    44
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    175,
+    215,
+    255
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "GoldenTooth": {
+  "Body": {
+   "color": [
+    255,
+    205,
+    60
+   ],
+   "material": "Metal",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    255,
+    248,
+    205
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "SafetyNet": {
+  "Body": {
+   "color": [
+    120,
+    250,
+    205
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    70,
+    80,
+    120
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    150,
+    255,
+    215
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "Balloon": {
+  "Body": {
+   "color": [
+    255,
+    70,
+    75
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    240,
+    240,
+    248
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    255,
+    215,
+    220
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "TreasureMap": {
+  "Body": {
+   "color": [
+    232,
+    205,
+    150
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    140,
+    88,
+    50
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    255,
+    75,
+    80
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "VaultKey": {
+  "Body": {
+   "color": [
+    255,
+    200,
+    80
+   ],
+   "material": "Metal",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    205,
+    140,
+    45
+   ],
+   "material": "Metal",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    90,
+    245,
+    225
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "Rocket": {
+  "Body": {
+   "color": [
+    245,
+    246,
+    252
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    255,
+    115,
+    55
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Glass": {
+   "color": [
+    140,
+    220,
+    255
+   ],
+   "material": "Glass",
+   "transparency": 0.15
+  },
+  "Neon": {
+   "color": [
+    255,
+    200,
+    80
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "DiamondTooth": {
+  "Body": {
+   "color": [
+    236,
+    246,
+    255
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    255,
+    196,
+    70
+   ],
+   "material": "Metal",
+   "transparency": 0.0
+  },
+  "Glass": {
+   "color": [
+    160,
+    240,
+    255
+   ],
+   "material": "Glass",
+   "transparency": 0.2
+  },
+  "Neon": {
+   "color": [
+    200,
+    250,
+    255
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "Phoenix": {
+  "Body": {
+   "color": [
+    255,
+    100,
+    35
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    255,
+    196,
+    70
+   ],
+   "material": "Metal",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    255,
+    215,
+    90
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "Crown": {
+  "Body": {
+   "color": [
+    255,
+    212,
+    55
+   ],
+   "material": "Metal",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    255,
+    248,
+    230
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Velvet": {
+   "color": [
+    150,
+    25,
+    60
+   ],
+   "material": "Fabric",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    255,
+    60,
+    110
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ },
+ "BlackHole": {
+  "Body": {
+   "color": [
+    14,
+    10,
+    22
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    190,
+    90,
+    255
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  },
+  "NeonRing": {
+   "color": [
+    255,
+    170,
+    90
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    120,
+    80,
+    200
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.3
+  }
+ },
+ "ElevatorKey": {
+  "Body": {
+   "color": [
+    44,
+    36,
+    66
+   ],
+   "material": "SmoothPlastic",
+   "transparency": 0.0
+  },
+  "Trim": {
+   "color": [
+    255,
+    196,
+    70
+   ],
+   "material": "Metal",
+   "transparency": 0.0
+  },
+  "Neon": {
+   "color": [
+    255,
+    70,
+    140
+   ],
+   "material": "Neon",
+   "transparency": 0.0
+  }
+ }
+}

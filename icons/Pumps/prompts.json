@@ -1,0 +1,98 @@
+{
+  "created": "2026-10-12",
+  "generator": "Built-in image_gen",
+  "modelSelection": "The tool does not expose a model selector or report the underlying model identifier.",
+  "purpose": "Pump shop icons",
+  "icons": [
+    {
+      "catalogId": "Hand",
+      "name": "HandPump",
+      "file": "HandPump.png",
+      "prompt": "Use case: stylized-concept. Asset type: single square 1:1 inventory/shop upgrade icon for Roblox Pump a Balloon to Space. Reference image is STYLE ONLY: match its thick continuous near-black navy contour, cheerful bright saturated colors, crisp two/three-plane cel shading, rounded chunky forms, restrained small flat pale highlight. Create ONE pump device per image, not a sheet or multiple icons. Simplified clean cartoon sticker silhouette legible at 64 pixels, polished and consistent across the set. Three-quarter view with mechanically sensible pump construction. Fully visible and centered inside a square canvas; leave at least 10% transparent safe padding on all four sides including hose and effects. Genuine transparent background, no backdrop/card/circle/frame, no floor, no cast shadow, no text, numbers, labels, logos or watermark. Avoid realistic rendering, gritty metal textures, excessive details, thin wires, blurry glow. Hose as one bold curved stroke with small nozzle. Effects are small clean cel-shaded shapes attached to the device. Aim for 1024x1024 or larger square output.\nSubject: A basic manual upright bicycle/floor AIR PUMP, sky-blue single cylinder with one chunky black/navy T-handle on a visible silver piston shaft, wide dark navy foot base and one curled dark hose ending in a small gold nozzle. A coral-red collar and a tiny round gauge provide warm contrast. It is an actual pump machine, not an icon of a human hand. Very simple affordable starter design.",
+      "styleReferences": [
+        "Icon/Item/Hammer/256px/Hammer 1st Outline 256px.png"
+      ],
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-dc235a55-bdb5-4b61-ba16-01346176f5f7.png",
+      "robloxAssetId": "111754374730299"
+    },
+    {
+      "catalogId": "Foot",
+      "name": "FootPump",
+      "file": "FootPump.png",
+      "prompt": "Use case: stylized-concept. Asset type: single square 1:1 inventory/shop upgrade icon for Roblox Pump a Balloon to Space. Reference image is STYLE ONLY: match its thick continuous near-black navy contour, cheerful bright saturated colors, crisp two/three-plane cel shading, rounded chunky forms, restrained small flat pale highlight. Create ONE pump device per image, not a sheet or multiple icons. Simplified clean cartoon sticker silhouette legible at 64 pixels, polished and consistent across the set. Three-quarter view with mechanically sensible pump construction. Fully visible and centered inside a square canvas; leave at least 10% transparent safe padding on all four sides including hose and effects. Genuine transparent background, no backdrop/card/circle/frame, no floor, no cast shadow, no text, numbers, labels, logos or watermark. Avoid realistic rendering, gritty metal textures, excessive details, thin wires, blurry glow. Hose as one bold curved stroke with small nozzle. Effects are small clean cel-shaded shapes attached to the device. Aim for 1024x1024 or larger square output.\nSubject: A compact manual FOOT AIR PUMP: mint-green sturdy rectangular base, dark teal hinged broad ribbed foot pedal angled up, small horizontal silver piston below connecting the pedal and base, one dark hose looping to a brass nozzle, small sunny-yellow round pressure gauge. Clear spring/pedal silhouette. Actual mechanical foot pump; no human foot. Slightly sturdier tier than the hand pump.",
+      "styleReferences": [
+        "Icon/Item/Hammer/256px/Hammer 1st Outline 256px.png"
+      ],
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-dd3b9459-937e-4ad2-9873-a8bc3e8d93af.png",
+      "robloxAssetId": "126427776542512"
+    },
+    {
+      "catalogId": "Double",
+      "name": "DoublePump",
+      "file": "DoublePump.png",
+      "prompt": "Use case: stylized-concept. Asset type: single square 1:1 inventory/shop upgrade icon for Roblox Pump a Balloon to Space. Reference image is STYLE ONLY: match its thick continuous near-black navy contour, cheerful bright saturated colors, crisp two/three-plane cel shading, rounded chunky forms, restrained small flat pale highlight. Create ONE pump device per image, not a sheet or multiple icons. Simplified clean cartoon sticker silhouette legible at 64 pixels, polished and consistent across the set. Three-quarter view with mechanically sensible pump construction. Fully visible and centered inside a square canvas; leave at least 10% transparent safe padding on all four sides including hose and effects. Genuine transparent background, no backdrop/card/circle/frame, no floor, no cast shadow, no text, numbers, labels, logos or watermark. Avoid realistic rendering, gritty metal textures, excessive details, thin wires, blurry glow. Hose as one bold curved stroke with small nozzle. Effects are small clean cel-shaded shapes attached to the device. Aim for 1024x1024 or larger square output.\nSubject: A DOUBLE-BARREL manual air pump: two parallel sunny-yellow upright cylinders side by side, joined by one broad dark navy T-handle via two silver piston shafts, shared chunky dark foot base with coral-orange center bridge, one dark curled hose with brass nozzle. A tiny cyan round gauge at center. Both barrels and shafts unmistakable; compact symmetrical upgrade silhouette. No human body parts.",
+      "styleReferences": [
+        "Icon/Item/Hammer/256px/Hammer 1st Outline 256px.png"
+      ],
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-c89dd1bb-29f6-4ecb-9826-43cc642cdb42.png",
+      "robloxAssetId": "104254154043658"
+    },
+    {
+      "catalogId": "Compressor",
+      "name": "AirCompressor",
+      "file": "AirCompressor.png",
+      "prompt": "Use case: stylized-concept. Asset type: single square 1:1 inventory/shop upgrade icon for Roblox Pump a Balloon to Space. Reference image is STYLE ONLY: match its thick continuous near-black navy contour, cheerful bright saturated colors, crisp two/three-plane cel shading, rounded chunky forms, restrained small flat pale highlight. Create ONE pump device per image, not a sheet or multiple icons. Simplified clean cartoon sticker silhouette legible at 64 pixels, polished and consistent across the set. Three-quarter view with mechanically sensible pump construction. Fully visible and centered inside a square canvas; leave at least 10% transparent safe padding on all four sides including hose and effects. Genuine transparent background, no backdrop/card/circle/frame, no floor, no cast shadow, no text, numbers, labels, logos or watermark. Avoid realistic rendering, gritty metal textures, excessive details, thin wires, blurry glow. Hose as one bold curved stroke with small nozzle. Effects are small clean cel-shaded shapes attached to the device. Aim for 1024x1024 or larger square output.\nSubject: A compact electric AIR COMPRESSOR: horizontal coral-red pill-shaped pressure tank on two small dark feet and one navy wheel, chunky dark-blue motor block and pale silver short ribbed cylinder on top, friendly brass pressure gauge near one end, a single short dark curled hose with nozzle. Clean believable workshop compressor with bold silhouette, only a few large details.",
+      "styleReferences": [
+        "Icon/Item/Hammer/256px/Hammer 1st Outline 256px.png"
+      ],
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-942e6251-d84f-4f61-852a-c54237282ca9.png",
+      "robloxAssetId": "79187846153386"
+    },
+    {
+      "catalogId": "Turbo",
+      "name": "TurboCompressor",
+      "file": "TurboCompressor.png",
+      "prompt": "Use case: stylized-concept. Asset type: single square 1:1 inventory/shop upgrade icon for Roblox Pump a Balloon to Space. Reference image is STYLE ONLY: match its thick continuous near-black navy contour, cheerful bright saturated colors, crisp two/three-plane cel shading, rounded chunky forms, restrained small flat pale highlight. Create ONE pump device per image, not a sheet or multiple icons. Simplified clean cartoon sticker silhouette legible at 64 pixels, polished and consistent across the set. Three-quarter view with mechanically sensible pump construction. Fully visible and centered inside a square canvas; leave at least 10% transparent safe padding on all four sides including hose and effects. Genuine transparent background, no backdrop/card/circle/frame, no floor, no cast shadow, no text, numbers, labels, logos or watermark. Avoid realistic rendering, gritty metal textures, excessive details, thin wires, blurry glow. Hose as one bold curved stroke with small nozzle. Effects are small clean cel-shaded shapes attached to the device. Aim for 1024x1024 or larger square output.\nSubject: A premium TURBO AIR COMPRESSOR: squat violet-purple horizontal pressure tank on a dark navy wheeled base, large silver circular turbo fan housing on top/front with 4-5 bold dark fan blade shapes and turquoise hub, a small gold pressure gauge, chunky magenta collar and one curled dark hose with gold nozzle. Cyan clean energy accent stripes on housing. More powerful compact machine than a regular compressor; no wrench-symbol substitute.",
+      "styleReferences": [
+        "Icon/Item/Hammer/256px/Hammer 1st Outline 256px.png"
+      ],
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-5aec0c6c-8e2d-470b-8fd0-4c26359c150f.png",
+      "robloxAssetId": "100787531178156"
+    },
+    {
+      "catalogId": "Jet",
+      "name": "JetPump",
+      "file": "JetPump.png",
+      "prompt": "Use case: stylized-concept. Asset type: single square 1:1 inventory/shop upgrade icon for Roblox Pump a Balloon to Space. Reference image is STYLE ONLY: match its thick continuous near-black navy contour, cheerful bright saturated colors, crisp two/three-plane cel shading, rounded chunky forms, restrained small flat pale highlight. Create ONE pump device per image, not a sheet or multiple icons. Simplified clean cartoon sticker silhouette legible at 64 pixels, polished and consistent across the set. Three-quarter view with mechanically sensible pump construction. Fully visible and centered inside a square canvas; leave at least 10% transparent safe padding on all four sides including hose and effects. Genuine transparent background, no backdrop/card/circle/frame, no floor, no cast shadow, no text, numbers, labels, logos or watermark. Avoid realistic rendering, gritty metal textures, excessive details, thin wires, blurry glow. Hose as one bold curved stroke with small nozzle. Effects are small clean cel-shaded shapes attached to the device. Aim for 1024x1024 or larger square output.\nSubject: A high-tech JET AIR PUMP: chunky sky-blue and silver short jet-turbine compressor housing on two small dark support feet, dark navy round front intake with few broad blades and bright cyan hub, navy back housing with coral-red small accent fins, one chunky curled hose connecting its side outlet to a small gold nozzle. Small cyan airflow swoosh near intake, NOT an airplane, rocket or flamethrower. Clearly a portable powerful turbine pump device.",
+      "styleReferences": [
+        "Icon/Item/Hammer/256px/Hammer 1st Outline 256px.png"
+      ],
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-d5aa2436-f4a1-40bc-83f4-a165361ffb94.png",
+      "robloxAssetId": "75091011065891"
+    },
+    {
+      "catalogId": "Storm",
+      "name": "StormPump",
+      "file": "StormPump.png",
+      "prompt": "Use case: stylized-concept. Asset type: single square 1:1 inventory/shop upgrade icon for Roblox Pump a Balloon to Space. Reference image is STYLE ONLY: match its thick continuous near-black navy contour, cheerful bright saturated colors, crisp two/three-plane cel shading, rounded chunky forms, restrained small flat pale highlight. Create ONE pump device per image, not a sheet or multiple icons. Simplified clean cartoon sticker silhouette legible at 64 pixels, polished and consistent across the set. Three-quarter view with mechanically sensible pump construction. Fully visible and centered inside a square canvas; leave at least 10% transparent safe padding on all four sides including hose and effects. Genuine transparent background, no backdrop/card/circle/frame, no floor, no cast shadow, no text, numbers, labels, logos or watermark. Avoid realistic rendering, gritty metal textures, excessive details, thin wires, blurry glow. Hose as one bold curved stroke with small nozzle. Effects are small clean cel-shaded shapes attached to the device. Aim for 1024x1024 or larger square output.\nSubject: A magical-tech STORM AIR PUMP: stout dark-indigo/purple cylindrical compressor on a wide navy base, pale cyan transparent-looking central chamber containing a SIMPLE tightly coiled cyan tornado/vortex motif in 3 bold curved bands; two side silver conductors, one gold round gauge and a chunky curled dark hose. One or two small bright yellow lightning bolts close to the housing. Electric violet trim. Device remains central and legible, no separate weather scenery.",
+      "styleReferences": [
+        "Icon/Item/Hammer/256px/Hammer 1st Outline 256px.png",
+        "Icon/Nature/Thunderstorm/256w/Thunderstorm 1st Outline 256px.png"
+      ],
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-1dccd910-ece1-4cd3-9c42-0d10be7a46dd.png",
+      "robloxAssetId": "108416328152378"
+    },
+    {
+      "catalogId": "Hurricane",
+      "name": "HurricanePump",
+      "file": "HurricanePump.png",
+      "prompt": "Use case: stylized-concept. Asset type: single square 1:1 inventory/shop upgrade icon for Roblox Pump a Balloon to Space. Reference image is STYLE ONLY: match its thick continuous near-black navy contour, cheerful bright saturated colors, crisp two/three-plane cel shading, rounded chunky forms, restrained small flat pale highlight. Create ONE pump device per image, not a sheet or multiple icons. Simplified clean cartoon sticker silhouette legible at 64 pixels, polished and consistent across the set. Three-quarter view with mechanically sensible pump construction. Fully visible and centered inside a square canvas; leave at least 10% transparent safe padding on all four sides including hose and effects. Genuine transparent background, no backdrop/card/circle/frame, no floor, no cast shadow, no text, numbers, labels, logos or watermark. Avoid realistic rendering, gritty metal textures, excessive details, thin wires, blurry glow. Hose as one bold curved stroke with small nozzle. Effects are small clean cel-shaded shapes attached to the device. Aim for 1024x1024 or larger square output.\nSubject: The highest tier HURRICANE AIR PUMP: premium chunky turquoise-and-gold high-tech turbine compressor with wide dark navy base, large round frontal vortex chamber showing 3 bold cyan/white spiral fan blades around a sunny-gold center, two symmetric heavy gold side collars/pressure pods and dark rear housing, one short curled dark hose with gold nozzle. Small controlled cyan wind arcs snug around housing. Strong proud silhouette, elegant golden accents, unmistakable pump machine, no floating weather map or crown icon.",
+      "styleReferences": [
+        "Icon/Item/Hammer/256px/Hammer 1st Outline 256px.png",
+        "Icon/Nature/Thunderstorm/256w/Thunderstorm 1st Outline 256px.png"
+      ],
+      "generatedSource": "C:\\Users\\LEGION\\.codex\\generated_images\\01a11b44-0d0d-73d1-94d1-44f4bd245956\\exec-27d39508-5f81-4351-b795-08ef61cdabed.png",
+      "robloxAssetId": "76395662508621"
+    }
+  ]
+}

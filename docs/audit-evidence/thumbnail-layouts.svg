@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1170" viewBox="0 0 1200 1170" role="img" aria-labelledby="title desc">
+  <title id="title">One More Floor: three thumbnail layout hypotheses</title>
+  <desc id="desc">Low fidelity composition diagrams. A shows an avatar with a cash bag at an elevator threshold. B shows the Cube and players avoiding a shockwave. C shows a spectator vote leading to danger for survivors. These are planning diagrams, not final artwork.</desc>
+  <defs>
+    <style>
+      text{font-family:Arial,sans-serif;fill:#f6f0e2} .title{font-size:26px;font-weight:700}.body{font-size:18px}.small{font-size:14px;fill:#b8b4c8}.label{font-size:17px;font-weight:700;text-anchor:middle}.frame{fill:#0d0f1f;stroke:#d4ae68;stroke-width:2}.line{fill:none;stroke:#4ee4ff;stroke-width:3}
+    </style>
+  </defs>
+  <rect width="1200" height="1170" fill="#070812"/>
+  <text x="30" y="42" class="title">ONE MORE FLOOR / THUMBNAIL COMPOSITION PLAN</text>
+  <text x="30" y="68" class="small">16:9 frames · placement diagrams only · validate with real game references</text>
+  <g transform="translate(30 90)">
+    <rect width="600" height="337.5" rx="3" class="frame"/>
+    <rect x="25" y="18" width="250" height="50" rx="5" fill="#252940"/>
+    <text x="150" y="50" class="label">ONE MORE?</text>
+    <rect x="330" y="35" width="235" height="270" rx="2" fill="#15182c" stroke="#d4ae68" stroke-width="12"/>
+    <path d="M345 55V290M550 55V290" class="line"/>
+    <rect x="398" y="96" width="100" height="97" fill="#803441" stroke="#ff4858" stroke-width="3"/>
+    <text x="448" y="138" class="label">CUBE</text><text x="448" y="163" class="label">BEYOND</text>
+    <path d="M360 263L448 205L535 263Z" fill="#ff4858" opacity="0.3"/>
+    <rect x="55" y="92" width="156" height="183" rx="10" fill="#23536a" stroke="#4ee4ff" stroke-width="3"/>
+    <text x="133" y="132" class="label">AVATAR</text><text x="133" y="156" class="label">REACTION</text>
+    <rect x="150" y="186" width="132" height="102" rx="22" fill="#ffcc58"/>
+    <text x="216" y="229" font-family="Arial" font-size="19" font-weight="700" text-anchor="middle" fill="#070812" style="fill:#070812">CASH BAG</text>
+    <path d="M278 178L351 178" class="line"/><path d="M338 168L351 178L338 188" class="line"/>
+    <rect x="2" y="303" width="596" height="32" fill="#303044" opacity="0.8"/>
+    <text x="300" y="324" class="small" text-anchor="middle">Keep essential content above this overlay zone</text>
+  </g>
+  <text x="665" y="135" class="title">A / RISK VS REWARD</text>
+  <text x="665" y="174" class="body">First concept to produce.</text>
+  <text x="665" y="208" class="body">Large face + earned bag + open doorway.</text>
+  <text x="665" y="242" class="body">One decision reads before the details.</text>
+  <text x="665" y="286" class="small">Gold reward / cyan threshold / red threat</text>
+  <text x="665" y="315" class="small">Use the actual Cube shape and elevator design.</text>
+  <g transform="translate(30 450)">
+    <rect width="600" height="337.5" rx="3" class="frame"/>
+    <rect x="30" y="22" width="122" height="186" fill="#1e263b" stroke="#d4ae68" stroke-width="7"/>
+    <text x="91" y="65" class="label">B5</text><text x="91" y="106" class="label">ELEVATOR</text>
+    <rect x="291" y="48" width="244" height="194" fill="#67323d" stroke="#ff4858" stroke-width="4"/>
+    <text x="413" y="128" class="label">THE CUBE</text><text x="413" y="155" class="label">ACTUAL BOSS</text>
+    <ellipse cx="355" cy="264" rx="203" ry="42" fill="none" stroke="#ff4858" stroke-width="9"/>
+    <rect x="98" y="154" width="104" height="121" fill="#23536a" stroke="#4ee4ff" stroke-width="3" transform="rotate(-12 150 215)"/>
+    <text x="150" y="204" class="label">JUMP</text><text x="150" y="227" class="label">REACTION</text>
+    <rect x="231" y="191" width="58" height="76" fill="#4c4567" stroke="#b9a8dc" stroke-width="2"/>
+    <text x="365" y="299" class="small" text-anchor="middle">ONE SHOCKWAVE / ONE CLEAR ACTION</text>
+    <rect x="2" y="303" width="596" height="32" fill="#303044" opacity="0.8"/>
+  </g>
+  <text x="665" y="495" class="title">B / BOSS SURVIVAL</text>
+  <text x="665" y="534" class="body">Action hypothesis for survival players.</text>
+  <text x="665" y="568" class="body">Large Cube + jumping avatars.</text>
+  <text x="665" y="602" class="body">Doorway keeps the elevator identity.</text>
+  <text x="665" y="646" class="small">Avoid mixing several arenas or several bosses.</text>
+  <text x="665" y="675" class="small">The Eye is a separate future concept.</text>
+  <g transform="translate(30 810)">
+    <rect width="600" height="337.5" rx="3" class="frame"/>
+    <path d="M270 3L231 302" stroke="#d4ae68" stroke-width="3"/>
+    <rect x="25" y="37" width="193" height="224" fill="#2c2245" stroke="#aa78ff" stroke-width="4"/>
+    <text x="122" y="81" class="label">GLASS BOOTH</text>
+    <rect x="75" y="107" width="93" height="90" fill="#55417c"/>
+    <text x="122" y="143" class="label">SPECTATOR</text><text x="122" y="169" class="label">REACTION</text>
+    <rect x="84" y="207" width="77" height="36" fill="#aa78ff"/>
+    <text x="122" y="231" class="label" style="fill:#070812">VOTE</text>
+    <path d="M189 203Q270 92 350 157" fill="none" stroke="#aa78ff" stroke-width="8"/>
+    <path d="M330 142L350 157L328 161" fill="none" stroke="#aa78ff" stroke-width="6"/>
+    <rect x="307" y="192" width="71" height="82" fill="#23536a" stroke="#4ee4ff" stroke-width="3"/>
+    <rect x="409" y="166" width="71" height="108" fill="#23536a" stroke="#4ee4ff" stroke-width="3"/>
+    <text x="398" y="294" class="label">SURVIVORS + NEXT-FLOOR DANGER</text>
+    <path d="M483 59L561 200L483 200Z" fill="#803441" stroke="#ff4858" stroke-width="3"/>
+    <rect x="2" y="303" width="596" height="32" fill="#303044" opacity="0.8"/>
+  </g>
+  <text x="665" y="855" class="title">C / SPECTATOR TWIST</text>
+  <text x="665" y="894" class="body">Social hypothesis for groups of friends.</text>
+  <text x="665" y="928" class="body">Vote in booth leads to next-floor curse.</text>
+  <text x="665" y="962" class="body">Check whether this reads in one second.</text>
+  <text x="665" y="1006" class="small">Violet spectator / cyan survivors / red hazard</text>
+  <text x="665" y="1035" class="small">No claim of instant elimination or a new item.</text>
+  <text x="665" y="1118" class="small">All proportions are starting points for testing.</text>
+</svg>

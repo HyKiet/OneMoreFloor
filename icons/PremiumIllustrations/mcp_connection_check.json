@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-14",
+  "placeId": "95006900120444",
+  "placeName": "TestGame",
+  "official": {"connected": true, "studioId": "dd8fe00f-d3bb-4c29-b8e5-5329382a10ed", "mode": "Edit", "verification": "get_studio_state and script_read of current Config.GamePasses"},
+  "chrrxs": {"connected": true, "instanceId": "instance:a9c-9sa", "editPeer": "peer:anb-5wp", "verification": "get_connected_instances matching TestGame place ID"},
+  "blender": {"connected": false, "error": "Could not connect to Blender. Make sure the Blender addon is running."},
+  "studioMutations": false
+}

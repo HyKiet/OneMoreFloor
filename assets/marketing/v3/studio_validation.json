@@ -1,0 +1,203 @@
+{
+  "date": "2026-10-25",
+  "place_id": 139070842708870,
+  "profile_mode": "existing OMF_MockData=true; preserved",
+  "compile": {
+    "files": 70,
+    "failures": 0
+  },
+  "image_ids": {
+    "DoubleCash": 129016184984931,
+    "ExtraLife": 128834660781576,
+    "ExtraLife2": 124385671266313,
+    "ExtraLife3": 82430268078527,
+    "GameIcon": 140151093342730,
+    "CurseElevator": 109972822881717,
+    "LuckyBellhop": 124855029887620,
+    "BlessElevator": 107926700460126,
+    "GoldenElevator": 116073646091854,
+    "StarterPack": 132936115940644,
+    "CashSmall": 106711510830845,
+    "CashMedium": 118856438137882,
+    "CashLarge": 98564856957287,
+    "VIP": 107291861993790
+  },
+  "visible": [
+    {
+      "loaded": true,
+      "image": "rbxassetid://107926700460126",
+      "key": "BlessElevator"
+    },
+    {
+      "loaded": true,
+      "image": "rbxassetid://98564856957287",
+      "key": "CashLarge"
+    },
+    {
+      "loaded": true,
+      "image": "rbxassetid://118856438137882",
+      "key": "CashMedium"
+    },
+    {
+      "loaded": true,
+      "image": "rbxassetid://106711510830845",
+      "key": "CashSmall"
+    },
+    {
+      "loaded": true,
+      "image": "rbxassetid://109972822881717",
+      "key": "CurseElevator"
+    },
+    {
+      "loaded": true,
+      "image": "rbxassetid://129016184984931",
+      "key": "DoubleCash"
+    },
+    {
+      "loaded": true,
+      "image": "rbxassetid://128834660781576",
+      "key": "ExtraLife"
+    },
+    {
+      "loaded": true,
+      "image": "rbxassetid://124385671266313",
+      "key": "ExtraLife2"
+    },
+    {
+      "loaded": true,
+      "image": "rbxassetid://82430268078527",
+      "key": "ExtraLife3"
+    },
+    {
+      "loaded": true,
+      "image": "rbxassetid://140151093342730",
+      "key": "GameIcon"
+    },
+    {
+      "loaded": true,
+      "image": "rbxassetid://116073646091854",
+      "key": "GoldenElevator"
+    },
+    {
+      "loaded": true,
+      "image": "rbxassetid://124855029887620",
+      "key": "LuckyBellhop"
+    },
+    {
+      "loaded": true,
+      "image": "rbxassetid://132936115940644",
+      "key": "StarterPack"
+    },
+    {
+      "loaded": true,
+      "image": "rbxassetid://107291861993790",
+      "key": "VIP"
+    }
+  ],
+  "preload": [
+    {
+      "uri": "rbxassetid://118856438137882",
+      "status": "Success"
+    },
+    {
+      "uri": "rbxassetid://132936115940644",
+      "status": "Success"
+    },
+    {
+      "uri": "rbxassetid://116073646091854",
+      "status": "Success"
+    },
+    {
+      "uri": "rbxassetid://82430268078527",
+      "status": "Success"
+    },
+    {
+      "uri": "rbxassetid://124385671266313",
+      "status": "Success"
+    },
+    {
+      "uri": "rbxassetid://128834660781576",
+      "status": "Success"
+    },
+    {
+      "uri": "rbxassetid://98564856957287",
+      "status": "Success"
+    },
+    {
+      "uri": "rbxassetid://107291861993790",
+      "status": "Success"
+    },
+    {
+      "uri": "rbxassetid://124855029887620",
+      "status": "Success"
+    },
+    {
+      "uri": "rbxassetid://140151093342730",
+      "status": "Success"
+    },
+    {
+      "uri": "rbxassetid://107926700460126",
+      "status": "Success"
+    },
+    {
+      "uri": "rbxassetid://106711510830845",
+      "status": "Success"
+    },
+    {
+      "uri": "rbxassetid://129016184984931",
+      "status": "Success"
+    },
+    {
+      "uri": "rbxassetid://109972822881717",
+      "status": "Success"
+    }
+  ],
+  "spectator": [
+    {
+      "loaded": true,
+      "path": "Players.SHKDev2005.PlayerGui.OMF_Run.Root.Spectator.Plate.Actions.ExtraLife.Content.ProductArt",
+      "uri": "rbxassetid://82430268078527"
+    },
+    {
+      "loaded": true,
+      "path": "Players.SHKDev2005.PlayerGui.OMF_Run.Root.Spectator.Plate.Actions.Bless.Content.Icon_BlessElevator",
+      "uri": "rbxassetid://107926700460126"
+    },
+    {
+      "loaded": true,
+      "path": "Players.SHKDev2005.PlayerGui.OMF_Run.Root.Spectator.Plate.Actions.Curse.Content.Icon_CurseElevator",
+      "uri": "rbxassetid://109972822881717"
+    },
+    {
+      "loaded": true,
+      "path": "Players.SHKDev2005.PlayerGui.OMF_Run.Root.Revive.Plate.ExtraLife.Content.ProductArt",
+      "uri": "rbxassetid://82430268078527"
+    },
+    {
+      "loaded": false,
+      "path": "Players.SHKDev2005.PlayerGui.OMF_Run.Root.Revive.Plate.Dismiss.KeyHint.ImageLabel",
+      "uri": "rbxasset://textures/ui/Controls/DefaultController/ButtonB@2x.png"
+    }
+  ],
+  "dynamic": [
+    {
+      "uri": "rbxassetid://128834660781576",
+      "correct": true,
+      "key": "ExtraLife"
+    },
+    {
+      "uri": "rbxassetid://124385671266313",
+      "correct": true,
+      "key": "ExtraLife2"
+    },
+    {
+      "uri": "rbxassetid://82430268078527",
+      "correct": true,
+      "key": "ExtraLife3"
+    }
+  ],
+  "ui_test_scope": "Desktop real-client shop; visible 14-image component gallery; reactive Extra Life tier changes; Decision/Spectator/revive rendered with runtime-only preview fixtures. No purchase was made.",
+  "playtest_stopped": true,
+  "published": false,
+  "dashboard_icons_changed": false
+}
