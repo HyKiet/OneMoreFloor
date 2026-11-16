@@ -7,6 +7,7 @@ local FINISH_Z = -40 -- finish zone runs from here to the far end
 local FAR_Z = -52
 local MOVE_LIMIT = 1.5
 local HEAD_Y = 25
+local GATE_H = 16
 
 local GREEN = Color3.fromRGB(60, 255, 120)
 local YELLOW = Color3.fromRGB(255, 215, 60)
@@ -67,6 +68,11 @@ return {
 
 		-- Start line and finish zone (tops 0.04+ above the lane stripes so nothing z-fights)
 		ctx:Decor({ Name = "StartLine", Size = Vector3.new(WIDTH, 0.12, 1), CFrame = ctx:At(0, 0.06, START_Z - 3), Color = ctx.Theme.Primary, Material = Enum.Material.Neon })
+		-- Start gate: holds everyone behind the line through the briefing countdown, drops on GO. Tall enough
+		-- that a boosted double jump can't clear it; no shadow, so it never darkens the start area.
+		local gate = ctx:Part({ Name = "Gate", Size = Vector3.new(WIDTH + 2, GATE_H, 0.4), CFrame = ctx:At(0, GATE_H / 2, START_Z - 3.8), Color = ctx.Theme.Primary, Material = Enum.Material.ForceField, Transparency = 0.2, CastShadow = false })
+		local gateTop = ctx:Decor({ Name = "GateTop", Size = Vector3.new(WIDTH + 2, 0.3, 0.5), CFrame = ctx:At(0, GATE_H + 0.15, START_Z - 3.8), Color = ctx.Theme.Primary, Material = Enum.Material.Neon })
+		ctx.State.Gate = { gate, gateTop }
 		local finishDepth = FINISH_Z - FAR_Z
 		local finish = ctx:Decor({ Name = "Finish", Size = Vector3.new(WIDTH, 0.12, finishDepth), CFrame = ctx:At(0, 0.06, (FINISH_Z + FAR_Z) / 2), Color = ctx.Theme.Secondary, Material = Enum.Material.Neon, Transparency = 0.45 })
 		ctx:Animate(finish, "OMF_Pulse", { PulseMin = 0.35, PulseMax = 0.7, PulseSpeed = 0.6 })
@@ -158,6 +164,20 @@ return {
 	Start = function(ctx)
 		local d = math.clamp(ctx.Difficulty, 0, 1.5)
 		local yellow = 0.7 - 0.3 * math.min(d, 1)
+
+		-- GO: the start gate drops. Anyone who still got past the line early goes back behind it.
+		for _, part in ctx.State.Gate do
+			part.CanCollide = false
+			ctx:Tween(part, TweenInfo.new(0.35), { Transparency = 1 })
+		end
+		for index, player in ctx:GetAlive() do
+			local pos = ctx:LocalPosition(player)
+			if pos and pos.Z < START_Z - 4.5 then
+				local spawn = ctx.Spawns[((index - 1) % #ctx.Spawns) + 1]
+				ctx:Teleport(player, spawn)
+			end
+		end
+		ctx:Fx("Burst", { Position = ctx:At(0, 2, START_Z - 3.8).Position, Color = GREEN, Count = 30 })
 
 		for _ = 1, 5 do
 			ctx:SpawnCoin(ctx:At(ctx.Rng:NextNumber(-16, 16), 3, ctx.Rng:NextNumber(FINISH_Z + 6, START_Z - 10)).Position)

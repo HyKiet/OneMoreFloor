@@ -54,6 +54,37 @@ function DataService.Get(player: Player): { [string]: any }?
 	return profile and profile.Data
 end
 
+-- Yields until a DataStore save of the player's profile contains receipt `purchaseId` (ProfileStore's
+-- developer-product pattern): a receipt is only confirmed to Roblox once the grant is durable, so a server
+-- crash right after a purchase cannot lose it. False if the session ends first (Roblox retries the receipt).
+function DataService.WaitForReceiptSaved(player: Player, purchaseId: string): boolean
+	local profile = profiles[player]
+	if not profile then
+		return false
+	end
+	local function saved(): boolean
+		local list = profile.LastSavedData and profile.LastSavedData.Purchases
+		return list ~= nil and table.find(list, purchaseId) ~= nil
+	end
+	while profile:IsActive() do
+		if saved() then
+			return true
+		end
+		local lastSaved = profile.LastSavedData
+		profile:Save()
+		if profile.LastSavedData == lastSaved then
+			profile.OnAfterSave:Wait()
+		end
+		if saved() then
+			return true
+		end
+		if profile:IsActive() then
+			task.wait(10)
+		end
+	end
+	return false
+end
+
 -- Yields until the player's data is loaded (or they leave / 20 s pass).
 function DataService.WaitFor(player: Player): { [string]: any }?
 	local deadline = os.clock() + 20

@@ -112,7 +112,10 @@ Studio-only test switches (ignored in live servers):
 
 Monetization contract (products, passes, remotes `PromptProduct` / `PromptPremium` / `PolishRelic` /
 `BuyCapsule`, `Eliminated` fields `ReviveUntil, ReviveBag, ExtraLifeKey`): see `docs/MONETIZATION.md`
-and `src/server/Services/MonetizationService.luau`. Golden Hour lives in workspace attributes
+and `src/server/Services/MonetizationService.luau`. Receipts follow ProfileStore's developer-product
+pattern: the receipt id is stored in `Data.Purchases` (last 100) together with the grant, and
+`PurchaseGranted` is returned only once a DataStore save contains it (`DataService.WaitForReceiptSaved`).
+Any Extra Life key a client sends is re-priced by the server for the player's depth. Golden Hour lives in workspace attributes
 `OMF_GoldenUntil` (server time) and `OMF_GoldenBy` (buyer name). Player attribute `VIP` drives the chat tag.
 
 ### `Effect(name, args)` (server → client)
@@ -156,6 +159,10 @@ X/Z and below +60 on Y (the spectator booth sits at +80). Use `ctx.Theme` colour
 with `ctx.Difficulty` (≈0 on floor 1, ≈1 on floor 26, boss +0.2, `Hyper` curse +0.3). Every floor must
 scale smoothly over 0 → 1.25: once a run has seen everything, all floors come back at zone-3 difficulty.
 Zone-1 floors must be very easy at B1-B3 (tutorial). Spawns default to a ring of radius 12 at y = 3.
+Players can move during the Briefing countdown: a floor where a head start matters holds everyone behind a
+collidable ForceField gate (`CastShadow = false`) built in `Build` and dropped at the top of `Start`
+(GlassBridge, RedLight). Players zoom out at most `Config.CameraMaxZoom` (30) studs, so a maze or memory floor
+cannot be read from high above.
 
 `ctx` API (see `src/server/Run/Context.luau`): `At, Part, Hazard, MakeHazard, Decor, Warn, Fx, Impact,
 Animate, Rim, RoundRim, Glow, Trail, Emitter, Tween, After, Every, Wait, Heartbeat, Elapsed, Remaining,
@@ -181,6 +188,19 @@ Long trims that run round a whole arena (rims, kerb lights, wall-top trims in a 
 at 0.5-0.65, and yellow / white accents at ~0.6 (they have the highest luminance). `Context:Rim`'s default
 line is the theme Primary capped at 0.8; the shaft bands (`Run:_tintLights`) are capped at 0.6. No theme
 accent is pure white (The Void's Primary is (200, 204, 226), Gold Vault's Secondary (236, 230, 214)).
+
+**Lighting moods ("Midnight Deco", client `Ambience`):** the place's Lighting service holds the lobby mood (warm
+lounge, dim moon: Brightness 1.2; values in `assets/map/README.md`). In a run Ambience switches to the **cab**
+mood while you ride down (low ambient, the cab's warm panels light you) and the **arena** mood otherwise
+(`RUN_LIGHT` / `VOID_LIGHT`: Brightness 2, lifted ambient; a per-theme colour grade; a thin theme-tinted
+Atmosphere haze for depth). It writes `Ambient`, `OutdoorAmbient`, `Brightness`, `ExposureCompensation` and
+the Atmosphere. The curses in `Effects` own those while they run: Darkness while `Lighting.OMF_Darkness`
+exists, Fog while the Lighting attribute `OMF_FogCurse` is set; when a curse ends Ambience re-applies its
+target. The descent effect (`Effects.cabRide`) hums the cab lights with one or two short brownouts (never a
+strobe) and sweeps one local light up past the doors per passing floor, tinted by the destination theme.
+Arena overhead lights (`Run:_buildArenaLights`): four coloured corner washes (the theme's two accents,
+swapped every floor, hue drifting a little per floor via `floorHue`) and a near-white centre key that is
+the only shadow caster.
 
 **No dark maps:** arenas sit under the lobby's night sky (ClockTime 0). During a run the client's Ambience
 lifts `Lighting.Ambient` / `OutdoorAmbient` (less on The Void) and theme `Floor` colours are mid tones

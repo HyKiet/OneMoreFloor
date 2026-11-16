@@ -5,9 +5,11 @@
 local Lighting = game:GetService("Lighting")
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
 
 local Fusion = require(ReplicatedStorage.Packages.Fusion)
+local Config = require(ReplicatedStorage.Shared.Config)
 local Net = require(ReplicatedStorage.Shared.Net)
 local Format = require(ReplicatedStorage.Shared.Format)
 local UIKit = require(script.Parent.Parent.Util.UIKit)
@@ -58,31 +60,115 @@ end
 
 -- Descend: elevator floor indicator ------------------------------------------------------------
 
-local function findCabLights(): { Light }
+-- The cab the local player is riding in (its Lights folder within 60 studs), plus that folder's lights.
+local function findCab(): (Model?, { Light })
 	local character = player.Character
 	local root = character and character:FindFirstChild("HumanoidRootPart") :: BasePart?
 	if not root then
-		return {}
+		return nil, {}
 	end
 	local searchRoot = workspace:FindFirstChild("Runs") or workspace
-	local lights = {}
 	for _, desc in searchRoot:GetDescendants() do
 		if desc.Name == "Lights" and (desc:IsA("Folder") or desc:IsA("Model")) then
 			local cab = desc:FindFirstAncestorWhichIsA("Model")
 			local pivot = if cab then cab:GetPivot().Position else nil
-			if pivot and (pivot - root.Position).Magnitude < 60 then
+			if cab and pivot and (pivot - root.Position).Magnitude < 60 then
+				local lights = {}
 				for _, light in desc:GetDescendants() do
 					if light:IsA("Light") then
 						table.insert(lights, light)
 					end
 				end
+				return cab, lights
 			end
 		end
 	end
-	return lights
+	return nil, {}
 end
 
+-- Cab lights on the way down: a soft electrical hum and one or two short brownouts per ride (never a
+-- strobe), while the light of each floor you pass sweeps up past the closed doors, tinted with the colour
+-- of the depth you are heading to. Client-only: one local light, restored and removed when the ride ends.
 local descendToken = 0
+
+local SWEEP_PERIOD = 0.95 -- seconds between passing floors
+local SWEEP_TIME = 0.5 -- seconds a floor's light takes to pass the doors
+
+local function cabRide(duration: number, floor: number, token: number)
+	local cab, lights = findCab()
+	local original = {}
+	for _, light in lights do
+		original[light] = light.Brightness
+	end
+	local rng = Random.new()
+	-- brownouts: (start, length) pairs
+	local dips = { { rng:NextNumber(0.6, 1.4), rng:NextNumber(0.1, 0.18) } }
+	if duration > 2.5 and rng:NextNumber() < 0.7 then
+		table.insert(dips, { rng:NextNumber(duration * 0.55, duration - 0.6), rng:NextNumber(0.08, 0.14) })
+	end
+
+	local sweep: Part? = nil
+	local sweepLight: PointLight? = nil
+	if cab then
+		sweep = Instance.new("Part")
+		sweep.Name = "OMF_PassingFloor"
+		sweep.Anchored = true
+		sweep.CanCollide = false
+		sweep.CanQuery = false
+		sweep.CanTouch = false
+		sweep.Transparency = 1
+		sweep.Size = Vector3.one
+		sweepLight = Instance.new("PointLight")
+		sweepLight.Range = 18
+		sweepLight.Shadows = false
+		sweepLight.Color = Config.ThemeFor(math.max(floor, 1)).Primary:Lerp(Color3.new(1, 1, 0.9), 0.45)
+		sweepLight.Brightness = 0
+		sweepLight.Parent = sweep
+		sweep.Parent = workspace
+	end
+	local pivot = if cab then cab:GetPivot() else CFrame.identity
+
+	local start = os.clock()
+	local phase = rng:NextNumber(0, math.pi * 2)
+	local connection
+	connection = RunService.Heartbeat:Connect(function()
+		local t = os.clock() - start
+		if t >= duration or token ~= descendToken then
+			connection:Disconnect()
+			for light, base in original do
+				if light.Parent then
+					light.Brightness = base
+				end
+			end
+			if sweep then
+				sweep:Destroy()
+			end
+			return
+		end
+		local level = 0.94 + 0.06 * math.sin(t * 9 + phase)
+		for _, dip in dips do
+			local into = t - dip[1]
+			if into >= 0 and into < dip[2] then
+				level = 0.35
+			end
+		end
+		for light, base in original do
+			if light.Parent then
+				light.Brightness = base * level
+			end
+		end
+		if sweep and sweepLight then
+			-- a floor's light rises from below the cab to above it, just outside the doors
+			local k = (t % SWEEP_PERIOD) / SWEEP_TIME
+			if k <= 1 then
+				sweep.CFrame = pivot * CFrame.new(0, -8 + k * 30, -13)
+				sweepLight.Brightness = 2.4 * math.sin(k * math.pi)
+			else
+				sweepLight.Brightness = 0
+			end
+		end
+	end)
+end
 
 -- Indicator plate: "B6" rolls up out of a window and "B7" rolls in when the cab arrives.
 -- Returns arrive() and close() callbacks.
@@ -204,30 +290,7 @@ local function descend(args)
 	Audio.Loop("ElevatorHum", true)
 
 	local arrive, close = indicator(math.max(floor - 1, 0), floor)
-
-	-- Light flicker.
-	local lights = findCabLights()
-	local original = {}
-	for _, light in lights do
-		original[light] = light.Brightness
-	end
-	task.spawn(function()
-		local rng = Random.new()
-		local start = os.clock()
-		while os.clock() - start < duration and token == descendToken do
-			for light, base in original do
-				if light.Parent then
-					light.Brightness = base * (if rng:NextNumber() < 0.25 then rng:NextNumber(0, 0.3) else rng:NextNumber(0.8, 1.1))
-				end
-			end
-			task.wait(rng:NextNumber(0.06, 0.18))
-		end
-		for light, base in original do
-			if light.Parent then
-				light.Brightness = base
-			end
-		end
-	end)
+	cabRide(duration, floor, token)
 
 	task.delay(duration, function()
 		if token ~= descendToken then
@@ -372,6 +435,8 @@ local function setFog(on: boolean)
 			created = true
 		end
 		fogState = { Atmosphere = atmosphere, Created = created, Saved = saved }
+		-- Ambience leaves the Atmosphere alone while this is set
+		Lighting:SetAttribute("OMF_FogCurse", true)
 		UIKit.tween(atmosphere :: Atmosphere, 0.8, {
 			Density = 0.78,
 			Offset = 0,
@@ -387,17 +452,18 @@ local function setFog(on: boolean)
 		end
 		fogState = nil
 		local atmosphere = state.Atmosphere
-		if not atmosphere then
-			return
+		if atmosphere then
+			if state.Created then
+				UIKit.tween(atmosphere, 0.6, { Density = 0 })
+				task.delay(0.65, function()
+					atmosphere:Destroy()
+				end)
+			elseif state.Saved then
+				UIKit.tween(atmosphere, 0.6, state.Saved :: any)
+			end
 		end
-		if state.Created then
-			UIKit.tween(atmosphere, 0.6, { Density = 0 })
-			task.delay(0.65, function()
-				atmosphere:Destroy()
-			end)
-		elseif state.Saved then
-			UIKit.tween(atmosphere, 0.6, state.Saved :: any)
-		end
+		-- cleared after the restore starts, so Ambience's own haze tween takes over from it
+		Lighting:SetAttribute("OMF_FogCurse", nil)
 	end
 end
 

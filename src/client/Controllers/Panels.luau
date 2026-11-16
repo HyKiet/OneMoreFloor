@@ -37,8 +37,13 @@ local PAGES = {
 	{ Id = "Upgrades", Title = "UPGRADES", Icon = "Up", Tagline = "Permanent perks, paid in banked cash" },
 	{ Id = "Relics", Title = "RELIC VAULT", Icon = "Gem", Tagline = "Equip relics to bend the odds" },
 	{ Id = "Daily", Title = "DAILY REWARD", Icon = "Calendar", Tagline = "Come back every day to grow your streak" },
-	{ Id = "Shop", Title = "SHOP", Icon = "Bag", Tagline = "Support the hotel, ride in style" },
+	-- PhoneLayout: on phones the modal fills the screen and is zoomed for readable text (see buildModal);
+	-- the page lays itself out for a ~430 px wide canvas in portrait.
+	{ Id = "Shop", Title = "SHOP", Icon = "Bag", Tagline = "Support the hotel, ride in style", PhoneLayout = true },
 }
+
+local PORTRAIT_WIDTH = 430 -- virtual width of a phone-layout page in portrait (then zoomed to the screen)
+local COMPACT_ZOOM = 1.2 -- phone-layout pages on landscape phones
 local PAGE_BY_ID = {}
 for _, page in PAGES do
 	PAGE_BY_ID[page.Id] = page
@@ -1459,7 +1464,12 @@ local PASSES = {
 		Name = "VIP",
 		Icon = "VIP",
 		Accent = C.Gold,
-		Desc = string.format("+1 relic slot, +%s bag growth and a gold [VIP] chat tag.", pct(M.VipBagBonus)),
+		-- the exact per-floor multiplier, so nobody reads "+10%" as +10 points or x1.1 on the whole bag
+		Desc = string.format(
+			"+1 relic slot, your bag grows x%.3f per floor instead of x%.2f, and a gold [VIP] chat tag.",
+			Config.Bag.Multiplier + M.VipBagBonus * (Config.Bag.Multiplier - 1),
+			Config.Bag.Multiplier
+		),
 	},
 	{
 		Key = "DoubleCash",
@@ -1568,8 +1578,12 @@ local function ownedBadge(inner: any, props: { [string]: any }): Frame
 end
 
 -- Vertical product tile: accent stripe, icon, optional top-right tag, title, description; the
--- caller adds the bottom row (button / badge) through props.Children.
+-- caller adds the bottom row (button / badge) through props.Children. props.Narrow (portrait phones):
+-- a full-width row with the icon on the left and title + description beside it.
+local NARROW_TEXT_X = 86 -- where title / description start in a narrow tile
+
 local function tile(inner: any, props: { [string]: any }): Frame
+	local narrow = props.Narrow == true
 	return card(inner, {
 		Name = props.Name,
 		Size = props.Size or UDim2.fromScale(1, 1),
@@ -1586,8 +1600,8 @@ local function tile(inner: any, props: { [string]: any }): Frame
 			Kit.Icon(inner, {
 				Name = props.Icon,
 				Color = props.Accent,
-				Size = UDim2.fromOffset(64, 64),
-				Position = UDim2.fromOffset(16, 12),
+				Size = if narrow then UDim2.fromOffset(60, 60) else UDim2.fromOffset(64, 64),
+				Position = if narrow then UDim2.fromOffset(14, 14) else UDim2.fromOffset(16, 12),
 			}),
 			props.Tag,
 			Kit.Text(inner, {
@@ -1597,8 +1611,9 @@ local function tile(inner: any, props: { [string]: any }): Frame
 				TextSize = 14,
 				XAlign = Enum.TextXAlignment.Left,
 				Truncate = Enum.TextTruncate.AtEnd,
-				Size = UDim2.new(1, -32, 0, 18),
-				Position = UDim2.fromOffset(16, 82),
+				-- narrow: leave room for a top-right tag
+				Size = if narrow then UDim2.new(1, if props.Tag then -196 else -(NARROW_TEXT_X + 14), 0, 18) else UDim2.new(1, -32, 0, 18),
+				Position = if narrow then UDim2.fromOffset(NARROW_TEXT_X, 18) else UDim2.fromOffset(16, 82),
 			}),
 			if props.Desc
 				then Kit.Text(inner, {
@@ -1610,8 +1625,8 @@ local function tile(inner: any, props: { [string]: any }): Frame
 					Wrapped = true,
 					XAlign = Enum.TextXAlignment.Left,
 					YAlign = Enum.TextYAlignment.Top,
-					Size = UDim2.new(1, -32, 0, props.DescHeight or 54),
-					Position = UDim2.fromOffset(16, 104),
+					Size = UDim2.new(1, if narrow then -(NARROW_TEXT_X + 16) else -32, 0, props.DescHeight or 54),
+					Position = if narrow then UDim2.fromOffset(NARROW_TEXT_X, 40) else UDim2.fromOffset(16, 104),
 				})
 				else nil,
 			props.Children,
@@ -1626,7 +1641,8 @@ local function bottomButtonProps(t: { [string]: any }): { [string]: any }
 	return t
 end
 
-local function starterHero(inner: any): GuiObject
+-- narrow (portrait phones): icon + heading on top, contents chips below, full-width button at the bottom.
+local function starterHero(inner: any, narrow: boolean): GuiObject
 	local starter = M.Starter
 	local function chip(icon: string, text: string, accent: Color3, order: number)
 		return Kit.Tag(inner, {
@@ -1634,8 +1650,8 @@ local function starterHero(inner: any): GuiObject
 			Icon = icon,
 			Accent = accent,
 			Font = Theme.Font.Bold,
-			TextSize = 14,
-			Height = 30,
+			TextSize = if narrow then 13 else 14,
+			Height = if narrow then 28 else 30,
 			LayoutOrder = order,
 		})
 	end
@@ -1650,9 +1666,9 @@ local function starterHero(inner: any): GuiObject
 			Kit.Brackets(inner, { Color = C.Gold, Length = 14 }),
 			Kit.Icon(inner, {
 				Name = "StarterPack",
-				Size = UDim2.fromOffset(84, 84),
-				Position = UDim2.new(0, 16, 0.5, 0),
-				AnchorPoint = Vector2.new(0, 0.5),
+				Size = if narrow then UDim2.fromOffset(72, 72) else UDim2.fromOffset(84, 84),
+				Position = if narrow then UDim2.fromOffset(16, 16) else UDim2.new(0, 16, 0.5, 0),
+				AnchorPoint = if narrow then Vector2.zero else Vector2.new(0, 0.5),
 			}),
 			inner:New "Frame" {
 				Name = "Inset",
@@ -1667,8 +1683,8 @@ local function starterHero(inner: any): GuiObject
 			inner:New "Frame" {
 				Name = "Copy",
 				BackgroundTransparency = 1,
-				Size = UDim2.new(1, -358, 1, -36),
-				Position = UDim2.fromOffset(112, 18),
+				Size = if narrow then UDim2.new(1, -116, 0, 72) else UDim2.new(1, -358, 1, -36),
+				Position = if narrow then UDim2.fromOffset(100, 16) else UDim2.fromOffset(112, 18),
 				[Children] = {
 					inner:New "UIListLayout" {
 						Padding = UDim.new(0, 6),
@@ -1685,12 +1701,13 @@ local function starterHero(inner: any): GuiObject
 					Kit.Text(inner, {
 						Text = "HEAD START",
 						Font = Theme.Font.Display,
-						TextSize = 26,
+						TextSize = if narrow then 24 else 26,
 						XAlign = Enum.TextXAlignment.Left,
 						Size = UDim2.new(1, 0, 0, 34),
 						LayoutOrder = 2,
 					}),
-					inner:New "Frame" {
+					-- wide: the chips sit under the heading
+					if narrow then nil else inner:New "Frame" {
 						Name = "Contents",
 						BackgroundTransparency = 1,
 						Size = UDim2.new(1, 0, 0, 30),
@@ -1709,15 +1726,34 @@ local function starterHero(inner: any): GuiObject
 					},
 				},
 			},
-			inner:New "Frame" {
-				Name = "Divider",
-				BackgroundColor3 = C.Gold,
-				BackgroundTransparency = 0.7,
-				BorderSizePixel = 0,
-				Size = UDim2.new(0, 1, 1, -44),
-				Position = UDim2.new(1, -238, 0.5, 0),
-				AnchorPoint = Vector2.new(0.5, 0.5),
-			},
+			-- narrow: the chips get their own (wrapping) row under the icon
+			if narrow
+				then inner:New "Frame" {
+					Name = "Contents",
+					BackgroundTransparency = 1,
+					Size = UDim2.new(1, -32, 0, 64),
+					Position = UDim2.fromOffset(16, 100),
+					[Children] = {
+						inner:New "UIListLayout" {
+							FillDirection = Enum.FillDirection.Horizontal,
+							Wraps = true,
+							Padding = UDim.new(0, 8),
+							SortOrder = Enum.SortOrder.LayoutOrder,
+						},
+						chip("Coin", "$" .. Format.Comma(starter.Cash), C.Gold, 1),
+						chip("Heart", string.format("%d Extra Lives", starter.ExtraLives), C.Cyan, 2),
+						chip("Gem", "a " .. starter.Rarity .. " relic", rarityColor(starter.Rarity), 3),
+					},
+				}
+				else inner:New "Frame" {
+					Name = "Divider",
+					BackgroundColor3 = C.Gold,
+					BackgroundTransparency = 0.7,
+					BorderSizePixel = 0,
+					Size = UDim2.new(0, 1, 1, -44),
+					Position = UDim2.new(1, -238, 0.5, 0),
+					AnchorPoint = Vector2.new(0.5, 0.5),
+				},
 			buyButton(inner, {
 				Name = "BuyStarter",
 				PriceKey = "StarterPack",
@@ -1727,15 +1763,16 @@ local function starterHero(inner: any): GuiObject
 				Sub = "get the pack",
 				TextSize = 18,
 				SubSize = 12,
-				Size = UDim2.fromOffset(196, 64),
-				Position = UDim2.new(1, -22, 0.5, 0),
-				AnchorPoint = Vector2.new(1, 0.5),
+				Size = if narrow then UDim2.new(1, -32, 0, 56) else UDim2.fromOffset(196, 64),
+				Position = if narrow then UDim2.new(0.5, 0, 1, -16) else UDim2.new(1, -22, 0.5, 0),
+				AnchorPoint = if narrow then Vector2.new(0.5, 1) else Vector2.new(1, 0.5),
 			}),
 		},
 	})
 end
 
-local function goldenCard(inner: any): GuiObject
+-- narrow (portrait phones): icon + copy on top, full-width button at the bottom.
+local function goldenCard(inner: any, narrow: boolean): GuiObject
 	local active = Store.GoldenActive
 	local glow = Kit.Pulse(inner, active, 0.5)
 	return card(inner, {
@@ -1750,16 +1787,16 @@ local function goldenCard(inner: any): GuiObject
 		Children = {
 			Kit.Icon(inner, {
 				Name = "GoldenElevator",
-				Size = UDim2.fromOffset(76, 76),
-				Position = UDim2.new(0, 12, 0.5, 0),
-				AnchorPoint = Vector2.new(0, 0.5),
+				Size = if narrow then UDim2.fromOffset(64, 64) else UDim2.fromOffset(76, 76),
+				Position = if narrow then UDim2.fromOffset(14, 14) else UDim2.new(0, 12, 0.5, 0),
+				AnchorPoint = if narrow then Vector2.zero else Vector2.new(0, 0.5),
 			}),
 			inner:New "Frame" {
 				Name = "Copy",
 				BackgroundTransparency = 1,
-				Size = UDim2.new(1, -(96 + 232), 1, -16),
-				Position = UDim2.new(0, 96, 0.5, 0),
-				AnchorPoint = Vector2.new(0, 0.5),
+				Size = if narrow then UDim2.new(1, -102, 0, 104) else UDim2.new(1, -(96 + 232), 1, -16),
+				Position = if narrow then UDim2.fromOffset(88, 10) else UDim2.new(0, 96, 0.5, 0),
+				AnchorPoint = if narrow then Vector2.zero else Vector2.new(0, 0.5),
 				[Children] = {
 					inner:New "UIListLayout" {
 						Padding = UDim.new(0, 4),
@@ -1843,15 +1880,18 @@ local function goldenCard(inner: any): GuiObject
 				end),
 				TextSize = 17,
 				SubSize = 12,
-				Size = UDim2.fromOffset(196, 60),
-				Position = UDim2.new(1, -16, 0.5, 0),
-				AnchorPoint = Vector2.new(1, 0.5),
+				Size = if narrow then UDim2.new(1, -28, 0, 56) else UDim2.fromOffset(196, 60),
+				Position = if narrow then UDim2.new(0.5, 0, 1, -14) else UDim2.new(1, -16, 0.5, 0),
+				AnchorPoint = if narrow then Vector2.new(0.5, 1) else Vector2.new(1, 0.5),
 			}),
 		},
 	})
 end
 
-local function passTile(inner: any, pass): GuiObject
+-- Heights of the narrow (portrait phone) tiles; wide tiles share their row's height.
+local NARROW = { Pass = 160, ExtraLife = 182, Premium = 164, Cash = 152, Starter = 250, Golden = 192 }
+
+local function passTile(inner: any, pass, narrow: boolean): GuiObject
 	local owned = inner:Computed(function(use)
 		return Store.OwnsPass(getData(use), pass.Key)
 	end)
@@ -1861,10 +1901,11 @@ local function passTile(inner: any, pass): GuiObject
 		Accent = pass.Accent,
 		Title = string.upper(pass.Name),
 		Desc = pass.Desc,
+		Narrow = narrow,
 		Stroke = inner:Computed(function(use)
 			return if use(owned) then C.BrassDim else C.Line
 		end),
-		Size = UDim2.new(1 / 3, -7, 1, 0),
+		Size = if narrow then UDim2.new(1, 0, 0, NARROW.Pass) else UDim2.new(1 / 3, -7, 1, 0),
 		Children = {
 			buyButton(inner, bottomButtonProps({
 				PriceKey = pass.Key,
@@ -1882,7 +1923,7 @@ local function passTile(inner: any, pass): GuiObject
 	})
 end
 
-local function extraLifeTile(inner: any): GuiObject
+local function extraLifeTile(inner: any, narrow: boolean): GuiObject
 	local deepest = inner:Computed(function(use)
 		return math.max(Store.Deepest(getData(use)), 1)
 	end)
@@ -1896,8 +1937,10 @@ local function extraLifeTile(inner: any): GuiObject
 		end),
 		Accent = C.Cyan,
 		Title = "EXTRA LIFE",
-		Desc = "Saves your next elimination in a Normal run. You're back in the cab, bag restored.",
-		Size = UDim2.new(0.6, -5, 1, 0),
+		Desc = "Saves you on the spot the next time you'd lose a bag in a Normal run. Already out? It revives you, bag restored.",
+		DescHeight = 72,
+		Narrow = narrow,
+		Size = if narrow then UDim2.new(1, 0, 0, NARROW.ExtraLife) else UDim2.new(0.6, -5, 1, 0),
 		Tag = Kit.Tag(inner, {
 			Text = inner:Computed(function(use)
 				return "x" .. tostring(use(banked)) .. " BANKED"
@@ -1930,7 +1973,7 @@ local function extraLifeTile(inner: any): GuiObject
 	})
 end
 
-local function premiumTile(inner: any): GuiObject
+local function premiumTile(inner: any, narrow: boolean): GuiObject
 	local premium = inner:Computed(function(use)
 		return getData(use).Premium == true
 	end)
@@ -1940,7 +1983,8 @@ local function premiumTile(inner: any): GuiObject
 		Accent = C.Ivory,
 		Title = "ROBLOX PREMIUM",
 		Desc = string.format("Premium members earn +%s on every cash-out.", pct(M.PremiumCashMult - 1)),
-		Size = UDim2.new(0.4, -5, 1, 0),
+		Narrow = narrow,
+		Size = if narrow then UDim2.new(1, 0, 0, NARROW.Premium) else UDim2.new(0.4, -5, 1, 0),
 		Stroke = inner:Computed(function(use)
 			return if use(premium) then C.BrassDim else C.Line
 		end),
@@ -2000,7 +2044,7 @@ local function packValues(inner: any): any
 	end)
 end
 
-local function cashTile(inner: any, pack, values: any): GuiObject
+local function cashTile(inner: any, pack, values: any, narrow: boolean): GuiObject
 	local amount = inner:Computed(function(use)
 		return Store.CashPack(getData(use), pack.Key)
 	end)
@@ -2015,7 +2059,8 @@ local function cashTile(inner: any, pack, values: any): GuiObject
 		Icon = pack.Icon,
 		Accent = C.Gold,
 		Title = string.upper(pack.Name),
-		Size = UDim2.new(1 / 3, -7, 1, 0),
+		Narrow = narrow,
+		Size = if narrow then UDim2.new(1, 0, 0, NARROW.Cash) else UDim2.new(1 / 3, -7, 1, 0),
 		Tag = Kit.Tag(inner, {
 			Text = inner:Computed(function(use)
 				local g = use(gain)
@@ -2048,8 +2093,8 @@ local function cashTile(inner: any, pack, values: any): GuiObject
 				TextSize = 22,
 				Color = C.Gold,
 				XAlign = Enum.TextXAlignment.Left,
-				Size = UDim2.new(1, -32, 0, 28),
-				Position = UDim2.fromOffset(16, 104),
+				Size = UDim2.new(1, if narrow then -(NARROW_TEXT_X + 16) else -32, 0, 28),
+				Position = if narrow then UDim2.fromOffset(NARROW_TEXT_X, 40) else UDim2.fromOffset(16, 104),
 			}),
 			Kit.Text(inner, {
 				Text = "banked instantly",
@@ -2057,8 +2102,8 @@ local function cashTile(inner: any, pack, values: any): GuiObject
 				TextSize = 13,
 				Color = C.Faint,
 				XAlign = Enum.TextXAlignment.Left,
-				Size = UDim2.new(1, -32, 0, 16),
-				Position = UDim2.fromOffset(16, 132),
+				Size = UDim2.new(1, if narrow then -(NARROW_TEXT_X + 16) else -32, 0, 16),
+				Position = if narrow then UDim2.fromOffset(NARROW_TEXT_X, 68) else UDim2.fromOffset(16, 132),
 			}),
 			buyButton(inner, bottomButtonProps({
 				PriceKey = pack.Key,
@@ -2156,6 +2201,11 @@ local function buildShop(inner: any): { Instance }
 		return Store.OwnsPass(getData(use), "StarterPack")
 	end)
 	local values = packValues(inner)
+	-- The modal rebuilds the page when the layout changes. Portrait phones get one product per row;
+	-- every phone gets the code box at the end of the scroll list instead of a fixed bottom bar.
+	local layout = peek(Screen.Layout)
+	local narrow = layout == "Portrait"
+	local phone = layout ~= "Wide"
 
 	local order = 0
 	local function header(text: any): GuiObject
@@ -2194,54 +2244,63 @@ local function buildShop(inner: any): { Instance }
 			},
 		}
 	end
+	-- tiles side by side; stacked in narrow mode
 	local function row(children: { any }): { any }
 		return {
 			inner:New "UIListLayout" {
-				FillDirection = Enum.FillDirection.Horizontal,
+				FillDirection = if narrow then Enum.FillDirection.Vertical else Enum.FillDirection.Horizontal,
 				Padding = UDim.new(0, 10),
 				SortOrder = Enum.SortOrder.LayoutOrder,
 			},
 			children,
 		}
 	end
+	-- height of a section holding `count` stacked narrow tiles of `height` each
+	local function stack(count: number, height: number): number
+		return count * height + (count - 1) * 10
+	end
 
 	local passTiles = {}
 	for index, pass in PASSES do
-		local t = passTile(inner, pass)
+		local t = passTile(inner, pass, narrow)
 		t.LayoutOrder = index
 		table.insert(passTiles, t)
 	end
 	local cashTiles = {}
 	for index, pack in CASH_PACKS do
-		local t = cashTile(inner, pack, values)
+		local t = cashTile(inner, pack, values, narrow)
 		t.LayoutOrder = index
 		table.insert(cashTiles, t)
 	end
-	local supplies = { extraLifeTile(inner), premiumTile(inner) }
+	local supplies = { extraLifeTile(inner, narrow), premiumTile(inner, narrow) }
 	supplies[1].LayoutOrder = 1
 	supplies[2].LayoutOrder = 2
 
 	local codes = codeRow(inner)
+	if phone then
+		codes.Size = UDim2.new(1, 0, 0, 52)
+		codes.LayoutOrder = 200
+	end
 	return {
 		scroller(inner, {
 			Name = "Store",
-			Size = UDim2.new(1, 0, 1, -66),
+			Size = if phone then UDim2.fromScale(1, 1) else UDim2.new(1, 0, 1, -66),
 			Children = {
 				inner:New "UIListLayout" {
 					Padding = UDim.new(0, 10),
 					SortOrder = Enum.SortOrder.LayoutOrder,
 				},
-				section("Starter", 140, { starterHero(inner) }, inner:Computed(function(use)
+				section("Starter", if narrow then NARROW.Starter else 140, { starterHero(inner, narrow) }, inner:Computed(function(use)
 					return not use(starterOwned)
 				end)),
 				header("SERVER BOOST"),
-				section("Golden", 104, { goldenCard(inner) }),
+				section("Golden", if narrow then NARROW.Golden else 104, { goldenCard(inner, narrow) }),
 				header("GAME PASSES  ·  YOURS FOREVER"),
-				section("Passes", 236, row(passTiles)),
+				section("Passes", if narrow then stack(#passTiles, NARROW.Pass) else 236, row(passTiles)),
 				header("SUPPLIES"),
-				section("Supplies", 236, row(supplies)),
-				header("CASH PACKS  ·  SIZED TO YOUR DEEPEST FLOOR"),
-				section("Cash", 240, row(cashTiles)),
+				section("Supplies", if narrow then NARROW.ExtraLife + 10 + NARROW.Premium else 236, row(supplies)),
+				header(if narrow then "CASH PACKS  ·  SIZED TO YOUR DEPTH" else "CASH PACKS  ·  SIZED TO YOUR DEEPEST FLOOR"),
+				section("Cash", if narrow then stack(#cashTiles, NARROW.Cash) else 240, row(cashTiles)),
 				Kit.Text(inner, {
 					Name = "Fine",
 					Text = "Value tags compare cash per Robux with the Cash Stack.",
@@ -2257,9 +2316,10 @@ local function buildShop(inner: any): { Instance }
 						return next(use(values)) ~= nil
 					end),
 				}),
+				if phone then codes else nil,
 			},
 		}),
-		codes,
+		if phone then nil else codes,
 	}
 end
 
@@ -2302,14 +2362,41 @@ end
 
 local function buildModal(layer: Frame)
 	local canvas = Screen.Canvas
+	local pageInfo = scope:Computed(function(use)
+		return PAGE_BY_ID[use(current) or "Upgrades"] or PAGES[1]
+	end)
+	-- Phones: a PhoneLayout page fills the screen and the whole modal is zoomed so text stays readable
+	-- (portrait: laid out PORTRAIT_WIDTH wide, then scaled up to the screen; landscape: COMPACT_ZOOM with
+	-- the tabs moved onto the title row to save height). Other pages keep the regular modal.
+	local phone = scope:Computed(function(use)
+		return use(Screen.Layout) ~= "Wide" and use(pageInfo).PhoneLayout == true
+	end)
+	local inlineTabs = scope:Computed(function(use)
+		return use(phone) and use(Screen.Layout) == "Compact"
+	end)
+	local zoom = scope:Computed(function(use)
+		if not use(phone) then
+			return 1
+		end
+		if use(Screen.Layout) == "Portrait" then
+			local c: Vector2 = use(canvas)
+			return math.clamp((c.X - 24) / PORTRAIT_WIDTH, 1, 2)
+		end
+		return COMPACT_ZOOM
+	end)
 	local panelSize = scope:Computed(function(use)
 		local c: Vector2 = use(canvas)
+		if use(phone) then
+			local z = use(zoom)
+			return UDim2.fromOffset(math.min(940, (c.X - 24) / z), (c.Y - 16) / z)
+		end
 		local w = math.min(940, c.X - 40)
 		local h = math.min(600, c.Y - 30)
 		return UDim2.fromOffset(math.max(w, 300), math.max(h, 260))
 	end)
-	local pageInfo = scope:Computed(function(use)
-		return PAGE_BY_ID[use(current) or "Upgrades"] or PAGES[1]
+	-- header height: the regular header has the tabs on a second row
+	local contentTop = scope:Computed(function(use)
+		return if use(inlineTabs) then 82 else 138
 	end)
 	local cash = scope:Computed(function(use)
 		return getData(use).Cash or 0
@@ -2402,6 +2489,10 @@ local function buildModal(layer: Frame)
 								Position = scope:Computed(function(use)
 									return if use(Screen.Layout) == "Wide" then UDim2.fromOffset(62, 26) else UDim2.fromOffset(62, 14)
 								end),
+								-- inline tabs take the title's place (the active tab shows the page)
+								Visible = scope:Computed(function(use)
+									return not use(inlineTabs)
+								end),
 							},
 							-- cash + close (right)
 							scope:New "Frame" {
@@ -2451,7 +2542,9 @@ local function buildModal(layer: Frame)
 						Name = "Tabs",
 						BackgroundTransparency = 1,
 						Size = UDim2.new(1, -40, 0, 40),
-						Position = UDim2.fromOffset(20, 78),
+						Position = scope:Computed(function(use)
+							return if use(inlineTabs) then UDim2.fromOffset(82, 22) else UDim2.fromOffset(20, 78)
+						end),
 						[Children] = {
 							scope:New "UIListLayout" {
 								FillDirection = Enum.FillDirection.Horizontal,
@@ -2467,18 +2560,25 @@ local function buildModal(layer: Frame)
 						BackgroundTransparency = 0.4,
 						BorderSizePixel = 0,
 						Size = UDim2.new(1, -40, 0, 1),
-						Position = UDim2.fromOffset(20, 126),
+						Position = scope:Computed(function(use)
+							return UDim2.fromOffset(20, use(contentTop) - 12)
+						end),
 					},
-					-- Page content (rebuilt when the tab changes)
+					-- Page content (rebuilt when the tab or the screen layout changes)
 					scope:New "Frame" {
 						Name = "Content",
 						BackgroundTransparency = 1,
 						ClipsDescendants = true,
-						Size = UDim2.new(1, -40, 1, -152),
-						Position = UDim2.fromOffset(20, 138),
+						Size = scope:Computed(function(use)
+							return UDim2.new(1, -40, 1, -(use(contentTop) + 14))
+						end),
+						Position = scope:Computed(function(use)
+							return UDim2.fromOffset(20, use(contentTop))
+						end),
 						[Children] = {
 							scope:Computed(function(use, pageScope)
 								local id = use(current)
+								use(Screen.Layout)
 								if not id then
 									return nil
 								end
@@ -2498,6 +2598,11 @@ local function buildModal(layer: Frame)
 				},
 			},
 		},
+	}
+	scope:New "UIScale" {
+		Name = "PhoneZoom",
+		Scale = zoom,
+		Parent = modal,
 	}
 	modal.Parent = layer
 end

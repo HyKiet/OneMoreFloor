@@ -27,6 +27,10 @@ Config.BoothOffset = CFrame.new(0, 80, 0) -- spectator booth relative to the are
 Config.KillDepth = 30 -- falling this far below the arena origin eliminates you
 Config.ArenaHalfExtent = 60 -- templates should keep geometry within +-this on X/Z
 
+-- Camera: how far players can zoom out (studs). Keeps mazes and memory floors from being solved from
+-- above and keeps the view close to the action. StarterPlayer.CameraMaxZoomDistance in the place matches.
+Config.CameraMaxZoom = 30
+
 -- Economy -------------------------------------------------------------------
 
 Config.Bag = {
@@ -119,7 +123,7 @@ Config.Products = {
 }
 
 Config.Passes = {
-	VIP = 2052275069, -- +1 relic slot, +10% bag growth, VIP chat tag
+	VIP = 2052275069, -- +1 relic slot, bag x1.275 per floor instead of x1.25, VIP chat tag
 	DoubleCash = 2053991076, -- x2 cash when leaving with your bag
 	LuckyBellhop = 2053439011, -- +25% relic find chance, Relic Capsules 20% cheaper
 	StarterPack = 2053247082, -- one-time: $5,000 + 3 Extra Lives + a Rare relic

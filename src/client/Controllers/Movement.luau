@@ -1,7 +1,11 @@
--- Double jump while the server sets the DoubleJump attribute on the local player (Ghost Boots relic).
+-- Double jump while the server sets the DoubleJump attribute on the local player (Ghost Boots relic),
+-- and the camera zoom-out limit (Config.CameraMaxZoom).
 
 local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local UserInputService = game:GetService("UserInputService")
+
+local Config = require(ReplicatedStorage.Shared.Config)
 
 local Movement = {}
 
@@ -56,6 +60,7 @@ local function hookCharacter(character: Model)
 end
 
 function Movement.Start()
+	player.CameraMaxZoomDistance = Config.CameraMaxZoom
 	if player.Character then
 		task.spawn(hookCharacter, player.Character)
 	end

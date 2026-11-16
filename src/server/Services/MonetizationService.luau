@@ -18,7 +18,7 @@ local RateLimit = require(script.Parent.Parent.Util.RateLimit)
 
 local MonetizationService = {}
 
-local MAX_RECEIPTS = 50
+local MAX_RECEIPTS = 100
 local PASS_RETRY_DELAYS = { 2, 5, 10, 20, 40, 60 } -- seconds between ownership checks that errored
 local M = Config.Monetization
 
@@ -97,30 +97,35 @@ local function processReceipt(receipt)
 	if not data then
 		return Enum.ProductPurchaseDecision.NotProcessedYet
 	end
-	if table.find(data.Purchases, receipt.PurchaseId) then
+
+	-- Grant once per receipt: the id goes into the profile in the same step as the reward.
+	if not table.find(data.Purchases, receipt.PurchaseId) then
+		local key = productKeyById[receipt.ProductId]
+		local grant = key and GRANTS[key]
+		if not grant then
+			warn("[Monetization] unknown product", receipt.ProductId)
+			return Enum.ProductPurchaseDecision.NotProcessedYet
+		end
+
+		local ok, result = pcall(grant, player)
+		if not ok or not result then
+			warn("[Monetization] grant failed:", result)
+			return Enum.ProductPurchaseDecision.NotProcessedYet
+		end
+
+		table.insert(data.Purchases, receipt.PurchaseId)
+		while #data.Purchases > MAX_RECEIPTS do
+			table.remove(data.Purchases, 1)
+		end
+		DataService.Push(player)
+		Analytics.Event(player, "ProductBought", receipt.CurrencySpent or 0, { [Enum.AnalyticsCustomFieldKeys.CustomField01.Name] = key })
+	end
+
+	-- Confirm to Roblox only once the grant is saved; otherwise Roblox retries it on the next join.
+	if DataService.WaitForReceiptSaved(player, receipt.PurchaseId) then
 		return Enum.ProductPurchaseDecision.PurchaseGranted
 	end
-
-	local key = productKeyById[receipt.ProductId]
-	local grant = key and GRANTS[key]
-	if not grant then
-		warn("[Monetization] unknown product", receipt.ProductId)
-		return Enum.ProductPurchaseDecision.NotProcessedYet
-	end
-
-	local ok, result = pcall(grant, player)
-	if not ok or not result then
-		warn("[Monetization] grant failed:", result)
-		return Enum.ProductPurchaseDecision.NotProcessedYet
-	end
-
-	table.insert(data.Purchases, receipt.PurchaseId)
-	while #data.Purchases > MAX_RECEIPTS do
-		table.remove(data.Purchases, 1)
-	end
-	DataService.Push(player)
-	Analytics.Event(player, "ProductBought", receipt.CurrencySpent or 0, { [Enum.AnalyticsCustomFieldKeys.CustomField01.Name] = key })
-	return Enum.ProductPurchaseDecision.PurchaseGranted
+	return Enum.ProductPurchaseDecision.NotProcessedYet
 end
 
 -- Starter Pack contents are handed out once per account, whenever we first see the pass owned.
@@ -190,9 +195,12 @@ local function checkPasses(player: Player)
 	end
 end
 
--- The product a key resolves to for this player right now ("ExtraLife" is priced by depth).
+-- Every Extra Life tier key: whichever one a client asks for, the server picks the tier.
+local EXTRA_LIFE_KEYS = { ExtraLife = true, ExtraLife2 = true, ExtraLife3 = true }
+
+-- The product a key resolves to for this player right now (Extra Life is priced by depth).
 local function resolveKey(player: Player, key: string): string
-	if key ~= "ExtraLife" then
+	if not EXTRA_LIFE_KEYS[key] then
 		return key
 	end
 	local run = ElevatorService.GetRun(player)
@@ -218,7 +226,7 @@ local function prompt(player: Player, key: unknown)
 	local productId = Config.Products[resolved]
 	local passId = Config.Passes[resolved]
 	if productId and productId > 0 then
-		if key == "ExtraLife" then
+		if EXTRA_LIFE_KEYS[resolved] then
 			local run = ElevatorService.GetRun(player)
 			if run then
 				run:HoldRevive(player, true)

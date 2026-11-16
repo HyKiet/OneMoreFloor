@@ -1,6 +1,6 @@
 # One More Floor: Session handoff
 
-Read this first in a new chat. Updated 2026-10-25 (late evening). Deeper references: `docs/ARCHITECTURE.md`
+Read this first in a new chat. Updated 2026-10-26 (see "2026-10-26 session" below). Deeper references: `docs/ARCHITECTURE.md`
 (code contracts, template contract, **neon / dark-map rules**), `docs/MONETIZATION.md` (economy + Robux design),
 `docs/SETUP.md` (launch checklist), `assets/map/README.md` (map + lighting values),
 `docs/GAME_REVIEW_2026-10-25.vi.md` (full game review with a prioritised findings list),
@@ -32,7 +32,10 @@ code, comments and in-game text in English.
   edit with the Edit tool or Python that preserves `\r\n`).
 - Open Cloud key: user env var `ROBLOX_OPEN_CLOUD_API_KEY`. Scopes: **assets read/write only** (no
   DataStore, no monetization). Never print it.
-- Git: repo has **no commits**; commit only when the owner asks.
+- Git: pushed to https://github.com/HyKiet/OneMoreFloor (branch `main`, first commit 2026-10-26); commit only
+  when the owner asks.
+- Screenshots (`capture_screenshot`) fail with "Unknown error" while another window covers Studio: bring Studio
+  to the foreground first (PowerShell `SetForegroundWindow` on the RobloxStudioBeta main window).
 
 ## 3. Current state
 ### 3.1 Floors: 20 templates in 3 depth zones (`src/server/Challenges/`)
@@ -90,6 +93,21 @@ Props (`ServerStorage.Assets.Props`, via `ctx:Prop(name)` with primitive fallbac
   error at join no longer locks a paying player out for the session. Runtime check: OwnedPasses fills for
   all four passes with no errors (the failure path itself cannot be simulated in Studio).
 
+### 3.4 2026-10-26 session (all screenshot / runtime verified in Studio)
+- **Real-money fixes:** receipts confirmed only after a durable save (`DataService.WaitForReceiptSaved`);
+  `ExtraLife2/3` aliases re-priced by depth; banked Extra Lives only spent when the bag > $0; VIP and Extra
+  Life shop text now match the code (VIP: "x1.275 per floor instead of x1.25").
+- **Shop on phones:** `Panels` pages can set `PhoneLayout` (Shop does): portrait = full-screen modal laid out
+  430 wide and zoomed (one product per row), landscape phones = x1.2 zoom with the tabs on the title row;
+  the code box moves into the scroll list on phones. Other tabs keep the old modal.
+- **Camera:** `Config.CameraMaxZoom = 30` (client `Movement`), StarterPlayer matches.
+- **Red Light:** a ForceField start gate holds players through the Briefing countdown and drops on GO;
+  anyone past the line at GO is put back on a spawn.
+- **Lighting relit ("Midnight Deco"):** lobby lounge (place), low-key cab + cabRide flicker, arena moods,
+  per-floor arena light colours, only the centre arena light casts shadows. Values in `assets/map/README.md`,
+  code contract in ARCHITECTURE.md "Lighting moods". Curses verified after the change (Darkness + Fog on B2,
+  restore on B3).
+
 ## 4. Studio testing (how the floors were tested)
 - Studio-only switches (all gated by `RunService:IsStudio()`):
   - workspace `OMF_ForceChallenge = "<Id>"` (forces the template on every floor, boss floors too),
@@ -123,13 +141,18 @@ Props (`ServerStorage.Assets.Props`, via `ctx:Prop(name)` with primitive fallbac
    list, abort if a session is active (or ProfileStore `VersionQuery` + `profile:SetAsync()`). Writing the
    DataStore is a shared-resource change: **ask first** (the owner answers "khôi phục save"). Afterwards
    remove workspace `OMF_MockData` in edit mode and remind the owner to Save the place.
-2. Owner: Save the place (Ctrl+S) / publish so props, map and lighting edits from 2026-10-24 are kept.
+2. Owner: Save the place (Ctrl+S) / publish so props, map and lighting edits from 2026-10-24 and the
+   2026-10-26 relight (Lighting, Lobby lights, spawn, ElevatorCab, StarterPlayer zoom) are kept. Also update the
+   VIP pass description on the Creator Dashboard to match the shop ("x1.275 per floor instead of x1.25").
 3. Gameplay tuning still worth a human pass (bots and screenshots only so far): PaintParty quota at d ≥ 1.2
    (retuned 2026-10-25, see the comment in `plan`), NeonSnake quota, WindTunnel push strength, GlassBridge
    at 4+ lanes, HotPotato needs a 2-4 client multiplayer test (never playtested with real players).
-4. GAME_REVIEW findings not yet done (see that doc): VIP description mismatch, `_trySave` ExtraLifeUsed,
-   receipt save confirmation, ExtraLife2/3 alias bypass, meta caps, badges (ids 0).
-5. Roadmap from MONETIZATION.md: Floor Pass, cosmetics, Express Ticket, Renovation prestige, Bellhop Club.
+4. GAME_REVIEW findings not yet done (see that doc): meta caps, badges (ids 0), Daily loadout fairness.
+   (VIP text, Extra Life rules, receipt save, ExtraLife2/3 alias: done 2026-10-26.)
+5. 8 players: characters collide with each other (no collision group), so crowded floors (GlassBridge panels,
+   ShellGame pads, Spotlight discs late in the round, BossEye cover, JumpRope deck) allow body-blocking and
+   shoves. Owner decision pending: a "Players" collision group that doesn't collide with itself.
+6. Roadmap from MONETIZATION.md: Floor Pass, cosmetics, Express Ticket, Renovation prestige, Bellhop Club.
 
 ## 6. Gotchas
 - Bright warm neon renders lemon-yellow under this lighting; use warm-white / dim bronze for trim.

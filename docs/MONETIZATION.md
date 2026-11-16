@@ -10,12 +10,17 @@
 | Golden Elevator | Product | 99 R$ | Shop: ×2 tiền cash-out cho **cả server** 15 phút, cộng dồn thời gian | thuộc tính `workspace.OMF_GoldenUntil/OMF_GoldenBy` |
 | Cash Small / Medium / Large | Product ×3 | 49 / 149 / 399 R$ | Shop; số tiền = 1× / 3.6× / 12× túi điển hình ở tầng sâu nhất (`Config.CashPackAmount`) nên không bao giờ mất giá | `MonetizationService` |
 | Starter Pack | Pass | 99 R$ | $5,000 + 3 Extra Life + 1 relic Rare, trao 1 lần | `grantStarter` |
-| VIP | Pass | 149 R$ | +1 ô relic, +10% tăng trưởng túi, tag [VIP] vàng trong chat | đã có + tag |
+| VIP | Pass | 149 R$ | +1 ô relic, túi tăng ×1,275 mỗi tầng thay vì ×1,25 (+10% phần tăng trưởng cơ bản), tag [VIP] vàng trong chat | đã có + tag |
 | 2x Cash | Pass | 249 R$ | ×2 tiền khi ra | đã có |
 | Lucky Bellhop | Pass | 199 R$ | +25% tỉ lệ relic, Relic Capsule rẻ hơn 20% | `EconomyService.RunStats` |
 | Roblox Premium | Premium | — | +10% cash-out, nút mở Premium upsell | `PromptPremium` |
 
 Chỗ tiêu cash mới (không trần): **Relic Polish** (nâng level relic bằng tiền, `Config.PolishCost`: $1.5k → $1.5M theo độ hiếm) và **Relic Capsule** (relic ngẫu nhiên, giá theo tầng sâu nhất, luôn hiện tỉ lệ `Rarity.Odds`, khóa theo `PolicyService.ArePaidRandomItemsRestricted`).
+
+Sửa ngày 2026-10-26: receipt chỉ trả `PurchaseGranted` sau khi ProfileStore đã lưu PurchaseId (giữ 100 id gần nhất);
+client gửi `ExtraLife2`/`ExtraLife3` cũng bị server định giá lại theo độ sâu; Extra Life đã mua (banked) chỉ tự
+cứu khi túi > $0 (không tiêu phí lúc chẳng có gì để mất). Extra Life banked cứu tại chỗ trong arena; mua lúc đang
+xem (spectator) thì hồi sinh vào cabin, 1 lần/ván.
 
 Boss floor giờ luôn là boss (The Cube, The Eye). Icon cửa hàng: `assets/icons/*.png` (tạo bằng `make_icons.py`).
 Id sản phẩm điền vào `Config.Products` / `Config.Passes` (0 = chưa tạo, UI hiện "COMING SOON").

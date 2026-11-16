@@ -505,13 +505,23 @@ function Run:_pickTemplate()
 	return template
 end
 
--- Overhead "stadium" lights so arenas read well under the night lighting; tinted per depth theme.
+-- Overhead "stadium" lights so arenas read well under the night lighting; tinted per depth theme
+-- (_tintLights). The four corners are coloured neon washes; the centre is a near-white key and the only
+-- shadow caster, so players and hazards keep a grounding shadow without five shadow maps per arena.
+local ARENA_LIGHTS = {
+	{ Offset = Vector3.new(-30, 42, -30), Brightness = 1.25 },
+	{ Offset = Vector3.new(30, 42, -30), Brightness = 1.25 },
+	{ Offset = Vector3.new(-30, 42, 30), Brightness = 1.25 },
+	{ Offset = Vector3.new(30, 42, 30), Brightness = 1.25 },
+	{ Offset = Vector3.new(0, 46, 0), Brightness = 1.6, Key = true },
+}
+
 function Run:_buildArenaLights()
 	self._lights = {}
 	local rig = Instance.new("Folder")
 	rig.Name = "ArenaLights"
 	rig.Parent = self.Folder
-	for _, offset in { Vector3.new(-30, 42, -30), Vector3.new(30, 42, -30), Vector3.new(-30, 42, 30), Vector3.new(30, 42, 30), Vector3.new(0, 46, 0) } do
+	for _, spec in ARENA_LIGHTS do
 		local emitter = Instance.new("Part")
 		emitter.Name = "Light"
 		emitter.Anchored = true
@@ -521,13 +531,14 @@ function Run:_buildArenaLights()
 		emitter.CastShadow = false
 		emitter.Transparency = 1
 		emitter.Size = Vector3.new(2, 1, 2)
-		emitter.CFrame = self.ArenaOrigin * CFrame.new(offset)
+		emitter.CFrame = self.ArenaOrigin * CFrame.new(spec.Offset)
 		local light = Instance.new("SurfaceLight")
 		light.Face = Enum.NormalId.Bottom
 		light.Range = 60
 		light.Angle = 110
-		light.Brightness = 1.4
-		light.Shadows = true
+		light.Brightness = spec.Brightness
+		light.Shadows = spec.Key == true
+		light:SetAttribute("Key", spec.Key == true)
 		light.Parent = emitter
 		emitter.Parent = rig
 		table.insert(self._lights, light)
@@ -617,20 +628,38 @@ function Run:_buildShaft(parent: Instance)
 	self._env = env
 end
 
+-- Small hue drift per floor (stays inside the theme) so consecutive floors of one depth band look different.
+local function floorHue(color: Color3, floor: number): Color3
+	local h, s, v = color:ToHSV()
+	return Color3.fromHSV((h + ((floor % 5) - 2) * 0.022) % 1, s, v)
+end
+
 function Run:_tintLights(theme)
+	-- Corner washes take the theme's two accents, swapped every floor; the centre key stays near-white so
+	-- floors, players and obstacles always read under the colour.
+	local swap = self.Floor % 2 == 0
+	local corner = 0
 	for _, light in self._lights do
-		light.Color = theme.Primary:Lerp(Color3.new(1, 1, 1), 0.65)
+		if light:GetAttribute("Key") then
+			light.Color = theme.Primary:Lerp(Color3.new(1, 1, 1), 0.82)
+		else
+			corner += 1
+			local first = (corner == 1 or corner == 4) ~= swap
+			local accent = if first then theme.Primary else theme.Secondary
+			light.Color = floorHue(accent, self.Floor):Lerp(Color3.new(1, 1, 1), 0.5)
+		end
 	end
 	local env = self._env
 	if not env then
 		return
 	end
+	local accent = floorHue(theme.Primary, self.Floor)
 	local wall = theme.Floor:Lerp(Color3.new(0, 0, 0), 0.62)
 	for _, p in env.Walls do
 		p.Color = wall
 	end
 	for i, p in env.Rails do
-		p.Color = theme.Primary:Lerp(wall, 0.35)
+		p.Color = accent:Lerp(wall, 0.35)
 		p.Transparency = if i % 3 == 1 then 0.45 else 0.72
 	end
 	-- the bands run right round the shaft behind every arena: capped so yellow / white themes don't glare
@@ -639,9 +668,9 @@ function Run:_tintLights(theme)
 		p.Color = Color3.fromHSV(h, s, math.min(v, 0.6))
 		p.Transparency = 0.35
 	end
-	env.Abyss.Color = theme.Primary:Lerp(theme.Floor, 0.35)
+	env.Abyss.Color = accent:Lerp(theme.Floor, 0.35)
 	for _, p in env.Fog do
-		p.Color = theme.Primary
+		p.Color = accent
 	end
 	env.FloorLabel.TextColor3 = if self.IsBoss then theme.Hazard else theme.Primary
 	env.FloorLabel.Text = "B" .. self.Floor
@@ -932,6 +961,8 @@ function Run:_burst(position: Vector3, color: Color3)
 end
 
 -- Saves a member from an elimination (shield, phoenix, banked extra life). Returns the save type.
+-- A banked Extra Life saves you on the spot (you keep playing the floor); it is separate from the
+-- once-per-run revive bought while spectating (TryRevive), which puts you back in the cab.
 function Run:_trySave(member): string?
 	-- Studio only: player attribute OMF_God = true survives everything (visual sweeps across many floors);
 	-- OMF_GodSaves counts what would have killed them.
@@ -947,7 +978,8 @@ function Run:_trySave(member): string?
 	if revive > 0 and self.LootRng:NextNumber() < revive then
 		return "Phoenix"
 	end
-	if self.Mode == "Normal" then
+	-- banked Extra Lives are paid for: only spend one when there is a bag to lose
+	if self.Mode == "Normal" and member.Bag > 0 then
 		local data = DataService.Get(member.Player)
 		if data and data.ExtraLives > 0 then
 			data.ExtraLives -= 1
